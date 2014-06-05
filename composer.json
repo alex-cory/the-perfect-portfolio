@@ -1,5 +1,6 @@
-re": {
-    "alex-cory/github-api": "*"
-},
+{
+    "require": {
+        "knplabs/github-api": "*"
+    },
     "minimum-stability": "dev"
 }
