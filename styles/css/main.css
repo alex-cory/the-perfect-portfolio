@@ -563,3 +563,168 @@ body.lightbox-open, .lightbox-open .navbar-fixed-top, .lightbox-open .navbar-fix
     border: 2px solid blue;
     /* height: 12em; */
 }
+/* =========================================================================
+        Projects Section: Thumbnail Hover without Javascript
+   =======================================================================*/
+/*body {
+ padding-top: 50px;
+}*/
+
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.thumbnail2 {
+    display: block;
+    /*padding: 4px;*/
+    margin-bottom: 20px;
+    line-height: 1.428571429;
+    background-color: #fff;
+    /*border: 1px solid #ddd;*/
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.caption {
+    position:absolute;
+    bottom:-100%;
+    right:0;
+    background:rgba(255, 162, 0, 0.75);
+    width:100%;
+    height:100%;
+    padding:1%;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.thumbnail2:hover .caption {
+    bottom:0%;
+}
+
+/* =========================================================================
+                    Portfolio using Panels No JavaScrip
+   =======================================================================*/
+
+.panel-image {
+    position: relative;
+    /*text-align: center;*/
+}
+.panel-image img.panel-image-preview {
+    height: inherit;
+    width: 60vw;
+    border-radius: 4px 4px 0px 0px;
+}
+div.panel-footer.footer-cool.text-center {
+    position: relative;
+    /*width: 99.9%;*/
+    border-radius: 0 0 4px 4px;
+    /*height: 26px;*/
+}
+.panel-image label {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.modal-centered div {
+    background-color: #f5f5f5;
+    border-radius: 4px 4px 4px 4px;
+    padding: 1px 0 0 0;
+    overflow: hidden;
+    /*width: 60.25vw;*/
+}
+.panel-heading ~ .panel-image img.panel-image-preview {
+    border-radius: 0px;
+}
+
+
+
+.panel-body {
+    overflow: hidden;
+}
+
+span.glyphicon, span.fa {
+    margin-left: .4em;
+}
+/*.panel-image ~ input[type=checkbox] {
+    position:absolute;
+    top:- 30px;
+    z-index: -1;
+}
+
+.panel-image ~ input[type=checkbox] ~ .panel-body {
+    height: 0px;
+    padding: 0px;
+}
+
+.panel-image ~ input[type=checkbox]:checked ~ .panel-body {
+    height: auto;
+    padding: 15px;
+}
+*/
+.panel-image ~ .panel-footer a {
+    padding: 0px 10px;
+    font-size: 1.3em;
+    color: rgb(100, 100, 100);
+}
+
+/* =========================================================================
+                        Modal with blur effect like iOS
+   =======================================================================*/
+body.modal-open .wrap{
+       -webkit-filter: blur(7px);
+       -moz-filter: blur(15px);
+       -o-filter: blur(15px);
+       -ms-filter: blur(15px);
+       filter: blur(15px);
+}
+.m-top-10 {
+    margin: 20vh 20vw;
+}
+
+/*.modal-backdrop {
+    background: #f7f7f7;
+}*/
+.panel-footer a {
+    color: rgb(100, 100, 100);
+    /*padding: 5px 15px;*/
+}
+
+div.panel-footer.text-center {
+    padding: 5px 15px;
+}
+
+.modal-centered a {
+    margin-left: 5px;
+}
+
+.modal-dialog-center { /* Edited classname 10/03/2014 */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+div.alert.alert-info {
+    z-index: 10;
+    height: 30em;
+    position: relative;
+    top: 15em;
+    /*width: 40em;*/
+}
+
+/* =========================================================================
+                            Nav For Each Section
+   =======================================================================*/

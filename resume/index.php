@@ -1,6 +1,11 @@
 <?php
 // echo $_SERVER['HTTP_HOST'];
 
+/**
+ * Returns the most recently added resume to this directory
+ *
+ * @return string most_recent_resume
+ */
 function getRecentResume()
 {
 	$pwd = 'pwd';
@@ -28,8 +33,10 @@ function getRecentResume()
 	}
 }
 
+// get the most recent resume
 $most_recent_resume = getRecentResume();
 
+// display the most recent resume
 $file = "./" . $most_recent_resume;
 $filename = $most_recent_resume; /* Note: Always use .pdf at the end. */
 
