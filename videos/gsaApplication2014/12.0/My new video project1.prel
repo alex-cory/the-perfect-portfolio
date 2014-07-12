@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PremiereData Version="3">
+	<Project ObjectRef="1"/>
+	<Project ObjectID="1" ClassID="62ad66dd-0dcd-42da-a660-6d8fbde94876" Version="25">
+		<ProjectWorkspace ObjectRef="41"/>
+		<ScratchDiskSettings ObjectRef="40"/>
+		<VideoPreviewCompileSettings ObjectRef="35"/>
+		<NextID>1000000</NextID>
+		<NextSequenceID>1</NextSequenceID>
+		<CustomCompileSettings ObjectRef="30"/>
+		<StillCompileSettings ObjectRef="20"/>
+		<MovieCompileSettings ObjectRef="15"/>
+		<ProjectSettings ObjectRef="2"/>
+		<RootProjectItem ObjectURef="de4b5c7e-14b7-4604-92ba-13df5b1b075b"/>
+		<AudioCompileSettings ObjectRef="25"/>
+		<Node Version="1">
+			<Properties Version="1">
+				<MZ.BuildVersion.Modified>20130903.main.557123 - Fri Jun 13 05:43:50 2014</MZ.BuildVersion.Modified>
+				<MZ.BuildVersion.Created>20130903.main.557123 - Fri Jun 13 05:43:50 2014</MZ.BuildVersion.Created>
+				<MZ.Project.ApplicationID>Elements</MZ.Project.ApplicationID>
+			</Properties>
+		</Node>
+	</Project>
+	<ProjectSettings ObjectID="2" ClassID="50c16708-a1a1-4d2f-98d5-4e283ae28353" Version="17">
+		<AudioProxyCompileSettings ObjectRef="11"/>
+		<VideoProxyCompileSettings ObjectRef="9"/>
+		<VideoProxyFileFormatID>73054d9b-502c-4235-83bb-197e392ccc9c</VideoProxyFileFormatID>
+		<PreviewFileFormatID>00000000-0000-0000-0000-000000000000</PreviewFileFormatID>
+		<EditingModeID>00000000-0000-0000-0000-000000000000</EditingModeID>
+		<ShouldScaleMedia>false</ShouldScaleMedia>
+		<TitleSafeHeight>20.</TitleSafeHeight>
+		<TitleSafeWidth>20.</TitleSafeWidth>
+		<ActionSafeHeight>10.</ActionSafeHeight>
+		<ActionSafeWidth>10.</ActionSafeWidth>
+		<AudioTimeDisplay>200</AudioTimeDisplay>
+		<VideoTimeDisplayInitial>999</VideoTimeDisplayInitial>
+		<VideoTimeDisplay>102</VideoTimeDisplay>
+		<DefaultSequenceSettings ObjectRef="14"/>
+		<VideoSettings ObjectRef="3"/>
+		<AudioCompileSettings ObjectRef="7"/>
+		<VideoCompileSettings ObjectRef="5"/>
+		<AudioSettings ObjectRef="4"/>
+		<CaptureSettings ObjectRef="13"/>
+	</ProjectSettings>
+	<VideoSettings ObjectID="3" ClassID="58474264-30c4-43a2-bba5-dc0812df8a3a" Version="9">
+		<MaximumBitDepth>false</MaximumBitDepth>
+		<PixelAspectRatio>10,11</PixelAspectRatio>
+		<FrameSize>0,0,720,480</FrameSize>
+		<FrameRate>8475667200</FrameRate>
+	</VideoSettings>
+	<AudioSettings ObjectID="4" ClassID="6baf5521-b132-4634-840e-13cec5bc86a4" Version="7">
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioSettings>
+	<VideoCompileSettings ObjectID="5" ClassID="db372db5-7de2-4d3c-98ae-f42659d77b22" Version="9">
+		<RelativeFrameSize>1</RelativeFrameSize>
+		<AddKeyframesAtEdits>false</AddKeyframesAtEdits>
+		<AddKeyframesAtMarkers>false</AddKeyframesAtMarkers>
+		<DoKeyframeEveryNFramesValue>0</DoKeyframeEveryNFramesValue>
+		<DoKeyframeEveryNFrames>false</DoKeyframeEveryNFrames>
+		<VideoFieldType>0</VideoFieldType>
+		<RealTimePreview>true</RealTimePreview>
+		<FramesAtMarkers>false</FramesAtMarkers>
+		<OptimizeStills>false</OptimizeStills>
+		<IgnoreVideoFilters>false</IgnoreVideoFilters>
+		<Deinterlace>false</Deinterlace>
+		<ForceRecompressValue>2</ForceRecompressValue>
+		<ForceRecompress>true</ForceRecompress>
+		<DataRate>3500</DataRate>
+		<UseDataRate>false</UseDataRate>
+		<Quality>100</Quality>
+		<Aspect43>false</Aspect43>
+		<RenderDepth>0</RenderDepth>
+		<Depth>24</Depth>
+		<VideoFileTypeFourCC>1299148630</VideoFileTypeFourCC>
+		<VideoCompilerClassIDFourCC>1061109567</VideoCompilerClassIDFourCC>
+		<VideoSettings ObjectRef="6"/>
+		<Compressor>1685480224</Compressor>
+	</VideoCompileSettings>
+	<VideoSettings ObjectID="6" ClassID="58474264-30c4-43a2-bba5-dc0812df8a3a" Version="9">
+		<MaximumBitDepth>false</MaximumBitDepth>
+		<PixelAspectRatio>10,11</PixelAspectRatio>
+		<FrameSize>0,0,720,480</FrameSize>
+		<FrameRate>8475667200</FrameRate>
+	</VideoSettings>
+	<AudioCompileSettings ObjectID="7" ClassID="34b10007-ab6d-49a7-bac5-7b60d919e387" Version="6">
+		<Interleave>1</Interleave>
+		<Compressor>1380013856</Compressor>
+		<AudioSettings ObjectRef="8"/>
+		<SampleType>3</SampleType>
+	</AudioCompileSettings>
+	<AudioSettings ObjectID="8" ClassID="6baf5521-b132-4634-840e-13cec5bc86a4" Version="7">
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioSettings>
+	<VideoCompileSettings ObjectID="9" ClassID="db372db5-7de2-4d3c-98ae-f42659d77b22" Version="9">
+		<RelativeFrameSize>1</RelativeFrameSize>
+		<AddKeyframesAtEdits>false</AddKeyframesAtEdits>
+		<AddKeyframesAtMarkers>false</AddKeyframesAtMarkers>
+		<DoKeyframeEveryNFramesValue>0</DoKeyframeEveryNFramesValue>
+		<DoKeyframeEveryNFrames>false</DoKeyframeEveryNFrames>
+		<VideoFieldType>0</VideoFieldType>
+		<RealTimePreview>true</RealTimePreview>
+		<FramesAtMarkers>false</FramesAtMarkers>
+		<OptimizeStills>false</OptimizeStills>
+		<IgnoreVideoFilters>false</IgnoreVideoFilters>
+		<Deinterlace>false</Deinterlace>
+		<ForceRecompressValue>2</ForceRecompressValue>
+		<ForceRecompress>true</ForceRecompress>
+		<DataRate>3500</DataRate>
+		<UseDataRate>false</UseDataRate>
+		<Quality>100</Quality>
+		<Aspect43>false</Aspect43>
+		<RenderDepth>0</RenderDepth>
+		<Depth>24</Depth>
+		<VideoFileTypeFourCC>1299148630</VideoFileTypeFourCC>
+		<VideoCompilerClassIDFourCC>1061109567</VideoCompilerClassIDFourCC>
+		<VideoSettings ObjectRef="10"/>
+		<Compressor>1685480224</Compressor>
+	</VideoCompileSettings>
+	<VideoSettings ObjectID="10" ClassID="58474264-30c4-43a2-bba5-dc0812df8a3a" Version="9">
+		<MaximumBitDepth>false</MaximumBitDepth>
+		<PixelAspectRatio>10,11</PixelAspectRatio>
+		<FrameSize>0,0,720,480</FrameSize>
+		<FrameRate>8475667200</FrameRate>
+	</VideoSettings>
+	<AudioCompileSettings ObjectID="11" ClassID="34b10007-ab6d-49a7-bac5-7b60d919e387" Version="6">
+		<Interleave>1</Interleave>
+		<Compressor>1380013856</Compressor>
+		<AudioSettings ObjectRef="12"/>
+		<SampleType>3</SampleType>
+	</AudioCompileSettings>
+	<AudioSettings ObjectID="12" ClassID="6baf5521-b132-4634-840e-13cec5bc86a4" Version="7">
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioSettings>
+	<CaptureSettings ObjectID="13" ClassID="328c2aa2-47f9-4211-805b-b6a6dbd4ca29" Version="10">
+		<RecorderID>00000000-0000-0000-0000-000000000000</RecorderID>
+		<AbortCaptureOnDroppedFrames>false</AbortCaptureOnDroppedFrames>
+		<AudioChannelType>0</AudioChannelType>
+		<AudioSampleType>-1</AudioSampleType>
+		<AudioFrameRate>9223372036854775807</AudioFrameRate>
+		<AudioCompressorDisplayName></AudioCompressorDisplayName>
+		<AudioCompressorFourCC>0</AudioCompressorFourCC>
+		<VideoCompressorDisplayName></VideoCompressorDisplayName>
+		<VideoCompressorFourCC>0</VideoCompressorFourCC>
+		<VideoFrameSize>0,0,0,0</VideoFrameSize>
+		<VideoFrameRate>9223372036854775807</VideoFrameRate>
+		<SupportedFileExtension></SupportedFileExtension>
+		<RecordModuleDisplayName></RecordModuleDisplayName>
+	</CaptureSettings>
+	<DefaultSequenceSettings ObjectID="14" ClassID="567bdf53-d6d9-4d61-b2f1-f4834bebea9b" Version="2">
+		<DefaultAudioSubmix51Tracks>0</DefaultAudioSubmix51Tracks>
+		<DefaultAudioSubmixStereoTracks>0</DefaultAudioSubmixStereoTracks>
+		<DefaultAudioSubmixMonoTracks>0</DefaultAudioSubmixMonoTracks>
+		<DefaultAudioStandard51Tracks>0</DefaultAudioStandard51Tracks>
+		<DefaultAudioStandardStereoTracks>1</DefaultAudioStandardStereoTracks>
+		<DefaultAudioStandardMonoTracks>0</DefaultAudioStandardMonoTracks>
+		<TotalVideoTracks>1</TotalVideoTracks>
+	</DefaultSequenceSettings>
+	<CompileSettings ObjectID="15" ClassID="18a35d66-597e-4157-b783-938b5bec3547" Version="4">
+		<AudioCompileSettings ObjectRef="18"/>
+		<VideoCompileSettings ObjectRef="16"/>
+		<EmbedProjectLink>false</EmbedProjectLink>
+		<ExportWorkAreaOnly>false</ExportWorkAreaOnly>
+		<BeepWhenFinished>false</BeepWhenFinished>
+		<AddToProjectWhenFinished>true</AddToProjectWhenFinished>
+		<ExportAudio>true</ExportAudio>
+		<ExportVideo>true</ExportVideo>
+		<CompilerFourCC>0</CompilerFourCC>
+		<CompilerClassIDFourCC>0</CompilerClassIDFourCC>
+	</CompileSettings>
+	<VideoCompileSettings ObjectID="16" ClassID="db372db5-7de2-4d3c-98ae-f42659d77b22" Version="9">
+		<RelativeFrameSize>1</RelativeFrameSize>
+		<AddKeyframesAtEdits>false</AddKeyframesAtEdits>
+		<AddKeyframesAtMarkers>false</AddKeyframesAtMarkers>
+		<DoKeyframeEveryNFramesValue>0</DoKeyframeEveryNFramesValue>
+		<DoKeyframeEveryNFrames>false</DoKeyframeEveryNFrames>
+		<VideoFieldType>0</VideoFieldType>
+		<RealTimePreview>true</RealTimePreview>
+		<FramesAtMarkers>false</FramesAtMarkers>
+		<OptimizeStills>false</OptimizeStills>
+		<IgnoreVideoFilters>false</IgnoreVideoFilters>
+		<Deinterlace>false</Deinterlace>
+		<ForceRecompressValue>2</ForceRecompressValue>
+		<ForceRecompress>true</ForceRecompress>
+		<DataRate>3500</DataRate>
+		<UseDataRate>false</UseDataRate>
+		<Quality>100</Quality>
+		<Aspect43>false</Aspect43>
+		<RenderDepth>0</RenderDepth>
+		<Depth>24</Depth>
+		<VideoFileTypeFourCC>1299148630</VideoFileTypeFourCC>
+		<VideoCompilerClassIDFourCC>1061109567</VideoCompilerClassIDFourCC>
+		<VideoSettings ObjectRef="17"/>
+		<Compressor>1685480224</Compressor>
+	</VideoCompileSettings>
+	<VideoSettings ObjectID="17" ClassID="58474264-30c4-43a2-bba5-dc0812df8a3a" Version="9">
+		<MaximumBitDepth>false</MaximumBitDepth>
+		<PixelAspectRatio>10,11</PixelAspectRatio>
+		<FrameSize>0,0,720,480</FrameSize>
+		<FrameRate>8475667200</FrameRate>
+	</VideoSettings>
+	<AudioCompileSettings ObjectID="18" ClassID="34b10007-ab6d-49a7-bac5-7b60d919e387" Version="6">
+		<Interleave>1</Interleave>
+		<Compressor>1380013856</Compressor>
+		<AudioSettings ObjectRef="19"/>
+		<SampleType>3</SampleType>
+	</AudioCompileSettings>
+	<AudioSettings ObjectID="19" ClassID="6baf5521-b132-4634-840e-13cec5bc86a4" Version="7">
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioSettings>
+	<CompileSettings ObjectID="20" ClassID="18a35d66-597e-4157-b783-938b5bec3547" Version="4">
+		<AudioCompileSettings ObjectRef="23"/>
+		<VideoCompileSettings ObjectRef="21"/>
+		<EmbedProjectLink>false</EmbedProjectLink>
+		<ExportWorkAreaOnly>false</ExportWorkAreaOnly>
+		<BeepWhenFinished>false</BeepWhenFinished>
+		<AddToProjectWhenFinished>true</AddToProjectWhenFinished>
+		<ExportAudio>true</ExportAudio>
+		<ExportVideo>true</ExportVideo>
+		<CompilerFourCC>0</CompilerFourCC>
+		<CompilerClassIDFourCC>0</CompilerClassIDFourCC>
+	</CompileSettings>
+	<VideoCompileSettings ObjectID="21" ClassID="db372db5-7de2-4d3c-98ae-f42659d77b22" Version="9">
+		<RelativeFrameSize>1</RelativeFrameSize>
+		<AddKeyframesAtEdits>false</AddKeyframesAtEdits>
+		<AddKeyframesAtMarkers>false</AddKeyframesAtMarkers>
+		<DoKeyframeEveryNFramesValue>0</DoKeyframeEveryNFramesValue>
+		<DoKeyframeEveryNFrames>false</DoKeyframeEveryNFrames>
+		<VideoFieldType>0</VideoFieldType>
+		<RealTimePreview>true</RealTimePreview>
+		<FramesAtMarkers>false</FramesAtMarkers>
+		<OptimizeStills>false</OptimizeStills>
+		<IgnoreVideoFilters>false</IgnoreVideoFilters>
+		<Deinterlace>false</Deinterlace>
+		<ForceRecompressValue>2</ForceRecompressValue>
+		<ForceRecompress>true</ForceRecompress>
+		<DataRate>3500</DataRate>
+		<UseDataRate>false</UseDataRate>
+		<Quality>100</Quality>
+		<Aspect43>false</Aspect43>
+		<RenderDepth>0</RenderDepth>
+		<Depth>24</Depth>
+		<VideoFileTypeFourCC>1299148630</VideoFileTypeFourCC>
+		<VideoCompilerClassIDFourCC>1061109567</VideoCompilerClassIDFourCC>
+		<VideoSettings ObjectRef="22"/>
+		<Compressor>1685480224</Compressor>
+	</VideoCompileSettings>
+	<VideoSettings ObjectID="22" ClassID="58474264-30c4-43a2-bba5-dc0812df8a3a" Version="9">
+		<MaximumBitDepth>false</MaximumBitDepth>
+		<PixelAspectRatio>10,11</PixelAspectRatio>
+		<FrameSize>0,0,720,480</FrameSize>
+		<FrameRate>8475667200</FrameRate>
+	</VideoSettings>
+	<AudioCompileSettings ObjectID="23" ClassID="34b10007-ab6d-49a7-bac5-7b60d919e387" Version="6">
+		<Interleave>1</Interleave>
+		<Compressor>1380013856</Compressor>
+		<AudioSettings ObjectRef="24"/>
+		<SampleType>3</SampleType>
+	</AudioCompileSettings>
+	<AudioSettings ObjectID="24" ClassID="6baf5521-b132-4634-840e-13cec5bc86a4" Version="7">
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioSettings>
+	<CompileSettings ObjectID="25" ClassID="18a35d66-597e-4157-b783-938b5bec3547" Version="4">
+		<AudioCompileSettings ObjectRef="28"/>
+		<VideoCompileSettings ObjectRef="26"/>
+		<EmbedProjectLink>false</EmbedProjectLink>
+		<ExportWorkAreaOnly>false</ExportWorkAreaOnly>
+		<BeepWhenFinished>false</BeepWhenFinished>
+		<AddToProjectWhenFinished>true</AddToProjectWhenFinished>
+		<ExportAudio>true</ExportAudio>
+		<ExportVideo>true</ExportVideo>
+		<CompilerFourCC>0</CompilerFourCC>
+		<CompilerClassIDFourCC>0</CompilerClassIDFourCC>
+	</CompileSettings>
+	<VideoCompileSettings ObjectID="26" ClassID="db372db5-7de2-4d3c-98ae-f42659d77b22" Version="9">
+		<RelativeFrameSize>1</RelativeFrameSize>
+		<AddKeyframesAtEdits>false</AddKeyframesAtEdits>
+		<AddKeyframesAtMarkers>false</AddKeyframesAtMarkers>
+		<DoKeyframeEveryNFramesValue>0</DoKeyframeEveryNFramesValue>
+		<DoKeyframeEveryNFrames>false</DoKeyframeEveryNFrames>
+		<VideoFieldType>0</VideoFieldType>
+		<RealTimePreview>true</RealTimePreview>
+		<FramesAtMarkers>false</FramesAtMarkers>
+		<OptimizeStills>false</OptimizeStills>
+		<IgnoreVideoFilters>false</IgnoreVideoFilters>
+		<Deinterlace>false</Deinterlace>
+		<ForceRecompressValue>2</ForceRecompressValue>
+		<ForceRecompress>true</ForceRecompress>
+		<DataRate>3500</DataRate>
+		<UseDataRate>false</UseDataRate>
+		<Quality>100</Quality>
+		<Aspect43>false</Aspect43>
+		<RenderDepth>0</RenderDepth>
+		<Depth>24</Depth>
+		<VideoFileTypeFourCC>1299148630</VideoFileTypeFourCC>
+		<VideoCompilerClassIDFourCC>1061109567</VideoCompilerClassIDFourCC>
+		<VideoSettings ObjectRef="27"/>
+		<Compressor>1685480224</Compressor>
+	</VideoCompileSettings>
+	<VideoSettings ObjectID="27" ClassID="58474264-30c4-43a2-bba5-dc0812df8a3a" Version="9">
+		<MaximumBitDepth>false</MaximumBitDepth>
+		<PixelAspectRatio>10,11</PixelAspectRatio>
+		<FrameSize>0,0,720,480</FrameSize>
+		<FrameRate>8475667200</FrameRate>
+	</VideoSettings>
+	<AudioCompileSettings ObjectID="28" ClassID="34b10007-ab6d-49a7-bac5-7b60d919e387" Version="6">
+		<Interleave>1</Interleave>
+		<Compressor>1380013856</Compressor>
+		<AudioSettings ObjectRef="29"/>
+		<SampleType>3</SampleType>
+	</AudioCompileSettings>
+	<AudioSettings ObjectID="29" ClassID="6baf5521-b132-4634-840e-13cec5bc86a4" Version="7">
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioSettings>
+	<CompileSettings ObjectID="30" ClassID="18a35d66-597e-4157-b783-938b5bec3547" Version="4">
+		<AudioCompileSettings ObjectRef="33"/>
+		<VideoCompileSettings ObjectRef="31"/>
+		<EmbedProjectLink>false</EmbedProjectLink>
+		<ExportWorkAreaOnly>false</ExportWorkAreaOnly>
+		<BeepWhenFinished>false</BeepWhenFinished>
+		<AddToProjectWhenFinished>true</AddToProjectWhenFinished>
+		<ExportAudio>true</ExportAudio>
+		<ExportVideo>true</ExportVideo>
+		<CompilerFourCC>0</CompilerFourCC>
+		<CompilerClassIDFourCC>0</CompilerClassIDFourCC>
+	</CompileSettings>
+	<VideoCompileSettings ObjectID="31" ClassID="db372db5-7de2-4d3c-98ae-f42659d77b22" Version="9">
+		<RelativeFrameSize>1</RelativeFrameSize>
+		<AddKeyframesAtEdits>false</AddKeyframesAtEdits>
+		<AddKeyframesAtMarkers>false</AddKeyframesAtMarkers>
+		<DoKeyframeEveryNFramesValue>0</DoKeyframeEveryNFramesValue>
+		<DoKeyframeEveryNFrames>false</DoKeyframeEveryNFrames>
+		<VideoFieldType>0</VideoFieldType>
+		<RealTimePreview>true</RealTimePreview>
+		<FramesAtMarkers>false</FramesAtMarkers>
+		<OptimizeStills>false</OptimizeStills>
+		<IgnoreVideoFilters>false</IgnoreVideoFilters>
+		<Deinterlace>false</Deinterlace>
+		<ForceRecompressValue>2</ForceRecompressValue>
+		<ForceRecompress>true</ForceRecompress>
+		<DataRate>3500</DataRate>
+		<UseDataRate>false</UseDataRate>
+		<Quality>100</Quality>
+		<Aspect43>false</Aspect43>
+		<RenderDepth>0</RenderDepth>
+		<Depth>24</Depth>
+		<VideoFileTypeFourCC>1299148630</VideoFileTypeFourCC>
+		<VideoCompilerClassIDFourCC>1061109567</VideoCompilerClassIDFourCC>
+		<VideoSettings ObjectRef="32"/>
+		<Compressor>1685480224</Compressor>
+	</VideoCompileSettings>
+	<VideoSettings ObjectID="32" ClassID="58474264-30c4-43a2-bba5-dc0812df8a3a" Version="9">
+		<MaximumBitDepth>false</MaximumBitDepth>
+		<PixelAspectRatio>10,11</PixelAspectRatio>
+		<FrameSize>0,0,720,480</FrameSize>
+		<FrameRate>8475667200</FrameRate>
+	</VideoSettings>
+	<AudioCompileSettings ObjectID="33" ClassID="34b10007-ab6d-49a7-bac5-7b60d919e387" Version="6">
+		<Interleave>1</Interleave>
+		<Compressor>1380013856</Compressor>
+		<AudioSettings ObjectRef="34"/>
+		<SampleType>3</SampleType>
+	</AudioCompileSettings>
+	<AudioSettings ObjectID="34" ClassID="6baf5521-b132-4634-840e-13cec5bc86a4" Version="7">
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioSettings>
+	<CompileSettings ObjectID="35" ClassID="18a35d66-597e-4157-b783-938b5bec3547" Version="4">
+		<AudioCompileSettings ObjectRef="38"/>
+		<VideoCompileSettings ObjectRef="36"/>
+		<EmbedProjectLink>false</EmbedProjectLink>
+		<ExportWorkAreaOnly>false</ExportWorkAreaOnly>
+		<BeepWhenFinished>false</BeepWhenFinished>
+		<AddToProjectWhenFinished>true</AddToProjectWhenFinished>
+		<ExportAudio>true</ExportAudio>
+		<ExportVideo>true</ExportVideo>
+		<CompilerFourCC>1299148630</CompilerFourCC>
+		<CompilerClassIDFourCC>1061109567</CompilerClassIDFourCC>
+	</CompileSettings>
+	<VideoCompileSettings ObjectID="36" ClassID="db372db5-7de2-4d3c-98ae-f42659d77b22" Version="9">
+		<RelativeFrameSize>1</RelativeFrameSize>
+		<AddKeyframesAtEdits>false</AddKeyframesAtEdits>
+		<AddKeyframesAtMarkers>false</AddKeyframesAtMarkers>
+		<DoKeyframeEveryNFramesValue>0</DoKeyframeEveryNFramesValue>
+		<DoKeyframeEveryNFrames>false</DoKeyframeEveryNFrames>
+		<VideoFieldType>0</VideoFieldType>
+		<RealTimePreview>true</RealTimePreview>
+		<FramesAtMarkers>false</FramesAtMarkers>
+		<OptimizeStills>false</OptimizeStills>
+		<IgnoreVideoFilters>false</IgnoreVideoFilters>
+		<Deinterlace>false</Deinterlace>
+		<ForceRecompressValue>2</ForceRecompressValue>
+		<ForceRecompress>true</ForceRecompress>
+		<DataRate>3500</DataRate>
+		<UseDataRate>false</UseDataRate>
+		<Quality>100</Quality>
+		<Aspect43>false</Aspect43>
+		<RenderDepth>0</RenderDepth>
+		<Depth>24</Depth>
+		<VideoFileTypeFourCC>1299148630</VideoFileTypeFourCC>
+		<VideoCompilerClassIDFourCC>1061109567</VideoCompilerClassIDFourCC>
+		<VideoSettings ObjectRef="37"/>
+		<Compressor>1685480224</Compressor>
+	</VideoCompileSettings>
+	<VideoSettings ObjectID="37" ClassID="58474264-30c4-43a2-bba5-dc0812df8a3a" Version="9">
+		<MaximumBitDepth>false</MaximumBitDepth>
+		<PixelAspectRatio>10,11</PixelAspectRatio>
+		<FrameSize>0,0,720,480</FrameSize>
+		<FrameRate>8475667200</FrameRate>
+	</VideoSettings>
+	<AudioCompileSettings ObjectID="38" ClassID="34b10007-ab6d-49a7-bac5-7b60d919e387" Version="6">
+		<Interleave>1</Interleave>
+		<Compressor>1380013856</Compressor>
+		<AudioSettings ObjectRef="39"/>
+		<SampleType>3</SampleType>
+	</AudioCompileSettings>
+	<AudioSettings ObjectID="39" ClassID="6baf5521-b132-4634-840e-13cec5bc86a4" Version="7">
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioSettings>
+	<ScratchDiskSettings ObjectID="40" ClassID="4c6ed82b-a81c-4df1-8bd0-750504c4b560" Version="2">
+		<TransferMediaLocation>SameAsProject</TransferMediaLocation>
+		<DVDEncodingLocation>SameAsProject</DVDEncodingLocation>
+		<AudioPreviewLocation>SameAsProject</AudioPreviewLocation>
+		<VideoPreviewLocation>SameAsProject</VideoPreviewLocation>
+		<CapturedAudioLocation>SameAsProject</CapturedAudioLocation>
+		<CapturedVideoLocation>SameAsProject</CapturedVideoLocation>
+	</ScratchDiskSettings>
+	<WorkspaceSettings ObjectID="41" ClassID="c4372273-e1aa-4683-98aa-a2ceadf3066c" Version="1">
+	</WorkspaceSettings>
+	<RootProjectItem ObjectUID="de4b5c7e-14b7-4604-92ba-13df5b1b075b" ClassID="1c307a89-9318-47d7-a583-bf2553736543" Version="1" Index="4294967295">
+		<ProjectItemContainer Version="1">
+		</ProjectItemContainer>
+		<ProjectItem Version="1">
+			<Node Version="1">
+			</Node>
+			<Name>Root Bin</Name>
+		</ProjectItem>
+	</RootProjectItem>
+</PremiereData>

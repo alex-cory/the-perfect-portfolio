@@ -725,6 +725,12 @@ div.alert.alert-info {
     /*width: 40em;*/
 }
 
+.repo_img_modal {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
 /* =========================================================================
                             Nav For Each Section
    =======================================================================*/

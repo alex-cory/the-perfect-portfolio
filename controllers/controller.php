@@ -45,21 +45,16 @@ class Controller
 
 			// run any task methods
 			if ($method) {
-
 				$this->runTask($method, $parameters);
-
 			} else {
-
 				$this->index();
 				$method = 'index';
 			}
 
 			// render the load
 			if (file_exists('views/' . strtolower($view) . '/' . strtolower($method) . '.php')) {
-
 				$this->view->load($view, $method, $this->data);
 			} else {
-
 				$this->view->load($view, 'index', $this->data);
 				// view: class name
 				// load($filename, $data): sees if $data is array & extracts it from the file

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PremiereData Version="3">
+	<FloatingContainer Version="1">
+		<FloatingContainerInfo Index="0" ObjectRef="31"/>
+		<FloatingContainerInfo Index="1" ObjectRef="32"/>
+		<FloatingContainerInfo Index="2" ObjectRef="33"/>
+		<FloatingContainerInfo Index="3" ObjectRef="34"/>
+		<FloatingContainerInfo Index="4" ObjectRef="35"/>
+	</FloatingContainer>
+	<DefaultWorkspaceID>Expert</DefaultWorkspaceID>
+	<LayoutVersion>6</LayoutVersion>
+	<Area Version="1">
+		<AreaInfo Index="0" ObjectRef="1"/>
+		<AreaInfo Index="1" ObjectRef="16"/>
+	</Area>
+	<WorkspaceLayoutName>Editing</WorkspaceLayoutName>
+	<MainFrameRect>-1,-1,1681,1021</MainFrameRect>
+	<AreaInfo ObjectID="1" ClassID="1c911bf5-dd5e-478b-853a-bcdaf69bbcaf" Version="1">
+		<ViewContainer ObjectRef="2"/>
+		<WorkspaceID>Quick</WorkspaceID>
+	</AreaInfo>
+	<ViewContainerInfo ObjectID="2" ClassID="c2fdc906-aa54-4996-b816-c3a31e1db18e" Version="1">
+		<MinResizableLength>1</MinResizableLength>
+		<IsViewContainerFixedSize>false</IsViewContainerFixedSize>
+		<IsViewContainerUndocked>false</IsViewContainerUndocked>
+		<Splitter ObjectRef="3"/>
+		<HasSplitter>true</HasSplitter>
+		<ViewContainerRect>0,0,1440,717</ViewContainerRect>
+		<ViewContainer Version="1">
+			<ViewContainer Index="0" ObjectRef="4"/>
+			<ViewContainer Index="1" ObjectRef="10"/>
+		</ViewContainer>
+	</ViewContainerInfo>
+	<SplitterInfo ObjectID="3" ClassID="0d3d2f16-74ba-458d-bdd2-15727d95d156" Version="1">
+		<IsSplitterFixed>false</IsSplitterFixed>
+		<SplitterType>Horizontal</SplitterType>
+	</SplitterInfo>
+	<ViewContainerInfo ObjectID="4" ClassID="c2fdc906-aa54-4996-b816-c3a31e1db18e" Version="1">
+		<MinResizableLength>100</MinResizableLength>
+		<IsViewContainerFixedSize>false</IsViewContainerFixedSize>
+		<IsViewContainerUndocked>false</IsViewContainerUndocked>
+		<Splitter ObjectRef="5"/>
+		<HasSplitter>true</HasSplitter>
+		<ViewContainerRect>0,0,1440,328</ViewContainerRect>
+		<ViewContainer Version="1">
+			<ViewContainer Index="0" ObjectRef="6"/>
+			<ViewContainer Index="1" ObjectRef="8"/>
+		</ViewContainer>
+	</ViewContainerInfo>
+	<SplitterInfo ObjectID="5" ClassID="0d3d2f16-74ba-458d-bdd2-15727d95d156" Version="1">
+		<IsSplitterFixed>false</IsSplitterFixed>
+		<SplitterType>Vertical</SplitterType>
+	</SplitterInfo>
+	<ViewContainerInfo ObjectID="6" ClassID="c2fdc906-aa54-4996-b816-c3a31e1db18e" Version="1">
+		<MinResizableLength>100</MinResizableLength>
+		<IsViewContainerFixedSize>false</IsViewContainerFixedSize>
+		<IsViewContainerUndocked>false</IsViewContainerUndocked>
+		<View ObjectRef="7"/>
+		<HasSplitter>false</HasSplitter>
+		<ViewContainerRect>0,0,1372,328</ViewContainerRect>
+	</ViewContainerInfo>
+	<ViewInfo ObjectID="7" ClassID="a9abfca9-f629-4406-826c-f0f47d493d39" Version="1">
+		<ViewType>Monitor</ViewType>
+	</ViewInfo>
+	<ViewContainerInfo ObjectID="8" ClassID="c2fdc906-aa54-4996-b816-c3a31e1db18e" Version="1">
+		<MinResizableLength>432</MinResizableLength>
+		<IsViewContainerFixedSize>false</IsViewContainerFixedSize>
+		<IsViewContainerUndocked>false</IsViewContainerUndocked>
+		<View ObjectRef="9"/>
+		<HasSplitter>false</HasSplitter>
+		<ViewContainerRect>1378,0,1440,328</ViewContainerRect>
+	</ViewContainerInfo>
+	<ViewInfo ObjectID="9" ClassID="a9abfca9-f629-4406-826c-f0f47d493d39" Version="1">
+		<ViewType>ClipOptions</ViewType>
+	</ViewInfo>
+	<ViewContainerInfo ObjectID="10" ClassID="c2fdc906-aa54-4996-b816-c3a31e1db18e" Version="1">
+		<MinResizableLength>208</MinResizableLength>
+		<IsViewContainerFixedSize>false</IsViewContainerFixedSize>
+		<IsViewContainerUndocked>false</IsViewContainerUndocked>
+		<Splitter ObjectRef="11"/>
+		<HasSplitter>true</HasSplitter>
+		<ViewContainerRect>0,334,1440,717</ViewContainerRect>
+		<ViewContainer Version="1">
+			<ViewContainer Index="0" ObjectRef="12"/>
+			<ViewContainer Index="1" ObjectRef="14"/>
+		</ViewContainer>
+	</ViewContainerInfo>
+	<SplitterInfo ObjectID="11" ClassID="0d3d2f16-74ba-458d-bdd2-15727d95d156" Version="1">
+		<IsSplitterFixed>true</IsSplitterFixed>
+		<SplitterType>Horizontal</SplitterType>
+	</SplitterInfo>
+	<ViewContainerInfo ObjectID="12" ClassID="c2fdc906-aa54-4996-b816-c3a31e1db18e" Version="1">
+		<MinResizableLength>1</MinResizableLength>
+		<IsViewContainerFixedSize>true</IsViewContainerFixedSize>
+		<IsViewContainerUndocked>false</IsViewContainerUndocked>
+		<View ObjectRef="13"/>
+		<HasSplitter>false</HasSplitter>
+		<ViewContainerRect>0,0,1440,22</ViewContainerRect>
+	</ViewContainerInfo>
+	<ViewInfo ObjectID="13" ClassID="a9abfca9-f629-4406-826c-f0f47d493d39" Version="1">
+		<ViewType>Filter</ViewType>
+	</ViewInfo>
+	<ViewContainerInfo ObjectID="14" ClassID="c2fdc906-aa54-4996-b816-c3a31e1db18e" Version="1">
+		<MinResizableLength>1</MinResizableLength>
+		<IsViewContainerFixedSize>false</IsViewContainerFixedSize>
+		<IsViewContainerUndocked>false</IsViewContainerUndocked>
+		<View ObjectRef="15"/>
+		<HasSplitter>false</HasSplitter>
+		<ViewContainerRect>0,22,1440,383</ViewContainerRect>
+	</ViewContainerInfo>
+	<ViewInfo ObjectID="15" ClassID="a9abfca9-f629-4406-826c-f0f47d493d39" Version="1">
+		<ViewType>Sceneline</ViewType>
+	</ViewInfo>
+	<AreaInfo ObjectID="16" ClassID="1c911bf5-dd5e-478b-853a-bcdaf69bbcaf" Version="1">
+		<ViewContainer ObjectRef="17"/>
+		<WorkspaceID>Expert</WorkspaceID>
+	</AreaInfo>
+	<ViewContainerInfo ObjectID="17" ClassID="c2fdc906-aa54-4996-b816-c3a31e1db18e" Version="1">
+		<MinResizableLength>1</MinResizableLength>
+		<IsViewContainerFixedSize>false</IsViewContainerFixedSize>
+		<IsViewContainerUndocked>false</IsViewContainerUndocked>
+		<Splitter ObjectRef="18"/>
+		<HasSplitter>true</HasSplitter>
+		<ViewContainerRect>0,0,1440,717</ViewContainerRect>
+		<ViewContainer Version="1">
+			<ViewContainer Index="0" ObjectRef="19"/>
+			<ViewContainer Index="1" ObjectRef="25"/>
+		</ViewContainer>
+	</ViewContainerInfo>
+	<SplitterInfo ObjectID="18" ClassID="0d3d2f16-74ba-458d-bdd2-15727d95d156" Version="1">
+		<IsSplitterFixed>false</IsSplitterFixed>
+		<SplitterType>Horizontal</SplitterType>
+	</SplitterInfo>
+	<ViewContainerInfo ObjectID="19" ClassID="c2fdc906-aa54-4996-b816-c3a31e1db18e" Version="1">
+		<MinResizableLength>100</MinResizableLength>
+		<IsViewContainerFixedSize>false</IsViewContainerFixedSize>
+		<IsViewContainerUndocked>false</IsViewContainerUndocked>
+		<Splitter ObjectRef="20"/>
+		<HasSplitter>true</HasSplitter>
+		<ViewContainerRect>0,0,1440,336</ViewContainerRect>
+		<ViewContainer Version="1">
+			<ViewContainer Index="0" ObjectRef="21"/>
+			<ViewContainer Index="1" ObjectRef="23"/>
+		</ViewContainer>
+	</ViewContainerInfo>
+	<SplitterInfo ObjectID="20" ClassID="0d3d2f16-74ba-458d-bdd2-15727d95d156" Version="1">
+		<IsSplitterFixed>false</IsSplitterFixed>
+		<SplitterType>Vertical</SplitterType>
+	</SplitterInfo>
+	<ViewContainerInfo ObjectID="21" ClassID="c2fdc906-aa54-4996-b816-c3a31e1db18e" Version="1">
+		<MinResizableLength>100</MinResizableLength>
+		<IsViewContainerFixedSize>false</IsViewContainerFixedSize>
+		<IsViewContainerUndocked>false</IsViewContainerUndocked>
+		<View ObjectRef="22"/>
+		<HasSplitter>false</HasSplitter>
+		<ViewContainerRect>0,0,1372,336</ViewContainerRect>
+	</ViewContainerInfo>
+	<ViewInfo ObjectID="22" ClassID="a9abfca9-f629-4406-826c-f0f47d493d39" Version="1">
+		<ViewType>Monitor</ViewType>
+	</ViewInfo>
+	<ViewContainerInfo ObjectID="23" ClassID="c2fdc906-aa54-4996-b816-c3a31e1db18e" Version="1">
+		<MinResizableLength>432</MinResizableLength>
+		<IsViewContainerFixedSize>false</IsViewContainerFixedSize>
+		<IsViewContainerUndocked>false</IsViewContainerUndocked>
+		<View ObjectRef="24"/>
+		<HasSplitter>false</HasSplitter>
+		<ViewContainerRect>1378,0,1440,336</ViewContainerRect>
+	</ViewContainerInfo>
+	<ViewInfo ObjectID="24" ClassID="a9abfca9-f629-4406-826c-f0f47d493d39" Version="1">
+		<ViewType>ClipOptions</ViewType>
+	</ViewInfo>
+	<ViewContainerInfo ObjectID="25" ClassID="c2fdc906-aa54-4996-b816-c3a31e1db18e" Version="1">
+		<MinResizableLength>1</MinResizableLength>
+		<IsViewContainerFixedSize>false</IsViewContainerFixedSize>
+		<IsViewContainerUndocked>false</IsViewContainerUndocked>
+		<Splitter ObjectRef="26"/>
+		<HasSplitter>true</HasSplitter>
+		<ViewContainerRect>0,342,1440,717</ViewContainerRect>
+		<ViewContainer Version="1">
+			<ViewContainer Index="0" ObjectRef="27"/>
+			<ViewContainer Index="1" ObjectRef="29"/>
+		</ViewContainer>
+	</ViewContainerInfo>
+	<SplitterInfo ObjectID="26" ClassID="0d3d2f16-74ba-458d-bdd2-15727d95d156" Version="1">
+		<IsSplitterFixed>true</IsSplitterFixed>
+		<SplitterType>Horizontal</SplitterType>
+	</SplitterInfo>
+	<ViewContainerInfo ObjectID="27" ClassID="c2fdc906-aa54-4996-b816-c3a31e1db18e" Version="1">
+		<MinResizableLength>1</MinResizableLength>
+		<IsViewContainerFixedSize>true</IsViewContainerFixedSize>
+		<IsViewContainerUndocked>false</IsViewContainerUndocked>
+		<View ObjectRef="28"/>
+		<HasSplitter>false</HasSplitter>
+		<ViewContainerRect>0,0,1440,22</ViewContainerRect>
+	</ViewContainerInfo>
+	<ViewInfo ObjectID="28" ClassID="a9abfca9-f629-4406-826c-f0f47d493d39" Version="1">
+		<ViewType>Filter</ViewType>
+	</ViewInfo>
+	<ViewContainerInfo ObjectID="29" ClassID="c2fdc906-aa54-4996-b816-c3a31e1db18e" Version="1">
+		<MinResizableLength>1</MinResizableLength>
+		<IsViewContainerFixedSize>false</IsViewContainerFixedSize>
+		<IsViewContainerUndocked>false</IsViewContainerUndocked>
+		<View ObjectRef="30"/>
+		<HasSplitter>false</HasSplitter>
+		<ViewContainerRect>0,22,1440,375</ViewContainerRect>
+	</ViewContainerInfo>
+	<ViewInfo ObjectID="30" ClassID="a9abfca9-f629-4406-826c-f0f47d493d39" Version="1">
+		<ViewType>Timeline</ViewType>
+	</ViewInfo>
+	<FloatingContainerInfo ObjectID="31" ClassID="16303efd-7292-4638-b531-c6c43d502f65" Version="1">
+		<FloatingContainerRect>0,0,469,298</FloatingContainerRect>
+		<ViewType>Project</ViewType>
+		<WorkspaceID>Expert</WorkspaceID>
+	</FloatingContainerInfo>
+	<FloatingContainerInfo ObjectID="32" ClassID="16303efd-7292-4638-b531-c6c43d502f65" Version="1">
+		<FloatingContainerRect>0,0,440,280</FloatingContainerRect>
+		<ViewType>Titles</ViewType>
+		<WorkspaceID>Expert</WorkspaceID>
+	</FloatingContainerInfo>
+	<FloatingContainerInfo ObjectID="33" ClassID="16303efd-7292-4638-b531-c6c43d502f65" Version="1">
+		<FloatingContainerRect>0,0,469,298</FloatingContainerRect>
+		<ViewType>Project</ViewType>
+		<WorkspaceID>Quick</WorkspaceID>
+	</FloatingContainerInfo>
+	<FloatingContainerInfo ObjectID="34" ClassID="16303efd-7292-4638-b531-c6c43d502f65" Version="1">
+		<FloatingContainerRect>0,0,407,268</FloatingContainerRect>
+		<ViewType>Transitions</ViewType>
+		<WorkspaceID>Expert</WorkspaceID>
+	</FloatingContainerInfo>
+	<FloatingContainerInfo ObjectID="35" ClassID="16303efd-7292-4638-b531-c6c43d502f65" Version="1">
+		<FloatingContainerRect>0,0,407,280</FloatingContainerRect>
+		<ViewType>Effects</ViewType>
+		<WorkspaceID>Expert</WorkspaceID>
+	</FloatingContainerInfo>
+</PremiereData>

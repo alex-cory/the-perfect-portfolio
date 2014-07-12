@@ -4,7 +4,7 @@
 /**
  * Returns the most recently added resume to this directory
  *
- * @return string most_recent_resume
+ * @return string filename [most recently added resume]
  */
 function getRecentResume()
 {

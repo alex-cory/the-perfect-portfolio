@@ -1,0 +1,3046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PremiereData Version="3">
+	<Project ObjectRef="1"/>
+	<Project ObjectID="1" ClassID="62ad66dd-0dcd-42da-a660-6d8fbde94876" Version="25">
+		<ProjectWorkspace ObjectRef="182"/>
+		<ScratchDiskSettings ObjectRef="181"/>
+		<VideoPreviewCompileSettings ObjectRef="176"/>
+		<NextID>1000000</NextID>
+		<NextSequenceID>3</NextSequenceID>
+		<CustomCompileSettings ObjectRef="171"/>
+		<StillCompileSettings ObjectRef="161"/>
+		<MovieCompileSettings ObjectRef="156"/>
+		<ProjectSettings ObjectRef="143"/>
+		<RootProjectItem ObjectURef="6560443d-ea74-4313-80b3-f057a9eed2e1"/>
+		<AudioCompileSettings ObjectRef="166"/>
+		<Node Version="1">
+			<Properties Version="1">
+				<TL.PJSnappingState>1</TL.PJSnappingState>
+				<ColumnListContents.Version>4</ColumnListContents.Version>
+				<Project.IconView.Thumbnail.Size>1</Project.IconView.Thumbnail.Size>
+				<Project.IconView.Thumbnail.State>true</Project.IconView.Thumbnail.State>
+				<Project.ContentView.LastViewed>0</Project.ContentView.LastViewed>
+				<Columns.List Version="3">
+					<Columns Version="1">
+						<Column Index="0" ObjectRef="1"/>
+						<Column Index="1" ObjectRef="2"/>
+						<Column Index="2" ObjectRef="3"/>
+						<Column Index="3" ObjectRef="4"/>
+						<Column Index="4" ObjectRef="5"/>
+						<Column Index="5" ObjectRef="6"/>
+						<Column Index="6" ObjectRef="7"/>
+						<Column Index="7" ObjectRef="8"/>
+						<Column Index="8" ObjectRef="9"/>
+						<Column Index="9" ObjectRef="10"/>
+						<Column Index="10" ObjectRef="11"/>
+						<Column Index="11" ObjectRef="12"/>
+						<Column Index="12" ObjectRef="13"/>
+					</Columns>
+					<NameColumn ObjectID="1" ClassID="0547b302-c849-46b3-ae2a-b245e9dd59eb" Version="1">
+						<Column.BitmapID>-1</Column.BitmapID>
+						<Column.IsHidden>false</Column.IsHidden>
+						<Column.Width>200</Column.Width>
+						<Column.Type>0</Column.Type>
+						<Column.ID>Column.Intrinsic.Name</Column.ID>
+						<Column.Name>Name</Column.Name>
+					</NameColumn>
+					<UsedInProjectColumn ObjectID="2" ClassID="e59967f3-f117-43aa-9b5b-126ebebb55e0" Version="1">
+						<Column.BitmapID>-1</Column.BitmapID>
+						<Column.IsHidden>false</Column.IsHidden>
+						<Column.Width>40</Column.Width>
+						<Column.Type>796026220</Column.Type>
+						<Column.ID>Column.PropertyBool.UsedInProject</Column.ID>
+						<Column.Name>Used</Column.Name>
+					</UsedInProjectColumn>
+					<MediaTypeColumn ObjectID="3" ClassID="77157790-a147-4745-868e-64b05031614b" Version="1">
+						<Column.BitmapID>-1</Column.BitmapID>
+						<Column.IsHidden>false</Column.IsHidden>
+						<Column.Width>100</Column.Width>
+						<Column.Type>0</Column.Type>
+						<Column.ID>Column.Intrinsic.MediaType</Column.ID>
+						<Column.Name>Media Type</Column.Name>
+					</MediaTypeColumn>
+					<MediaTimebaseColumn ObjectID="4" ClassID="0a427a33-ac0e-432d-94cd-484b3c13bcfb" Version="1">
+						<Column.BitmapID>-1</Column.BitmapID>
+						<Column.IsHidden>false</Column.IsHidden>
+						<Column.Width>100</Column.Width>
+						<Column.Type>0</Column.Type>
+						<Column.ID>Column.Intrinsic.MediaTimebase</Column.ID>
+						<Column.Name>Frame Rate</Column.Name>
+					</MediaTimebaseColumn>
+					<MediaDurationColumn ObjectID="5" ClassID="8f330a46-95ff-4939-8a3e-c9321de23dc8" Version="1">
+						<Column.BitmapID>-1</Column.BitmapID>
+						<Column.IsHidden>false</Column.IsHidden>
+						<Column.Width>100</Column.Width>
+						<Column.Type>0</Column.Type>
+						<Column.ID>Column.Intrinsic.MediaDuration</Column.ID>
+						<Column.Name>Media Duration</Column.Name>
+					</MediaDurationColumn>
+					<VideoDurationColumn ObjectID="6" ClassID="283161a0-0ea0-47c8-97dc-e5528f637535" Version="1">
+						<Column.BitmapID>-1</Column.BitmapID>
+						<Column.IsHidden>true</Column.IsHidden>
+						<Column.Width>100</Column.Width>
+						<Column.Type>0</Column.Type>
+						<Column.ID>Column.Intrinsic.VideoDuration</Column.ID>
+						<Column.Name>Video Duration</Column.Name>
+					</VideoDurationColumn>
+					<AudioDurationColumn ObjectID="7" ClassID="bc5c5d23-79fa-41de-ba22-6e7acfdcf056" Version="1">
+						<Column.BitmapID>-1</Column.BitmapID>
+						<Column.IsHidden>true</Column.IsHidden>
+						<Column.Width>100</Column.Width>
+						<Column.Type>0</Column.Type>
+						<Column.ID>Column.Intrinsic.AudioDuration</Column.ID>
+						<Column.Name>Audio Duration</Column.Name>
+					</AudioDurationColumn>
+					<VideoInfoColumn ObjectID="8" ClassID="665f919f-0e56-4902-b3b1-e1925a740af8" Version="1">
+						<Column.BitmapID>-1</Column.BitmapID>
+						<Column.IsHidden>true</Column.IsHidden>
+						<Column.Width>100</Column.Width>
+						<Column.Type>0</Column.Type>
+						<Column.ID>Column.Intrinsic.VideoInfo</Column.ID>
+						<Column.Name>Video Info</Column.Name>
+					</VideoInfoColumn>
+					<AudioInfoColumn ObjectID="9" ClassID="85b8773b-1b3f-4822-af23-10041e5ec7a3" Version="1">
+						<Column.BitmapID>-1</Column.BitmapID>
+						<Column.IsHidden>true</Column.IsHidden>
+						<Column.Width>150</Column.Width>
+						<Column.Type>0</Column.Type>
+						<Column.ID>Column.Intrinsic.AudioInfo</Column.ID>
+						<Column.Name>Audio Info</Column.Name>
+					</AudioInfoColumn>
+					<VideoUsageColumn ObjectID="10" ClassID="ae1412d6-3573-4ae1-a83c-50de051f4ac3" Version="1">
+						<Column.BitmapID>-1</Column.BitmapID>
+						<Column.IsHidden>false</Column.IsHidden>
+						<Column.Width>100</Column.Width>
+						<Column.Type>0</Column.Type>
+						<Column.ID>Column.Intrinsic.VideoUsage</Column.ID>
+						<Column.Name>Video Usage</Column.Name>
+					</VideoUsageColumn>
+					<AudioUsageColumn ObjectID="11" ClassID="eea9790f-91ae-47b2-92a8-b0885af7cc5d" Version="1">
+						<Column.BitmapID>-1</Column.BitmapID>
+						<Column.IsHidden>false</Column.IsHidden>
+						<Column.Width>100</Column.Width>
+						<Column.Type>0</Column.Type>
+						<Column.ID>Column.Intrinsic.AudioUsage</Column.ID>
+						<Column.Name>Audio Usage</Column.Name>
+					</AudioUsageColumn>
+					<StatusColumn ObjectID="12" ClassID="2a905ab3-5d0c-4e4f-b07e-e15971678883" Version="1">
+						<Column.BitmapID>-1</Column.BitmapID>
+						<Column.IsHidden>true</Column.IsHidden>
+						<Column.Width>100</Column.Width>
+						<Column.Type>0</Column.Type>
+						<Column.ID>Column.PropertyText.Status</Column.ID>
+						<Column.Name>Status</Column.Name>
+					</StatusColumn>
+					<TextPropertyColumn ObjectID="13" ClassID="7bb9cbe3-a843-430c-a30c-c2179e46f198" Version="1">
+						<Column.BitmapID>-1</Column.BitmapID>
+						<Column.IsHidden>true</Column.IsHidden>
+						<Column.Width>100</Column.Width>
+						<Column.Type>1</Column.Type>
+						<Column.ID>Column.PropertyText.Client</Column.ID>
+						<Column.Name>Client</Column.Name>
+						<Column.Editable.Key>true</Column.Editable.Key>
+						<Column.Property.Key>Column.PropertyText.Client</Column.Property.Key>
+					</TextPropertyColumn>
+				</Columns.List>
+				<MZ.BuildVersion.Modified>20130903.main.557123 - Tue Jun 17 14:45:10 2014</MZ.BuildVersion.Modified>
+				<MZ.BuildVersion.Created>20130903.main.557123 - Mon Jun 16 21:18:59 2014</MZ.BuildVersion.Created>
+				<mz.project.forceProjectSettings>0</mz.project.forceProjectSettings>
+				<MZ.Current.Project.Version>12.0</MZ.Current.Project.Version>
+				<MZ.Project.ApplicationID>Elements</MZ.Project.ApplicationID>
+				<MZ.NextSequenceIndex>3</MZ.NextSequenceIndex>
+			</Properties>
+		</Node>
+	</Project>
+	<VideoClip ObjectID="2" ClassID="9308dbef-2440-4acb-9ab2-953b9a4e82ec" Version="9">
+		<ScaleToFramePolicy>1</ScaleToFramePolicy>
+		<AdjustmentLayer>false</AdjustmentLayer>
+		<FrameBlend>false</FrameBlend>
+		<FieldProcessing>0</FieldProcessing>
+		<ReverseFieldDominance>false</ReverseFieldDominance>
+		<DeinterlaceOnHold>false</DeinterlaceOnHold>
+		<HoldFilters>false</HoldFilters>
+		<FrameHold>0</FrameHold>
+		<PosterFrame>0</PosterFrame>
+		<Clip Version="14">
+			<MarkerOwner Version="1">
+				<Markers ObjectRef="3"/>
+			</MarkerOwner>
+			<Node Version="1">
+				<Properties Version="1">
+					<asl.clip.label.name>BE.Prefs.LabelColors.5</asl.clip.label.name>
+					<asl.clip.label.color>5921370</asl.clip.label.color>
+				</Properties>
+			</Node>
+			<InUse>false</InUse>
+			<Source ObjectRef="4"/>
+			<FrameRate>8475667200</FrameRate>
+			<ClipID>59d7421d-c1b6-433b-9206-b00c5e825b8a</ClipID>
+		</Clip>
+	</VideoClip>
+	<Markers ObjectID="3" ClassID="bee50706-b524-416c-9f03-b596ce5f6866" Version="3">
+		<LastMetadataState>00000000-0000-0000-0000-000000000000</LastMetadataState>
+		<ByGUID>byGUID</ByGUID>
+		<Node Version="1">
+		</Node>
+	</Markers>
+	<VideoMediaSource ObjectID="4" ClassID="e64ddf74-8fac-4682-8aa8-0e0ca2248949" Version="2">
+		<MediaSource Version="3">
+			<Media ObjectURef="41b6c04e-9f2f-4ade-b398-80e2c1adb011"/>
+			<Content Version="6">
+				<Node Version="1">
+				</Node>
+				<ProxyEnabled>false</ProxyEnabled>
+				<EndBoundary>-101606400000000000</EndBoundary>
+				<StartBoundary>-101606400000000000</StartBoundary>
+			</Content>
+		</MediaSource>
+		<OriginalDuration>17392069094400</OriginalDuration>
+	</VideoMediaSource>
+	<AudioStream ObjectID="5" ClassID="0b5cf52f-2b85-4863-890b-8844b64ecfe9" Version="5">
+		<SingleChannel>-1</SingleChannel>
+		<ConformedAudioPath></ConformedAudioPath>
+		<CodecType>0</CodecType>
+		<DisplayFrameRate>5292000</DisplayFrameRate>
+		<SampleType>7</SampleType>
+		<Duration>17392069094400</Duration>
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioStream>
+	<VideoStream ObjectID="6" ClassID="a36e4719-3ec6-4a0c-ab11-8b4aab377aa5" Version="13">
+		<OverriddenAlphaMatterColor>0,0,0</OverriddenAlphaMatterColor>
+		<IsAlphaMatteColorOverridden>false</IsAlphaMatteColorOverridden>
+		<OriginalAlphaMatteColor>0,0,0</OriginalAlphaMatteColor>
+		<FieldTypeIsUncertain>false</FieldTypeIsUncertain>
+		<OverriddenFieldType>3</OverriddenFieldType>
+		<IsFieldTypeOverridden>false</IsFieldTypeOverridden>
+		<OriginalFieldType>2</OriginalFieldType>
+		<OverriddenInvertAlpha>false</OverriddenInvertAlpha>
+		<IsInvertAlphaOverridden>false</IsInvertAlphaOverridden>
+		<OverriddenIgnoreAlpha>false</OverriddenIgnoreAlpha>
+		<IsIgnoreAlphaOverridden>false</IsIgnoreAlphaOverridden>
+		<AlphaInfoIsUncertain>false</AlphaInfoIsUncertain>
+		<OverriddenAlphaType>0</OverriddenAlphaType>
+		<IsAlphaTypeOverridden>false</IsAlphaTypeOverridden>
+		<AlphaType>0</AlphaType>
+		<PARIsUncertain>false</PARIsUncertain>
+		<OverriddenPAR>1,1</OverriddenPAR>
+		<IsPAROverridden>false</IsPAROverridden>
+		<OriginalPAR>10,11</OriginalPAR>
+		<FrameRect>0,0,720,480</FrameRect>
+		<OveriddenFrameRate>9223372036854775807</OveriddenFrameRate>
+		<CodecType>1297106247</CodecType>
+		<Duration>17392069094400</Duration>
+		<FrameRate>8475667200</FrameRate>
+	</VideoStream>
+	<AudioClip ObjectID="7" ClassID="b8830d03-de02-41ee-84ec-fe566dc70cd9" Version="8">
+		<Clip Version="14">
+			<MarkerOwner Version="1">
+				<Markers ObjectRef="8"/>
+			</MarkerOwner>
+			<Node Version="1">
+				<Properties Version="1">
+					<asl.clip.label.name>BE.Prefs.LabelColors.5</asl.clip.label.name>
+					<asl.clip.label.color>5921370</asl.clip.label.color>
+				</Properties>
+			</Node>
+			<InUse>false</InUse>
+			<Source ObjectRef="9"/>
+			<FrameRate>5292000</FrameRate>
+			<ClipID>634d4cb0-d2c8-4bf4-91b4-cba98ca483a2</ClipID>
+		</Clip>
+		<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+		<SecondaryIndex>0</SecondaryIndex>
+		<SecondaryContents Version="1">
+			<SecondaryContentItem Index="0" ObjectRef="10"/>
+			<SecondaryContentItem Index="1" ObjectRef="11"/>
+		</SecondaryContents>
+		<Gain>1.</Gain>
+	</AudioClip>
+	<Markers ObjectID="8" ClassID="bee50706-b524-416c-9f03-b596ce5f6866" Version="3">
+		<LastMetadataState>00000000-0000-0000-0000-000000000000</LastMetadataState>
+		<ByGUID>byGUID</ByGUID>
+		<Node Version="1">
+		</Node>
+	</Markers>
+	<AudioMediaSource ObjectID="9" ClassID="f588da05-fc2a-4fbc-9383-74d653b379e3" Version="2">
+		<MediaSource Version="3">
+			<Media ObjectURef="41b6c04e-9f2f-4ade-b398-80e2c1adb011"/>
+			<Content Version="6">
+				<Node Version="1">
+				</Node>
+				<ProxyEnabled>false</ProxyEnabled>
+				<EndBoundary>-101606400000000000</EndBoundary>
+				<StartBoundary>-101606400000000000</StartBoundary>
+			</Content>
+		</MediaSource>
+		<OriginalDuration>17392069094400</OriginalDuration>
+	</AudioMediaSource>
+	<SecondaryContent ObjectID="10" ClassID="f9d004b5-cb04-4e2f-af6f-64fadc2c4be9" Version="1">
+		<ChannelIndex>0</ChannelIndex>
+		<Content ObjectRef="9"/>
+	</SecondaryContent>
+	<SecondaryContent ObjectID="11" ClassID="f9d004b5-cb04-4e2f-af6f-64fadc2c4be9" Version="1">
+		<ChannelIndex>1</ChannelIndex>
+		<Content ObjectRef="9"/>
+	</SecondaryContent>
+	<ClipLoggingInfo ObjectID="12" ClassID="77ab7fdd-dcdf-465d-9906-7a330ca1e738" Version="4">
+		<DateShot>1980,1,1</DateShot>
+		<MediaFrameRate>8475667200</MediaFrameRate>
+		<MediaOutPoint>17392069094400</MediaOutPoint>
+		<MediaInPoint>0</MediaInPoint>
+		<TimecodeFormat>103</TimecodeFormat>
+		<LogNote></LogNote>
+		<ShotTake></ShotTake>
+		<Scene></Scene>
+		<Description></Description>
+		<ClipName>Google Ambassador Application Audio.mpg</ClipName>
+		<TapeName></TapeName>
+		<CaptureMode>3</CaptureMode>
+	</ClipLoggingInfo>
+	<ClipChannelGroupVectorSerializer ObjectID="13" ClassID="a3127a8c-95d4-456e-a7f5-171b3f922426" Version="1">
+		<ClipChannelVectors Version="1">
+			<ClipChannelVectorItem Index="0" ObjectRef="14"/>
+		</ClipChannelVectors>
+	</ClipChannelGroupVectorSerializer>
+	<ClipChannelVectorSerializer ObjectID="14" ClassID="333d203b-3a53-4195-8894-fc7523ff3dc7" Version="1">
+		<ClipChannels Version="1">
+			<ClipChannelItem Index="0" ObjectRef="15"/>
+			<ClipChannelItem Index="1" ObjectRef="16"/>
+		</ClipChannels>
+		<ChannelType>1</ChannelType>
+	</ClipChannelVectorSerializer>
+	<ClipChannelSerializer ObjectID="15" ClassID="5c89aa7a-89a6-4483-becd-f2b1def42316" Version="1">
+		<mSourceChannelIndex>0</mSourceChannelIndex>
+		<SourceClipIndex>0</SourceClipIndex>
+	</ClipChannelSerializer>
+	<ClipChannelSerializer ObjectID="16" ClassID="5c89aa7a-89a6-4483-becd-f2b1def42316" Version="1">
+		<mSourceChannelIndex>1</mSourceChannelIndex>
+		<SourceClipIndex>0</SourceClipIndex>
+	</ClipChannelSerializer>
+	<AudioComponentChain ObjectID="17" ClassID="3cb131d1-d3c0-47ae-a19a-bdf75ea11674" Version="3">
+		<ComponentChain Version="2">
+			<Node Version="1">
+			</Node>
+			<NextComponentID>1</NextComponentID>
+		</ComponentChain>
+		<AutomationMode>1</AutomationMode>
+		<FrameRate>5292000</FrameRate>
+		<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+		<ChannelType>1</ChannelType>
+	</AudioComponentChain>
+	<VideoComponentChain ObjectID="18" ClassID="0970e08a-f58f-4108-b29a-1a717b8e12e2" Version="1">
+		<ComponentChain Version="2">
+			<Node Version="1">
+			</Node>
+			<NextComponentID>1</NextComponentID>
+		</ComponentChain>
+	</VideoComponentChain>
+	<AudioClip ObjectID="19" ClassID="b8830d03-de02-41ee-84ec-fe566dc70cd9" Version="8">
+		<Clip Version="14">
+			<MarkerOwner Version="1">
+				<Markers ObjectRef="20"/>
+			</MarkerOwner>
+			<Node Version="1">
+			</Node>
+			<InUse>false</InUse>
+			<Source ObjectRef="21"/>
+			<FrameRate>5292000</FrameRate>
+			<ClipID>45ccab23-c7c7-45e8-83a3-61557f24018d</ClipID>
+		</Clip>
+		<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+		<SecondaryIndex>0</SecondaryIndex>
+		<SecondaryContents Version="1">
+			<SecondaryContentItem Index="0" ObjectRef="131"/>
+			<SecondaryContentItem Index="1" ObjectRef="132"/>
+		</SecondaryContents>
+		<Gain>1.</Gain>
+	</AudioClip>
+	<Markers ObjectID="20" ClassID="bee50706-b524-416c-9f03-b596ce5f6866" Version="3">
+		<LastMetadataState>00000000-0000-0000-0000-000000000000</LastMetadataState>
+		<ByGUID>byGUID</ByGUID>
+		<Node Version="1">
+		</Node>
+	</Markers>
+	<AudioSequenceSource ObjectID="21" ClassID="e8d4cc83-38cb-491f-9d94-e5f7e3b205ee" Version="7">
+		<SequenceSource Version="3">
+			<SelectedTrackIndex>0</SelectedTrackIndex>
+			<IsMulticam>false</IsMulticam>
+			<Sequence ObjectURef="cf6578c5-7dd1-4334-83eb-c60721dd8d0d"/>
+			<Content Version="6">
+				<Node Version="1">
+				</Node>
+				<ProxyEnabled>false</ProxyEnabled>
+				<EndBoundary>-101606400000000000</EndBoundary>
+				<StartBoundary>-101606400000000000</StartBoundary>
+			</Content>
+		</SequenceSource>
+		<OriginalDuration>38784653107200</OriginalDuration>
+	</AudioSequenceSource>
+	<Markers ObjectID="22" ClassID="bee50706-b524-416c-9f03-b596ce5f6866" Version="3">
+		<LastMetadataState>00000000-0000-0000-0000-000000000000</LastMetadataState>
+		<ByGUID>byGUID</ByGUID>
+		<Node Version="1">
+		</Node>
+	</Markers>
+	<DVDMarkers ObjectID="23" ClassID="efb6b9f5-5b1c-4eaa-83ef-d6f93b0cac79" Version="1">
+		<Node Version="1">
+		</Node>
+	</DVDMarkers>
+	<VideoTrackGroup ObjectID="24" ClassID="9e9abf7a-0918-49c2-91ae-991b5dde77bb" Version="8">
+		<EnablePT>true</EnablePT>
+		<FieldType>1</FieldType>
+		<TrackGroup Version="1">
+			<NextTrackID>7</NextTrackID>
+			<Tracks Version="1">
+				<Track Index="0" ObjectRef="25"/>
+				<Track Index="1" ObjectRef="26"/>
+				<Track Index="2" ObjectRef="27"/>
+				<Track Index="3" ObjectRef="28"/>
+				<Track Index="4" ObjectRef="29"/>
+				<Track Index="5" ObjectRef="30"/>
+			</Tracks>
+			<Node Version="1">
+			</Node>
+			<FrameRate>8475667200</FrameRate>
+		</TrackGroup>
+		<PixelAspectRatio>10,11</PixelAspectRatio>
+		<FrameRect>0,0,720,480</FrameRect>
+	</VideoTrackGroup>
+	<VideoClipTrack ObjectID="25" ClassID="f68dcd81-8805-11d5-af2d-9bfa89d4ddd4" Version="1">
+		<ClipTrack Version="2">
+			<Track Version="3">
+				<IsSyncLocked>true</IsSyncLocked>
+				<Index>0</Index>
+				<IsMuted>false</IsMuted>
+				<Node Version="1">
+					<Properties Version="1">
+						<TL.SQTrackVideoKeyframeStyle>0</TL.SQTrackVideoKeyframeStyle>
+						<TL.SQTrackVideoDisplayStyle>0</TL.SQTrackVideoDisplayStyle>
+						<TL.SQTrackExpanded>1</TL.SQTrackExpanded>
+						<TL.SQTrackExpandedHeight>57</TL.SQTrackExpandedHeight>
+						<TL.SQTrackShy>0</TL.SQTrackShy>
+						<MZ.TrackTargeted>1</MZ.TrackTargeted>
+					</Properties>
+				</Node>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+				<IsLocked>false</IsLocked>
+				<ID>1</ID>
+			</Track>
+			<TransitionItems Version="3">
+				<Index>0</Index>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+			</TransitionItems>
+			<ClipItems Version="3">
+				<Index>0</Index>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+			</ClipItems>
+		</ClipTrack>
+	</VideoClipTrack>
+	<VideoClipTrack ObjectID="26" ClassID="f68dcd81-8805-11d5-af2d-9bfa89d4ddd4" Version="1">
+		<ClipTrack Version="2">
+			<Track Version="3">
+				<IsSyncLocked>true</IsSyncLocked>
+				<Index>1</Index>
+				<IsMuted>false</IsMuted>
+				<Node Version="1">
+					<Properties Version="1">
+						<TL.SQTrackVideoKeyframeStyle>0</TL.SQTrackVideoKeyframeStyle>
+						<TL.SQTrackVideoDisplayStyle>0</TL.SQTrackVideoDisplayStyle>
+						<TL.SQTrackExpanded>0</TL.SQTrackExpanded>
+						<TL.SQTrackCollapsedHeight>31</TL.SQTrackCollapsedHeight>
+						<TL.SQTrackShy>0</TL.SQTrackShy>
+					</Properties>
+				</Node>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+				<IsLocked>false</IsLocked>
+				<ID>2</ID>
+			</Track>
+			<TransitionItems Version="3">
+				<Index>1</Index>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+			</TransitionItems>
+			<ClipItems Version="3">
+				<Index>1</Index>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+			</ClipItems>
+		</ClipTrack>
+	</VideoClipTrack>
+	<VideoClipTrack ObjectID="27" ClassID="f68dcd81-8805-11d5-af2d-9bfa89d4ddd4" Version="1">
+		<ClipTrack Version="2">
+			<Track Version="3">
+				<IsSyncLocked>true</IsSyncLocked>
+				<Index>2</Index>
+				<IsMuted>false</IsMuted>
+				<Node Version="1">
+					<Properties Version="1">
+						<TL.SQTrackVideoKeyframeStyle>0</TL.SQTrackVideoKeyframeStyle>
+						<TL.SQTrackVideoDisplayStyle>0</TL.SQTrackVideoDisplayStyle>
+						<TL.SQTrackExpanded>0</TL.SQTrackExpanded>
+						<TL.SQTrackCollapsedHeight>31</TL.SQTrackCollapsedHeight>
+						<TL.SQTrackShy>0</TL.SQTrackShy>
+					</Properties>
+				</Node>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+				<IsLocked>false</IsLocked>
+				<ID>3</ID>
+			</Track>
+			<TransitionItems Version="3">
+				<Index>2</Index>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+			</TransitionItems>
+			<ClipItems Version="3">
+				<Index>2</Index>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+			</ClipItems>
+		</ClipTrack>
+	</VideoClipTrack>
+	<VideoClipTrack ObjectID="28" ClassID="f68dcd81-8805-11d5-af2d-9bfa89d4ddd4" Version="1">
+		<ClipTrack Version="2">
+			<Track Version="3">
+				<IsSyncLocked>true</IsSyncLocked>
+				<Index>3</Index>
+				<IsMuted>false</IsMuted>
+				<Node Version="1">
+					<Properties Version="1">
+						<TL.SQTrackVideoKeyframeStyle>0</TL.SQTrackVideoKeyframeStyle>
+						<TL.SQTrackVideoDisplayStyle>0</TL.SQTrackVideoDisplayStyle>
+						<TL.SQTrackExpanded>0</TL.SQTrackExpanded>
+						<TL.SQTrackCollapsedHeight>31</TL.SQTrackCollapsedHeight>
+						<TL.SQTrackShy>0</TL.SQTrackShy>
+					</Properties>
+				</Node>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+				<IsLocked>false</IsLocked>
+				<ID>4</ID>
+			</Track>
+			<TransitionItems Version="3">
+				<Index>3</Index>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+			</TransitionItems>
+			<ClipItems Version="3">
+				<Index>3</Index>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+			</ClipItems>
+		</ClipTrack>
+	</VideoClipTrack>
+	<VideoClipTrack ObjectID="29" ClassID="f68dcd81-8805-11d5-af2d-9bfa89d4ddd4" Version="1">
+		<ClipTrack Version="2">
+			<Track Version="3">
+				<IsSyncLocked>true</IsSyncLocked>
+				<Index>4</Index>
+				<IsMuted>false</IsMuted>
+				<Node Version="1">
+					<Properties Version="1">
+						<TL.SQTrackVideoKeyframeStyle>0</TL.SQTrackVideoKeyframeStyle>
+						<TL.SQTrackVideoDisplayStyle>0</TL.SQTrackVideoDisplayStyle>
+						<TL.SQTrackExpanded>0</TL.SQTrackExpanded>
+						<TL.SQTrackCollapsedHeight>31</TL.SQTrackCollapsedHeight>
+						<TL.SQTrackShy>0</TL.SQTrackShy>
+					</Properties>
+				</Node>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+				<IsLocked>false</IsLocked>
+				<ID>5</ID>
+			</Track>
+			<TransitionItems Version="3">
+				<Index>4</Index>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+			</TransitionItems>
+			<ClipItems Version="3">
+				<Index>4</Index>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+			</ClipItems>
+		</ClipTrack>
+	</VideoClipTrack>
+	<VideoClipTrack ObjectID="30" ClassID="f68dcd81-8805-11d5-af2d-9bfa89d4ddd4" Version="1">
+		<ClipTrack Version="2">
+			<Track Version="3">
+				<IsSyncLocked>true</IsSyncLocked>
+				<Index>5</Index>
+				<IsMuted>false</IsMuted>
+				<Node Version="1">
+					<Properties Version="1">
+						<TL.SQTrackVideoKeyframeStyle>0</TL.SQTrackVideoKeyframeStyle>
+						<TL.SQTrackVideoDisplayStyle>0</TL.SQTrackVideoDisplayStyle>
+						<TL.SQTrackExpanded>0</TL.SQTrackExpanded>
+						<TL.SQTrackCollapsedHeight>31</TL.SQTrackCollapsedHeight>
+						<TL.SQTrackShy>0</TL.SQTrackShy>
+					</Properties>
+				</Node>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+				<IsLocked>false</IsLocked>
+				<ID>6</ID>
+			</Track>
+			<TransitionItems Version="3">
+				<Index>5</Index>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+			</TransitionItems>
+			<ClipItems Version="3">
+				<Index>5</Index>
+				<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+			</ClipItems>
+		</ClipTrack>
+	</VideoClipTrack>
+	<AudioTrackGroup ObjectID="31" ClassID="9b9238b9-53a8-4cc3-b03f-b36246d052e6" Version="6">
+		<TrackGroup Version="1">
+			<NextTrackID>9</NextTrackID>
+			<Tracks Version="1">
+				<Track Index="0" ObjectRef="32"/>
+				<Track Index="1" ObjectRef="40"/>
+				<Track Index="2" ObjectRef="48"/>
+				<Track Index="3" ObjectRef="56"/>
+				<Track Index="4" ObjectRef="64"/>
+				<Track Index="5" ObjectRef="72"/>
+				<Track Index="6" ObjectRef="80"/>
+			</Tracks>
+			<Node Version="1">
+			</Node>
+			<FrameRate>5292000</FrameRate>
+		</TrackGroup>
+		<NumAdaptiveChannels>2</NumAdaptiveChannels>
+		<AutomationSafeFlags>0</AutomationSafeFlags>
+		<MasterTrack ObjectRef="123"/>
+		<ID>6c4a121a-df01-4f36-9c18-86332d46d47f</ID>
+	</AudioTrackGroup>
+	<AudioClipTrack ObjectID="32" ClassID="097f6203-99ae-11d5-84f2-8cf14bde7040" Version="6">
+		<ClipTrack Version="2">
+			<Track Version="3">
+				<IsSyncLocked>true</IsSyncLocked>
+				<Index>0</Index>
+				<IsMuted>false</IsMuted>
+				<Node Version="1">
+					<Properties Version="1">
+						<TL.SQTrackAudioKeyframeStyle>0</TL.SQTrackAudioKeyframeStyle>
+						<TL.SQTrackAudioDisplayStyle>0</TL.SQTrackAudioDisplayStyle>
+						<TL.SQTrackExpanded>1</TL.SQTrackExpanded>
+						<TL.SQTrackExpandedHeight>57</TL.SQTrackExpandedHeight>
+						<TL.SQTrackShy>0</TL.SQTrackShy>
+						<MZ.TrackTargeted>1</MZ.TrackTargeted>
+					</Properties>
+				</Node>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+				<IsLocked>false</IsLocked>
+				<ID>2</ID>
+			</Track>
+			<TransitionItems Version="3">
+				<Index>0</Index>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+			</TransitionItems>
+			<ClipItems Version="3">
+				<Index>0</Index>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+			</ClipItems>
+		</ClipTrack>
+		<AudioTrack Version="11">
+			<MutedBySolo>0</MutedBySolo>
+			<Solo>0</Solo>
+			<NextPannerID>4294967279</NextPannerID>
+			<Assign>1</Assign>
+			<SubType>1</SubType>
+			<ComponentOwner Version="1">
+				<Components ObjectRef="33"/>
+			</ComponentOwner>
+			<Panner ObjectRef="38"/>
+			<AutomationMode>1</AutomationMode>
+			<FrameRate>5292000</FrameRate>
+			<ChannelType>1</ChannelType>
+			<ID>f54ef2e1-d183-4767-9980-7468bda1750f</ID>
+		</AudioTrack>
+		<RecordChannel>0</RecordChannel>
+	</AudioClipTrack>
+	<AudioComponentChain ObjectID="33" ClassID="3cb131d1-d3c0-47ae-a19a-bdf75ea11674" Version="3">
+		<ComponentChain Version="2">
+			<Node Version="1">
+			</Node>
+			<NextComponentID>3</NextComponentID>
+			<Components Version="1">
+				<Component Index="0" ObjectRef="34"/>
+				<Component Index="1" ObjectRef="37"/>
+			</Components>
+		</ComponentChain>
+		<AutomationMode>1</AutomationMode>
+		<FrameRate>5292000</FrameRate>
+		<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+		<ChannelType>1</ChannelType>
+	</AudioComponentChain>
+	<AudioFader ObjectID="34" ClassID="1a38c583-ed5c-11d5-abc4-c1cbf61ec590" Version="3">
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<Params Version="1">
+					<Param Index="0" ObjectRef="35"/>
+					<Param Index="1" ObjectRef="36"/>
+				</Params>
+				<DisplayName></DisplayName>
+				<Bypass>false</Bypass>
+				<ID>1</ID>
+			</Component>
+			<AudioComponentType>1</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioFader>
+	<AudioComponentParam ObjectID="35" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12108633606</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString>dB</UnitsString>
+		<UpperBound>2.</UpperBound>
+		<StartKeyframe>-91445760000000000,1.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Volume</Name>
+	</AudioComponentParam>
+	<AudioComponentParam ObjectID="36" ClassID="32657501-3aa4-445f-a49b-d09ecb9fa1ae" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12108633618</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Mute</Name>
+	</AudioComponentParam>
+	<AudioMeter ObjectID="37" ClassID="72ea4700-f615-11d5-abc4-c186585e63e0" Version="2">
+		<NumChannels>2</NumChannels>
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<DisplayName></DisplayName>
+				<Bypass>false</Bypass>
+				<ID>2</ID>
+			</Component>
+			<AudioComponentType>2</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioMeter>
+	<StereoToStereoPanProcessor ObjectID="38" ClassID="7bf86a01-efbe-11d5-abc4-c1ce2b1e9090" Version="1">
+		<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+		<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+		<PanProcessor Version="3">
+			<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+			<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+			<AudioComponent Version="3">
+				<Component Version="3">
+					<Node Version="1">
+					</Node>
+					<Intrinsic>false</Intrinsic>
+					<Params Version="1">
+						<Param Index="0" ObjectRef="39"/>
+					</Params>
+					<DisplayName></DisplayName>
+					<Bypass>false</Bypass>
+					<ID>4294967280</ID>
+				</Component>
+				<AudioComponentType>0</AudioComponentType>
+				<FrameRate>5292000</FrameRate>
+				<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+				<ChannelType>1</ChannelType>
+			</AudioComponent>
+		</PanProcessor>
+	</StereoToStereoPanProcessor>
+	<AudioComponentParam ObjectID="39" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12108633704</Timestamp>
+		<IsInverted>true</IsInverted>
+		<CurrentValue>0.5</CurrentValue>
+		<RangeLocked>true</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,0.5,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Balance</Name>
+	</AudioComponentParam>
+	<AudioClipTrack ObjectID="40" ClassID="097f6203-99ae-11d5-84f2-8cf14bde7040" Version="6">
+		<ClipTrack Version="2">
+			<Track Version="3">
+				<IsSyncLocked>true</IsSyncLocked>
+				<Index>1</Index>
+				<IsMuted>false</IsMuted>
+				<Node Version="1">
+					<Properties Version="1">
+						<TL.SQTrackAudioKeyframeStyle>0</TL.SQTrackAudioKeyframeStyle>
+						<TL.SQTrackAudioDisplayStyle>0</TL.SQTrackAudioDisplayStyle>
+						<TL.SQTrackExpanded>0</TL.SQTrackExpanded>
+						<TL.SQTrackCollapsedHeight>31</TL.SQTrackCollapsedHeight>
+						<TL.SQTrackShy>0</TL.SQTrackShy>
+					</Properties>
+				</Node>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+				<IsLocked>false</IsLocked>
+				<ID>3</ID>
+			</Track>
+			<TransitionItems Version="3">
+				<Index>1</Index>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+			</TransitionItems>
+			<ClipItems Version="3">
+				<Index>1</Index>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+			</ClipItems>
+		</ClipTrack>
+		<AudioTrack Version="11">
+			<MutedBySolo>0</MutedBySolo>
+			<Solo>0</Solo>
+			<NextPannerID>4294967279</NextPannerID>
+			<Assign>1</Assign>
+			<SubType>1</SubType>
+			<ComponentOwner Version="1">
+				<Components ObjectRef="41"/>
+			</ComponentOwner>
+			<Panner ObjectRef="46"/>
+			<AutomationMode>1</AutomationMode>
+			<FrameRate>5292000</FrameRate>
+			<ChannelType>1</ChannelType>
+			<ID>aeff44ed-ab05-4285-913d-fceddd698978</ID>
+		</AudioTrack>
+		<RecordChannel>0</RecordChannel>
+	</AudioClipTrack>
+	<AudioComponentChain ObjectID="41" ClassID="3cb131d1-d3c0-47ae-a19a-bdf75ea11674" Version="3">
+		<ComponentChain Version="2">
+			<Node Version="1">
+			</Node>
+			<NextComponentID>3</NextComponentID>
+			<Components Version="1">
+				<Component Index="0" ObjectRef="42"/>
+				<Component Index="1" ObjectRef="45"/>
+			</Components>
+		</ComponentChain>
+		<AutomationMode>1</AutomationMode>
+		<FrameRate>5292000</FrameRate>
+		<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+		<ChannelType>1</ChannelType>
+	</AudioComponentChain>
+	<AudioFader ObjectID="42" ClassID="1a38c583-ed5c-11d5-abc4-c1cbf61ec590" Version="3">
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<Params Version="1">
+					<Param Index="0" ObjectRef="43"/>
+					<Param Index="1" ObjectRef="44"/>
+				</Params>
+				<DisplayName></DisplayName>
+				<Bypass>false</Bypass>
+				<ID>1</ID>
+			</Component>
+			<AudioComponentType>1</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioFader>
+	<AudioComponentParam ObjectID="43" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12108633791</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString>dB</UnitsString>
+		<UpperBound>2.</UpperBound>
+		<StartKeyframe>-91445760000000000,1.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Volume</Name>
+	</AudioComponentParam>
+	<AudioComponentParam ObjectID="44" ClassID="32657501-3aa4-445f-a49b-d09ecb9fa1ae" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12108633802</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Mute</Name>
+	</AudioComponentParam>
+	<AudioMeter ObjectID="45" ClassID="72ea4700-f615-11d5-abc4-c186585e63e0" Version="2">
+		<NumChannels>2</NumChannels>
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<DisplayName></DisplayName>
+				<Bypass>false</Bypass>
+				<ID>2</ID>
+			</Component>
+			<AudioComponentType>2</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioMeter>
+	<StereoToStereoPanProcessor ObjectID="46" ClassID="7bf86a01-efbe-11d5-abc4-c1ce2b1e9090" Version="1">
+		<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+		<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+		<PanProcessor Version="3">
+			<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+			<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+			<AudioComponent Version="3">
+				<Component Version="3">
+					<Node Version="1">
+					</Node>
+					<Intrinsic>false</Intrinsic>
+					<Params Version="1">
+						<Param Index="0" ObjectRef="47"/>
+					</Params>
+					<DisplayName></DisplayName>
+					<Bypass>false</Bypass>
+					<ID>4294967280</ID>
+				</Component>
+				<AudioComponentType>0</AudioComponentType>
+				<FrameRate>5292000</FrameRate>
+				<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+				<ChannelType>1</ChannelType>
+			</AudioComponent>
+		</PanProcessor>
+	</StereoToStereoPanProcessor>
+	<AudioComponentParam ObjectID="47" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12108633878</Timestamp>
+		<IsInverted>true</IsInverted>
+		<CurrentValue>0.5</CurrentValue>
+		<RangeLocked>true</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,0.5,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Balance</Name>
+	</AudioComponentParam>
+	<AudioClipTrack ObjectID="48" ClassID="097f6203-99ae-11d5-84f2-8cf14bde7040" Version="6">
+		<ClipTrack Version="2">
+			<Track Version="3">
+				<IsSyncLocked>true</IsSyncLocked>
+				<Index>2</Index>
+				<IsMuted>false</IsMuted>
+				<Node Version="1">
+					<Properties Version="1">
+						<TL.SQTrackAudioKeyframeStyle>0</TL.SQTrackAudioKeyframeStyle>
+						<TL.SQTrackAudioDisplayStyle>0</TL.SQTrackAudioDisplayStyle>
+						<TL.SQTrackExpanded>0</TL.SQTrackExpanded>
+						<TL.SQTrackCollapsedHeight>31</TL.SQTrackCollapsedHeight>
+						<TL.SQTrackShy>0</TL.SQTrackShy>
+					</Properties>
+				</Node>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+				<IsLocked>false</IsLocked>
+				<ID>4</ID>
+			</Track>
+			<TransitionItems Version="3">
+				<Index>2</Index>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+			</TransitionItems>
+			<ClipItems Version="3">
+				<Index>2</Index>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+			</ClipItems>
+		</ClipTrack>
+		<AudioTrack Version="11">
+			<MutedBySolo>0</MutedBySolo>
+			<Solo>0</Solo>
+			<NextPannerID>4294967279</NextPannerID>
+			<Assign>1</Assign>
+			<SubType>1</SubType>
+			<ComponentOwner Version="1">
+				<Components ObjectRef="49"/>
+			</ComponentOwner>
+			<Panner ObjectRef="54"/>
+			<AutomationMode>1</AutomationMode>
+			<FrameRate>5292000</FrameRate>
+			<ChannelType>1</ChannelType>
+			<ID>6be4321b-6b75-4525-93b5-b5d48901d4fa</ID>
+		</AudioTrack>
+		<RecordChannel>0</RecordChannel>
+	</AudioClipTrack>
+	<AudioComponentChain ObjectID="49" ClassID="3cb131d1-d3c0-47ae-a19a-bdf75ea11674" Version="3">
+		<ComponentChain Version="2">
+			<Node Version="1">
+			</Node>
+			<NextComponentID>3</NextComponentID>
+			<Components Version="1">
+				<Component Index="0" ObjectRef="50"/>
+				<Component Index="1" ObjectRef="53"/>
+			</Components>
+		</ComponentChain>
+		<AutomationMode>1</AutomationMode>
+		<FrameRate>5292000</FrameRate>
+		<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+		<ChannelType>1</ChannelType>
+	</AudioComponentChain>
+	<AudioFader ObjectID="50" ClassID="1a38c583-ed5c-11d5-abc4-c1cbf61ec590" Version="3">
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<Params Version="1">
+					<Param Index="0" ObjectRef="51"/>
+					<Param Index="1" ObjectRef="52"/>
+				</Params>
+				<DisplayName></DisplayName>
+				<Bypass>false</Bypass>
+				<ID>1</ID>
+			</Component>
+			<AudioComponentType>1</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioFader>
+	<AudioComponentParam ObjectID="51" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12108633949</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString>dB</UnitsString>
+		<UpperBound>2.</UpperBound>
+		<StartKeyframe>-91445760000000000,1.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Volume</Name>
+	</AudioComponentParam>
+	<AudioComponentParam ObjectID="52" ClassID="32657501-3aa4-445f-a49b-d09ecb9fa1ae" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12108633959</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Mute</Name>
+	</AudioComponentParam>
+	<AudioMeter ObjectID="53" ClassID="72ea4700-f615-11d5-abc4-c186585e63e0" Version="2">
+		<NumChannels>2</NumChannels>
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<DisplayName></DisplayName>
+				<Bypass>false</Bypass>
+				<ID>2</ID>
+			</Component>
+			<AudioComponentType>2</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioMeter>
+	<StereoToStereoPanProcessor ObjectID="54" ClassID="7bf86a01-efbe-11d5-abc4-c1ce2b1e9090" Version="1">
+		<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+		<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+		<PanProcessor Version="3">
+			<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+			<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+			<AudioComponent Version="3">
+				<Component Version="3">
+					<Node Version="1">
+					</Node>
+					<Intrinsic>false</Intrinsic>
+					<Params Version="1">
+						<Param Index="0" ObjectRef="55"/>
+					</Params>
+					<DisplayName></DisplayName>
+					<Bypass>false</Bypass>
+					<ID>4294967280</ID>
+				</Component>
+				<AudioComponentType>0</AudioComponentType>
+				<FrameRate>5292000</FrameRate>
+				<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+				<ChannelType>1</ChannelType>
+			</AudioComponent>
+		</PanProcessor>
+	</StereoToStereoPanProcessor>
+	<AudioComponentParam ObjectID="55" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12108634032</Timestamp>
+		<IsInverted>true</IsInverted>
+		<CurrentValue>0.5</CurrentValue>
+		<RangeLocked>true</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,0.5,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Balance</Name>
+	</AudioComponentParam>
+	<AudioClipTrack ObjectID="56" ClassID="097f6203-99ae-11d5-84f2-8cf14bde7040" Version="6">
+		<ClipTrack Version="2">
+			<Track Version="3">
+				<IsSyncLocked>true</IsSyncLocked>
+				<Index>3</Index>
+				<IsMuted>false</IsMuted>
+				<Node Version="1">
+					<Properties Version="1">
+						<TL.SQTrackAudioKeyframeStyle>0</TL.SQTrackAudioKeyframeStyle>
+						<TL.SQTrackAudioDisplayStyle>0</TL.SQTrackAudioDisplayStyle>
+						<TL.SQTrackExpanded>0</TL.SQTrackExpanded>
+						<TL.SQTrackCollapsedHeight>31</TL.SQTrackCollapsedHeight>
+						<TL.SQTrackShy>0</TL.SQTrackShy>
+					</Properties>
+				</Node>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+				<IsLocked>false</IsLocked>
+				<ID>7</ID>
+			</Track>
+			<TransitionItems Version="3">
+				<Index>3</Index>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+			</TransitionItems>
+			<ClipItems Version="3">
+				<Index>3</Index>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+			</ClipItems>
+		</ClipTrack>
+		<AudioTrack Version="11">
+			<MutedBySolo>0</MutedBySolo>
+			<Solo>0</Solo>
+			<NextPannerID>4294967279</NextPannerID>
+			<Assign>1</Assign>
+			<SubType>1</SubType>
+			<ComponentOwner Version="1">
+				<Components ObjectRef="57"/>
+			</ComponentOwner>
+			<Panner ObjectRef="62"/>
+			<AutomationMode>1</AutomationMode>
+			<FrameRate>5292000</FrameRate>
+			<ChannelType>1</ChannelType>
+			<ID>ed2bdf5b-aa65-4b27-9100-d58a8bee4fab</ID>
+		</AudioTrack>
+		<RecordChannel>0</RecordChannel>
+	</AudioClipTrack>
+	<AudioComponentChain ObjectID="57" ClassID="3cb131d1-d3c0-47ae-a19a-bdf75ea11674" Version="3">
+		<ComponentChain Version="2">
+			<Node Version="1">
+			</Node>
+			<NextComponentID>3</NextComponentID>
+			<Components Version="1">
+				<Component Index="0" ObjectRef="58"/>
+				<Component Index="1" ObjectRef="61"/>
+			</Components>
+		</ComponentChain>
+		<AutomationMode>1</AutomationMode>
+		<FrameRate>5292000</FrameRate>
+		<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+		<ChannelType>1</ChannelType>
+	</AudioComponentChain>
+	<AudioFader ObjectID="58" ClassID="1a38c583-ed5c-11d5-abc4-c1cbf61ec590" Version="3">
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<Params Version="1">
+					<Param Index="0" ObjectRef="59"/>
+					<Param Index="1" ObjectRef="60"/>
+				</Params>
+				<DisplayName></DisplayName>
+				<Bypass>false</Bypass>
+				<ID>1</ID>
+			</Component>
+			<AudioComponentType>1</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioFader>
+	<AudioComponentParam ObjectID="59" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12168614331</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString>dB</UnitsString>
+		<UpperBound>2.</UpperBound>
+		<StartKeyframe>-91445760000000000,1.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Volume</Name>
+	</AudioComponentParam>
+	<AudioComponentParam ObjectID="60" ClassID="32657501-3aa4-445f-a49b-d09ecb9fa1ae" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12168614351</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Mute</Name>
+	</AudioComponentParam>
+	<AudioMeter ObjectID="61" ClassID="72ea4700-f615-11d5-abc4-c186585e63e0" Version="2">
+		<NumChannels>2</NumChannels>
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<DisplayName></DisplayName>
+				<Bypass>false</Bypass>
+				<ID>2</ID>
+			</Component>
+			<AudioComponentType>2</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioMeter>
+	<StereoToStereoPanProcessor ObjectID="62" ClassID="7bf86a01-efbe-11d5-abc4-c1ce2b1e9090" Version="1">
+		<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+		<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+		<PanProcessor Version="3">
+			<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+			<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+			<AudioComponent Version="3">
+				<Component Version="3">
+					<Node Version="1">
+					</Node>
+					<Intrinsic>false</Intrinsic>
+					<Params Version="1">
+						<Param Index="0" ObjectRef="63"/>
+					</Params>
+					<DisplayName></DisplayName>
+					<Bypass>false</Bypass>
+					<ID>4294967280</ID>
+				</Component>
+				<AudioComponentType>0</AudioComponentType>
+				<FrameRate>5292000</FrameRate>
+				<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+				<ChannelType>1</ChannelType>
+			</AudioComponent>
+		</PanProcessor>
+	</StereoToStereoPanProcessor>
+	<AudioComponentParam ObjectID="63" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12168633201</Timestamp>
+		<IsInverted>true</IsInverted>
+		<CurrentValue>0.5</CurrentValue>
+		<RangeLocked>true</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,0.5,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Balance</Name>
+	</AudioComponentParam>
+	<AudioClipTrack ObjectID="64" ClassID="097f6203-99ae-11d5-84f2-8cf14bde7040" Version="6">
+		<ClipTrack Version="2">
+			<Track Version="3">
+				<IsSyncLocked>true</IsSyncLocked>
+				<Index>4</Index>
+				<IsMuted>false</IsMuted>
+				<Node Version="1">
+					<Properties Version="1">
+						<TL.SQTrackAudioKeyframeStyle>0</TL.SQTrackAudioKeyframeStyle>
+						<TL.SQTrackAudioDisplayStyle>0</TL.SQTrackAudioDisplayStyle>
+						<TL.SQTrackExpanded>0</TL.SQTrackExpanded>
+						<TL.SQTrackCollapsedHeight>31</TL.SQTrackCollapsedHeight>
+						<TL.SQTrackShy>0</TL.SQTrackShy>
+					</Properties>
+				</Node>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+				<IsLocked>false</IsLocked>
+				<ID>8</ID>
+			</Track>
+			<TransitionItems Version="3">
+				<Index>4</Index>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+			</TransitionItems>
+			<ClipItems Version="3">
+				<Index>4</Index>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+			</ClipItems>
+		</ClipTrack>
+		<AudioTrack Version="11">
+			<MutedBySolo>0</MutedBySolo>
+			<Solo>0</Solo>
+			<NextPannerID>4294967279</NextPannerID>
+			<Assign>1</Assign>
+			<SubType>1</SubType>
+			<ComponentOwner Version="1">
+				<Components ObjectRef="65"/>
+			</ComponentOwner>
+			<Panner ObjectRef="70"/>
+			<AutomationMode>1</AutomationMode>
+			<FrameRate>5292000</FrameRate>
+			<ChannelType>1</ChannelType>
+			<ID>7a6a6cbb-78c5-4c70-9674-fb655132d238</ID>
+		</AudioTrack>
+		<RecordChannel>0</RecordChannel>
+	</AudioClipTrack>
+	<AudioComponentChain ObjectID="65" ClassID="3cb131d1-d3c0-47ae-a19a-bdf75ea11674" Version="3">
+		<ComponentChain Version="2">
+			<Node Version="1">
+			</Node>
+			<NextComponentID>3</NextComponentID>
+			<Components Version="1">
+				<Component Index="0" ObjectRef="66"/>
+				<Component Index="1" ObjectRef="69"/>
+			</Components>
+		</ComponentChain>
+		<AutomationMode>1</AutomationMode>
+		<FrameRate>5292000</FrameRate>
+		<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+		<ChannelType>1</ChannelType>
+	</AudioComponentChain>
+	<AudioFader ObjectID="66" ClassID="1a38c583-ed5c-11d5-abc4-c1cbf61ec590" Version="3">
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<Params Version="1">
+					<Param Index="0" ObjectRef="67"/>
+					<Param Index="1" ObjectRef="68"/>
+				</Params>
+				<DisplayName></DisplayName>
+				<Bypass>false</Bypass>
+				<ID>1</ID>
+			</Component>
+			<AudioComponentType>1</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioFader>
+	<AudioComponentParam ObjectID="67" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12184493013</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString>dB</UnitsString>
+		<UpperBound>2.</UpperBound>
+		<StartKeyframe>-91445760000000000,1.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Volume</Name>
+	</AudioComponentParam>
+	<AudioComponentParam ObjectID="68" ClassID="32657501-3aa4-445f-a49b-d09ecb9fa1ae" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12184493038</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Mute</Name>
+	</AudioComponentParam>
+	<AudioMeter ObjectID="69" ClassID="72ea4700-f615-11d5-abc4-c186585e63e0" Version="2">
+		<NumChannels>2</NumChannels>
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<DisplayName></DisplayName>
+				<Bypass>false</Bypass>
+				<ID>2</ID>
+			</Component>
+			<AudioComponentType>2</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioMeter>
+	<StereoToStereoPanProcessor ObjectID="70" ClassID="7bf86a01-efbe-11d5-abc4-c1ce2b1e9090" Version="1">
+		<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+		<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+		<PanProcessor Version="3">
+			<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+			<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+			<AudioComponent Version="3">
+				<Component Version="3">
+					<Node Version="1">
+					</Node>
+					<Intrinsic>false</Intrinsic>
+					<Params Version="1">
+						<Param Index="0" ObjectRef="71"/>
+					</Params>
+					<DisplayName></DisplayName>
+					<Bypass>false</Bypass>
+					<ID>4294967280</ID>
+				</Component>
+				<AudioComponentType>0</AudioComponentType>
+				<FrameRate>5292000</FrameRate>
+				<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+				<ChannelType>1</ChannelType>
+			</AudioComponent>
+		</PanProcessor>
+	</StereoToStereoPanProcessor>
+	<AudioComponentParam ObjectID="71" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12184522593</Timestamp>
+		<IsInverted>true</IsInverted>
+		<CurrentValue>0.5</CurrentValue>
+		<RangeLocked>true</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,0.5,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Balance</Name>
+	</AudioComponentParam>
+	<AudioClipTrack ObjectID="72" ClassID="097f6203-99ae-11d5-84f2-8cf14bde7040" Version="6">
+		<ClipTrack Version="2">
+			<Track Version="3">
+				<IsSyncLocked>true</IsSyncLocked>
+				<Index>5</Index>
+				<IsMuted>false</IsMuted>
+				<Node Version="1">
+					<Properties Version="1">
+						<TL.SQTrackAudioKeyframeStyle>0</TL.SQTrackAudioKeyframeStyle>
+						<TL.SQTrackAudioDisplayStyle>0</TL.SQTrackAudioDisplayStyle>
+						<TL.SQTrackExpanded>0</TL.SQTrackExpanded>
+						<TL.SQTrackCollapsedHeight>31</TL.SQTrackCollapsedHeight>
+						<TL.SQTrackShy>0</TL.SQTrackShy>
+						<MZ.TrackName>Narration</MZ.TrackName>
+						<BE.AudioClipTrackTypeKey>2</BE.AudioClipTrackTypeKey>
+					</Properties>
+				</Node>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+				<IsLocked>false</IsLocked>
+				<ID>5</ID>
+			</Track>
+			<TransitionItems Version="3">
+				<Index>5</Index>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+			</TransitionItems>
+			<ClipItems Version="3">
+				<Index>5</Index>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+			</ClipItems>
+		</ClipTrack>
+		<AudioTrack Version="11">
+			<MutedBySolo>0</MutedBySolo>
+			<Solo>0</Solo>
+			<NextPannerID>4294967279</NextPannerID>
+			<Assign>1</Assign>
+			<SubType>1</SubType>
+			<ComponentOwner Version="1">
+				<Components ObjectRef="73"/>
+			</ComponentOwner>
+			<Panner ObjectRef="78"/>
+			<AutomationMode>1</AutomationMode>
+			<FrameRate>5292000</FrameRate>
+			<ChannelType>1</ChannelType>
+			<ID>70cf16a3-6793-42b4-80a2-316b9e7075b4</ID>
+		</AudioTrack>
+		<RecordChannel>0</RecordChannel>
+	</AudioClipTrack>
+	<AudioComponentChain ObjectID="73" ClassID="3cb131d1-d3c0-47ae-a19a-bdf75ea11674" Version="3">
+		<ComponentChain Version="2">
+			<Node Version="1">
+			</Node>
+			<NextComponentID>3</NextComponentID>
+			<Components Version="1">
+				<Component Index="0" ObjectRef="74"/>
+				<Component Index="1" ObjectRef="77"/>
+			</Components>
+		</ComponentChain>
+		<AutomationMode>1</AutomationMode>
+		<FrameRate>5292000</FrameRate>
+		<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+		<ChannelType>1</ChannelType>
+	</AudioComponentChain>
+	<AudioFader ObjectID="74" ClassID="1a38c583-ed5c-11d5-abc4-c1cbf61ec590" Version="3">
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<Params Version="1">
+					<Param Index="0" ObjectRef="75"/>
+					<Param Index="1" ObjectRef="76"/>
+				</Params>
+				<DisplayName></DisplayName>
+				<Bypass>false</Bypass>
+				<ID>1</ID>
+			</Component>
+			<AudioComponentType>1</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioFader>
+	<AudioComponentParam ObjectID="75" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12108634101</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString>dB</UnitsString>
+		<UpperBound>2.</UpperBound>
+		<StartKeyframe>-91445760000000000,1.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Volume</Name>
+	</AudioComponentParam>
+	<AudioComponentParam ObjectID="76" ClassID="32657501-3aa4-445f-a49b-d09ecb9fa1ae" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12108634112</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Mute</Name>
+	</AudioComponentParam>
+	<AudioMeter ObjectID="77" ClassID="72ea4700-f615-11d5-abc4-c186585e63e0" Version="2">
+		<NumChannels>2</NumChannels>
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<DisplayName></DisplayName>
+				<Bypass>false</Bypass>
+				<ID>2</ID>
+			</Component>
+			<AudioComponentType>2</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioMeter>
+	<StereoToStereoPanProcessor ObjectID="78" ClassID="7bf86a01-efbe-11d5-abc4-c1ce2b1e9090" Version="1">
+		<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+		<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+		<PanProcessor Version="3">
+			<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+			<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+			<AudioComponent Version="3">
+				<Component Version="3">
+					<Node Version="1">
+					</Node>
+					<Intrinsic>false</Intrinsic>
+					<Params Version="1">
+						<Param Index="0" ObjectRef="79"/>
+					</Params>
+					<DisplayName></DisplayName>
+					<Bypass>false</Bypass>
+					<ID>4294967280</ID>
+				</Component>
+				<AudioComponentType>0</AudioComponentType>
+				<FrameRate>5292000</FrameRate>
+				<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+				<ChannelType>1</ChannelType>
+			</AudioComponent>
+		</PanProcessor>
+	</StereoToStereoPanProcessor>
+	<AudioComponentParam ObjectID="79" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12108634192</Timestamp>
+		<IsInverted>true</IsInverted>
+		<CurrentValue>0.5</CurrentValue>
+		<RangeLocked>true</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,0.5,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Balance</Name>
+	</AudioComponentParam>
+	<AudioClipTrack ObjectID="80" ClassID="097f6203-99ae-11d5-84f2-8cf14bde7040" Version="6">
+		<ClipTrack Version="2">
+			<Track Version="3">
+				<IsSyncLocked>true</IsSyncLocked>
+				<Index>6</Index>
+				<IsMuted>false</IsMuted>
+				<Node Version="1">
+					<Properties Version="1">
+						<TL.SQTrackAudioKeyframeStyle>0</TL.SQTrackAudioKeyframeStyle>
+						<TL.SQTrackAudioDisplayStyle>0</TL.SQTrackAudioDisplayStyle>
+						<TL.SQTrackExpanded>0</TL.SQTrackExpanded>
+						<TL.SQTrackCollapsedHeight>31</TL.SQTrackCollapsedHeight>
+						<TL.SQTrackShy>0</TL.SQTrackShy>
+						<MZ.TrackName>Soundtrack</MZ.TrackName>
+						<BE.AudioClipTrackTypeKey>3</BE.AudioClipTrackTypeKey>
+					</Properties>
+				</Node>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+				<IsLocked>false</IsLocked>
+				<ID>6</ID>
+			</Track>
+			<TransitionItems Version="3">
+				<Index>6</Index>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+			</TransitionItems>
+			<ClipItems Version="3">
+				<TrackItems Version="1">
+					<TrackItem Index="0" ObjectRef="81"/>
+				</TrackItems>
+				<Index>6</Index>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+			</ClipItems>
+		</ClipTrack>
+		<AudioTrack Version="11">
+			<MutedBySolo>0</MutedBySolo>
+			<Solo>0</Solo>
+			<NextPannerID>4294967279</NextPannerID>
+			<Assign>1</Assign>
+			<SubType>1</SubType>
+			<ComponentOwner Version="1">
+				<Components ObjectRef="116"/>
+			</ComponentOwner>
+			<Panner ObjectRef="121"/>
+			<AutomationMode>1</AutomationMode>
+			<FrameRate>5292000</FrameRate>
+			<ChannelType>1</ChannelType>
+			<ID>7c2df8d0-e8c4-452d-9456-57fe26ba57ce</ID>
+		</AudioTrack>
+		<RecordChannel>0</RecordChannel>
+	</AudioClipTrack>
+	<AudioClipTrackItem ObjectID="81" ClassID="064ec682-9ba6-11d5-af2d-9ca32c7d6164" Version="6">
+		<ClipTrackItem Version="4">
+			<TrackItem Version="3">
+				<TrackRefCount>1</TrackRefCount>
+				<TrackIndex>6</TrackIndex>
+				<Node Version="1">
+				</Node>
+				<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+				<Type>1</Type>
+				<End>24969315571200</End>
+				<Start>0</Start>
+			</TrackItem>
+			<LinkRefCount>1</LinkRefCount>
+			<GroupRefCount>0</GroupRefCount>
+			<IsMuted>false</IsMuted>
+			<SubClip ObjectRef="82"/>
+			<ComponentOwner Version="1">
+				<Components ObjectRef="104"/>
+			</ComponentOwner>
+		</ClipTrackItem>
+		<Panner ObjectRef="114"/>
+		<ID>c3ac6bd8-52e4-4f56-b8fd-2d9e81ca9bc8</ID>
+	</AudioClipTrackItem>
+	<SubClip ObjectID="82" ClassID="e0c58dc9-dbdd-4166-aef7-5db7e3f22e84" Version="3">
+		<Node Version="1">
+		</Node>
+		<Clip ObjectRef="83"/>
+		<MasterClip ObjectURef="40ba0331-d6a5-4d45-978a-05dcf00ebcd5"/>
+		<Name>almost complete gsa 2014 app.mpg</Name>
+	</SubClip>
+	<AudioClip ObjectID="83" ClassID="b8830d03-de02-41ee-84ec-fe566dc70cd9" Version="8">
+		<Clip Version="14">
+			<MarkerOwner Version="1">
+				<Markers ObjectRef="84"/>
+			</MarkerOwner>
+			<Node Version="1">
+				<Properties Version="1">
+					<asl.clip.label.name>BE.Prefs.LabelColors.5</asl.clip.label.name>
+					<asl.clip.label.color>5921370</asl.clip.label.color>
+				</Properties>
+			</Node>
+			<Source ObjectRef="85"/>
+			<OutPoint>26011822636800</OutPoint>
+			<InPoint>1042507065600</InPoint>
+			<FrameRate>5292000</FrameRate>
+			<ClipID>8bffeca7-3138-4dfd-b839-e38e27384aa6</ClipID>
+		</Clip>
+		<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+		<SecondaryIndex>0</SecondaryIndex>
+		<SecondaryContents Version="1">
+			<SecondaryContentItem Index="0" ObjectRef="88"/>
+			<SecondaryContentItem Index="1" ObjectRef="89"/>
+		</SecondaryContents>
+		<Gain>1.</Gain>
+	</AudioClip>
+	<Markers ObjectID="84" ClassID="bee50706-b524-416c-9f03-b596ce5f6866" Version="3">
+		<LastMetadataState>00000000-0000-0000-0000-000000000000</LastMetadataState>
+		<ByGUID>byGUID</ByGUID>
+		<Node Version="1">
+		</Node>
+	</Markers>
+	<AudioMediaSource ObjectID="85" ClassID="f588da05-fc2a-4fbc-9383-74d653b379e3" Version="2">
+		<MediaSource Version="3">
+			<Media ObjectURef="4616cfd9-bdca-4f1f-812e-053653ceb75f"/>
+			<Content Version="6">
+				<Node Version="1">
+				</Node>
+				<ProxyEnabled>false</ProxyEnabled>
+				<EndBoundary>-101606400000000000</EndBoundary>
+				<StartBoundary>-101606400000000000</StartBoundary>
+			</Content>
+		</MediaSource>
+		<OriginalDuration>26011822636800</OriginalDuration>
+	</AudioMediaSource>
+	<AudioStream ObjectID="86" ClassID="0b5cf52f-2b85-4863-890b-8844b64ecfe9" Version="5">
+		<SingleChannel>-1</SingleChannel>
+		<ConformedAudioPath></ConformedAudioPath>
+		<CodecType>0</CodecType>
+		<DisplayFrameRate>5292000</DisplayFrameRate>
+		<SampleType>7</SampleType>
+		<Duration>26011822636800</Duration>
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioStream>
+	<VideoStream ObjectID="87" ClassID="a36e4719-3ec6-4a0c-ab11-8b4aab377aa5" Version="13">
+		<OverriddenAlphaMatterColor>0,0,0</OverriddenAlphaMatterColor>
+		<IsAlphaMatteColorOverridden>false</IsAlphaMatteColorOverridden>
+		<OriginalAlphaMatteColor>0,0,0</OriginalAlphaMatteColor>
+		<FieldTypeIsUncertain>false</FieldTypeIsUncertain>
+		<OverriddenFieldType>3</OverriddenFieldType>
+		<IsFieldTypeOverridden>false</IsFieldTypeOverridden>
+		<OriginalFieldType>2</OriginalFieldType>
+		<OverriddenInvertAlpha>false</OverriddenInvertAlpha>
+		<IsInvertAlphaOverridden>false</IsInvertAlphaOverridden>
+		<OverriddenIgnoreAlpha>false</OverriddenIgnoreAlpha>
+		<IsIgnoreAlphaOverridden>false</IsIgnoreAlphaOverridden>
+		<AlphaInfoIsUncertain>false</AlphaInfoIsUncertain>
+		<OverriddenAlphaType>0</OverriddenAlphaType>
+		<IsAlphaTypeOverridden>false</IsAlphaTypeOverridden>
+		<AlphaType>0</AlphaType>
+		<PARIsUncertain>false</PARIsUncertain>
+		<OverriddenPAR>1,1</OverriddenPAR>
+		<IsPAROverridden>false</IsPAROverridden>
+		<OriginalPAR>10,11</OriginalPAR>
+		<FrameRect>0,0,720,480</FrameRect>
+		<OveriddenFrameRate>9223372036854775807</OveriddenFrameRate>
+		<CodecType>1297106247</CodecType>
+		<Duration>26011822636800</Duration>
+		<FrameRate>8475667200</FrameRate>
+	</VideoStream>
+	<SecondaryContent ObjectID="88" ClassID="f9d004b5-cb04-4e2f-af6f-64fadc2c4be9" Version="1">
+		<ChannelIndex>0</ChannelIndex>
+		<Content ObjectRef="85"/>
+	</SecondaryContent>
+	<SecondaryContent ObjectID="89" ClassID="f9d004b5-cb04-4e2f-af6f-64fadc2c4be9" Version="1">
+		<ChannelIndex>1</ChannelIndex>
+		<Content ObjectRef="85"/>
+	</SecondaryContent>
+	<VideoClip ObjectID="90" ClassID="9308dbef-2440-4acb-9ab2-953b9a4e82ec" Version="9">
+		<ScaleToFramePolicy>1</ScaleToFramePolicy>
+		<AdjustmentLayer>false</AdjustmentLayer>
+		<FrameBlend>false</FrameBlend>
+		<FieldProcessing>0</FieldProcessing>
+		<ReverseFieldDominance>false</ReverseFieldDominance>
+		<DeinterlaceOnHold>false</DeinterlaceOnHold>
+		<HoldFilters>false</HoldFilters>
+		<FrameHold>0</FrameHold>
+		<PosterFrame>0</PosterFrame>
+		<Clip Version="14">
+			<MarkerOwner Version="1">
+				<Markers ObjectRef="91"/>
+			</MarkerOwner>
+			<Node Version="1">
+				<Properties Version="1">
+					<asl.clip.label.name>BE.Prefs.LabelColors.5</asl.clip.label.name>
+					<asl.clip.label.color>5921370</asl.clip.label.color>
+				</Properties>
+			</Node>
+			<InUse>false</InUse>
+			<Source ObjectRef="92"/>
+			<FrameRate>8475667200</FrameRate>
+			<ClipID>58714e70-8b19-44b7-b378-50701d203c13</ClipID>
+		</Clip>
+	</VideoClip>
+	<Markers ObjectID="91" ClassID="bee50706-b524-416c-9f03-b596ce5f6866" Version="3">
+		<LastMetadataState>00000000-0000-0000-0000-000000000000</LastMetadataState>
+		<ByGUID>byGUID</ByGUID>
+		<Node Version="1">
+		</Node>
+	</Markers>
+	<VideoMediaSource ObjectID="92" ClassID="e64ddf74-8fac-4682-8aa8-0e0ca2248949" Version="2">
+		<MediaSource Version="3">
+			<Media ObjectURef="4616cfd9-bdca-4f1f-812e-053653ceb75f"/>
+			<Content Version="6">
+				<Node Version="1">
+				</Node>
+				<ProxyEnabled>false</ProxyEnabled>
+				<EndBoundary>-101606400000000000</EndBoundary>
+				<StartBoundary>-101606400000000000</StartBoundary>
+			</Content>
+		</MediaSource>
+		<OriginalDuration>26011822636800</OriginalDuration>
+	</VideoMediaSource>
+	<AudioClip ObjectID="93" ClassID="b8830d03-de02-41ee-84ec-fe566dc70cd9" Version="8">
+		<Clip Version="14">
+			<MarkerOwner Version="1">
+				<Markers ObjectRef="84"/>
+			</MarkerOwner>
+			<Node Version="1">
+				<Properties Version="1">
+					<asl.clip.label.name>BE.Prefs.LabelColors.5</asl.clip.label.name>
+					<asl.clip.label.color>5921370</asl.clip.label.color>
+				</Properties>
+			</Node>
+			<InUse>false</InUse>
+			<Source ObjectRef="85"/>
+			<FrameRate>5292000</FrameRate>
+			<ClipID>170207a7-a5a7-4f0c-a0b2-addfc05d19af</ClipID>
+		</Clip>
+		<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+		<SecondaryIndex>0</SecondaryIndex>
+		<SecondaryContents Version="1">
+			<SecondaryContentItem Index="0" ObjectRef="94"/>
+			<SecondaryContentItem Index="1" ObjectRef="95"/>
+		</SecondaryContents>
+		<Gain>1.</Gain>
+	</AudioClip>
+	<SecondaryContent ObjectID="94" ClassID="f9d004b5-cb04-4e2f-af6f-64fadc2c4be9" Version="1">
+		<ChannelIndex>0</ChannelIndex>
+		<Content ObjectRef="85"/>
+	</SecondaryContent>
+	<SecondaryContent ObjectID="95" ClassID="f9d004b5-cb04-4e2f-af6f-64fadc2c4be9" Version="1">
+		<ChannelIndex>1</ChannelIndex>
+		<Content ObjectRef="85"/>
+	</SecondaryContent>
+	<ChildClipIDSerializer ObjectID="96" ClassID="4e5c7474-0c8b-4b51-908f-1f5b607dc751" Version="1">
+		<ID>8bffeca7-3138-4dfd-b839-e38e27384aa6</ID>
+	</ChildClipIDSerializer>
+	<ClipLoggingInfo ObjectID="97" ClassID="77ab7fdd-dcdf-465d-9906-7a330ca1e738" Version="4">
+		<DateShot>1980,1,1</DateShot>
+		<MediaFrameRate>8475667200</MediaFrameRate>
+		<MediaOutPoint>26011822636800</MediaOutPoint>
+		<MediaInPoint>0</MediaInPoint>
+		<TimecodeFormat>103</TimecodeFormat>
+		<LogNote></LogNote>
+		<ShotTake></ShotTake>
+		<Scene></Scene>
+		<Description></Description>
+		<ClipName>almost complete gsa 2014 app.mpg</ClipName>
+		<TapeName></TapeName>
+		<CaptureMode>3</CaptureMode>
+	</ClipLoggingInfo>
+	<ClipChannelGroupVectorSerializer ObjectID="98" ClassID="a3127a8c-95d4-456e-a7f5-171b3f922426" Version="1">
+		<ClipChannelVectors Version="1">
+			<ClipChannelVectorItem Index="0" ObjectRef="99"/>
+		</ClipChannelVectors>
+	</ClipChannelGroupVectorSerializer>
+	<ClipChannelVectorSerializer ObjectID="99" ClassID="333d203b-3a53-4195-8894-fc7523ff3dc7" Version="1">
+		<ClipChannels Version="1">
+			<ClipChannelItem Index="0" ObjectRef="100"/>
+			<ClipChannelItem Index="1" ObjectRef="101"/>
+		</ClipChannels>
+		<ChannelType>1</ChannelType>
+	</ClipChannelVectorSerializer>
+	<ClipChannelSerializer ObjectID="100" ClassID="5c89aa7a-89a6-4483-becd-f2b1def42316" Version="1">
+		<mSourceChannelIndex>0</mSourceChannelIndex>
+		<SourceClipIndex>0</SourceClipIndex>
+	</ClipChannelSerializer>
+	<ClipChannelSerializer ObjectID="101" ClassID="5c89aa7a-89a6-4483-becd-f2b1def42316" Version="1">
+		<mSourceChannelIndex>1</mSourceChannelIndex>
+		<SourceClipIndex>0</SourceClipIndex>
+	</ClipChannelSerializer>
+	<AudioComponentChain ObjectID="102" ClassID="3cb131d1-d3c0-47ae-a19a-bdf75ea11674" Version="3">
+		<ComponentChain Version="2">
+			<Node Version="1">
+			</Node>
+			<NextComponentID>1</NextComponentID>
+		</ComponentChain>
+		<AutomationMode>1</AutomationMode>
+		<FrameRate>5292000</FrameRate>
+		<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+		<ChannelType>1</ChannelType>
+	</AudioComponentChain>
+	<VideoComponentChain ObjectID="103" ClassID="0970e08a-f58f-4108-b29a-1a717b8e12e2" Version="1">
+		<ComponentChain Version="2">
+			<Node Version="1">
+			</Node>
+			<NextComponentID>1</NextComponentID>
+		</ComponentChain>
+	</VideoComponentChain>
+	<AudioComponentChain ObjectID="104" ClassID="3cb131d1-d3c0-47ae-a19a-bdf75ea11674" Version="3">
+		<ComponentChain Version="2">
+			<Node Version="1">
+				<Properties Version="1">
+					<MZ.ComponentChain.ActiveComponentParamIndex>4294967295</MZ.ComponentChain.ActiveComponentParamIndex>
+					<MZ.ComponentChain.ActiveComponentID>1</MZ.ComponentChain.ActiveComponentID>
+				</Properties>
+			</Node>
+			<NextComponentID>5</NextComponentID>
+			<Components Version="1">
+				<Component Index="0" ObjectRef="105"/>
+				<Component Index="1" ObjectRef="108"/>
+				<Component Index="2" ObjectRef="111"/>
+			</Components>
+		</ComponentChain>
+		<DefaultVol>true</DefaultVol>
+		<AutomationMode>1</AutomationMode>
+		<FrameRate>5292000</FrameRate>
+		<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+		<ChannelType>1</ChannelType>
+	</AudioComponentChain>
+	<AudioFilterComponent ObjectID="105" ClassID="d77a90a0-6c9e-44bf-9b20-de8c21168fe1" Version="2">
+		<FilterPreset>0</FilterPreset>
+		<FilterIndex>-1</FilterIndex>
+		<FilterMatchName>Internal Balance</FilterMatchName>
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>true</Intrinsic>
+				<Params Version="1">
+					<Param Index="0" ObjectRef="106"/>
+					<Param Index="1" ObjectRef="107"/>
+				</Params>
+				<DisplayName></DisplayName>
+				<Bypass>false</Bypass>
+				<ID>2</ID>
+			</Component>
+			<AudioComponentType>0</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioFilterComponent>
+	<AudioComponentParam ObjectID="106" ClassID="32657501-3aa4-445f-a49b-d09ecb9fa1ae" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12163953668</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Bypass</Name>
+	</AudioComponentParam>
+	<AudioComponentParam ObjectID="107" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12163953692</Timestamp>
+		<IsInverted>true</IsInverted>
+		<CurrentValue>0.5</CurrentValue>
+		<RangeLocked>true</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,0.5,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Balance</Name>
+	</AudioComponentParam>
+	<AudioFilterComponent ObjectID="108" ClassID="d77a90a0-6c9e-44bf-9b20-de8c21168fe1" Version="2">
+		<FilterPreset>0</FilterPreset>
+		<FilterIndex>-1</FilterIndex>
+		<FilterMatchName>Internal Treble Stereo</FilterMatchName>
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<Params Version="1">
+					<Param Index="0" ObjectRef="109"/>
+					<Param Index="1" ObjectRef="110"/>
+				</Params>
+				<DisplayName></DisplayName>
+				<Bypass>true</Bypass>
+				<ID>3</ID>
+			</Component>
+			<AudioComponentType>0</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioFilterComponent>
+	<AudioComponentParam ObjectID="109" ClassID="32657501-3aa4-445f-a49b-d09ecb9fa1ae" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12163954758</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Bypass</Name>
+	</AudioComponentParam>
+	<AudioComponentParam ObjectID="110" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12163954789</Timestamp>
+		<IsInverted>false</IsInverted>
+		<CurrentValue>0.5</CurrentValue>
+		<RangeLocked>true</RangeLocked>
+		<UnitsString>dB</UnitsString>
+		<StartKeyframe>-91445760000000000,0.5,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name> Boost </Name>
+	</AudioComponentParam>
+	<AudioFilterComponent ObjectID="111" ClassID="d77a90a0-6c9e-44bf-9b20-de8c21168fe1" Version="2">
+		<FilterPreset>0</FilterPreset>
+		<FilterIndex>-1</FilterIndex>
+		<FilterMatchName>Internal Bass Stereo</FilterMatchName>
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<Params Version="1">
+					<Param Index="0" ObjectRef="112"/>
+					<Param Index="1" ObjectRef="113"/>
+				</Params>
+				<DisplayName></DisplayName>
+				<Bypass>true</Bypass>
+				<ID>4</ID>
+			</Component>
+			<AudioComponentType>0</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioFilterComponent>
+	<AudioComponentParam ObjectID="112" ClassID="32657501-3aa4-445f-a49b-d09ecb9fa1ae" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12163954901</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Bypass</Name>
+	</AudioComponentParam>
+	<AudioComponentParam ObjectID="113" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12163954927</Timestamp>
+		<IsInverted>false</IsInverted>
+		<CurrentValue>0.5</CurrentValue>
+		<RangeLocked>true</RangeLocked>
+		<UnitsString>dB</UnitsString>
+		<StartKeyframe>-91445760000000000,0.5,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Boost</Name>
+	</AudioComponentParam>
+	<StereoToStereoPanProcessor ObjectID="114" ClassID="7bf86a01-efbe-11d5-abc4-c1ce2b1e9090" Version="1">
+		<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+		<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+		<PanProcessor Version="3">
+			<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+			<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+			<AudioComponent Version="3">
+				<Component Version="3">
+					<Node Version="1">
+					</Node>
+					<Intrinsic>false</Intrinsic>
+					<Params Version="1">
+						<Param Index="0" ObjectRef="115"/>
+					</Params>
+					<DisplayName></DisplayName>
+					<Bypass>false</Bypass>
+					<ID>4294967040</ID>
+				</Component>
+				<AudioComponentType>0</AudioComponentType>
+				<FrameRate>5292000</FrameRate>
+				<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+				<ChannelType>1</ChannelType>
+			</AudioComponent>
+		</PanProcessor>
+	</StereoToStereoPanProcessor>
+	<AudioComponentParam ObjectID="115" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12163955554</Timestamp>
+		<IsInverted>true</IsInverted>
+		<CurrentValue>0.5</CurrentValue>
+		<RangeLocked>true</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,0.5,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Balance</Name>
+	</AudioComponentParam>
+	<AudioComponentChain ObjectID="116" ClassID="3cb131d1-d3c0-47ae-a19a-bdf75ea11674" Version="3">
+		<ComponentChain Version="2">
+			<Node Version="1">
+			</Node>
+			<NextComponentID>3</NextComponentID>
+			<Components Version="1">
+				<Component Index="0" ObjectRef="117"/>
+				<Component Index="1" ObjectRef="120"/>
+			</Components>
+		</ComponentChain>
+		<AutomationMode>1</AutomationMode>
+		<FrameRate>5292000</FrameRate>
+		<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+		<ChannelType>1</ChannelType>
+	</AudioComponentChain>
+	<AudioFader ObjectID="117" ClassID="1a38c583-ed5c-11d5-abc4-c1cbf61ec590" Version="3">
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<Params Version="1">
+					<Param Index="0" ObjectRef="118"/>
+					<Param Index="1" ObjectRef="119"/>
+				</Params>
+				<DisplayName></DisplayName>
+				<Bypass>false</Bypass>
+				<ID>1</ID>
+			</Component>
+			<AudioComponentType>1</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioFader>
+	<AudioComponentParam ObjectID="118" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12108634286</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString>dB</UnitsString>
+		<UpperBound>2.</UpperBound>
+		<StartKeyframe>-91445760000000000,1.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Volume</Name>
+	</AudioComponentParam>
+	<AudioComponentParam ObjectID="119" ClassID="32657501-3aa4-445f-a49b-d09ecb9fa1ae" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12108634296</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Mute</Name>
+	</AudioComponentParam>
+	<AudioMeter ObjectID="120" ClassID="72ea4700-f615-11d5-abc4-c186585e63e0" Version="2">
+		<NumChannels>2</NumChannels>
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<DisplayName></DisplayName>
+				<Bypass>false</Bypass>
+				<ID>2</ID>
+			</Component>
+			<AudioComponentType>2</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioMeter>
+	<StereoToStereoPanProcessor ObjectID="121" ClassID="7bf86a01-efbe-11d5-abc4-c1ce2b1e9090" Version="1">
+		<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+		<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+		<PanProcessor Version="3">
+			<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+			<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+			<AudioComponent Version="3">
+				<Component Version="3">
+					<Node Version="1">
+					</Node>
+					<Intrinsic>false</Intrinsic>
+					<Params Version="1">
+						<Param Index="0" ObjectRef="122"/>
+					</Params>
+					<DisplayName></DisplayName>
+					<Bypass>false</Bypass>
+					<ID>4294967280</ID>
+				</Component>
+				<AudioComponentType>0</AudioComponentType>
+				<FrameRate>5292000</FrameRate>
+				<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+				<ChannelType>1</ChannelType>
+			</AudioComponent>
+		</PanProcessor>
+	</StereoToStereoPanProcessor>
+	<AudioComponentParam ObjectID="122" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12108634379</Timestamp>
+		<IsInverted>true</IsInverted>
+		<CurrentValue>0.5</CurrentValue>
+		<RangeLocked>true</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,0.5,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Balance</Name>
+	</AudioComponentParam>
+	<AudioMixTrack ObjectID="123" ClassID="4b1d8400-e89e-11d5-abc4-a1a13b1e80a0" Version="3">
+		<Track Version="3">
+			<IsSyncLocked>true</IsSyncLocked>
+			<Index>0</Index>
+			<IsMuted>false</IsMuted>
+			<Node Version="1">
+			</Node>
+			<MediaType>80b8e3d5-6dca-4195-aefb-cb5f407ab009</MediaType>
+			<IsLocked>false</IsLocked>
+			<ID>1</ID>
+		</Track>
+		<AudioTrack Version="11">
+			<MutedBySolo>0</MutedBySolo>
+			<Solo>0</Solo>
+			<NextPannerID>4294967279</NextPannerID>
+			<Assign>0</Assign>
+			<SubType>3</SubType>
+			<ComponentOwner Version="1">
+				<Components ObjectRef="125"/>
+			</ComponentOwner>
+			<Panner ObjectRef="130"/>
+			<AutomationMode>1</AutomationMode>
+			<FrameRate>5292000</FrameRate>
+			<ChannelType>1</ChannelType>
+			<ID>27cfefae-84ea-46df-960e-466eec0c3e98</ID>
+		</AudioTrack>
+		<Inlet ObjectRef="124"/>
+	</AudioMixTrack>
+	<AudioTrackInlet ObjectID="124" ClassID="be3af080-e8c6-11d5-abc4-a1c6d5dee670" Version="3">
+		<Sources Version="1">
+			<Source Index="0" ObjectRef="32"/>
+			<Source Index="1" ObjectRef="40"/>
+			<Source Index="2" ObjectRef="48"/>
+			<Source Index="3" ObjectRef="72"/>
+			<Source Index="4" ObjectRef="80"/>
+			<Source Index="5" ObjectRef="56"/>
+			<Source Index="6" ObjectRef="64"/>
+		</Sources>
+		<FrameRate>5292000</FrameRate>
+		<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+		<ChannelType>1</ChannelType>
+	</AudioTrackInlet>
+	<AudioComponentChain ObjectID="125" ClassID="3cb131d1-d3c0-47ae-a19a-bdf75ea11674" Version="3">
+		<ComponentChain Version="2">
+			<Node Version="1">
+			</Node>
+			<NextComponentID>3</NextComponentID>
+			<Components Version="1">
+				<Component Index="0" ObjectRef="126"/>
+				<Component Index="1" ObjectRef="129"/>
+			</Components>
+		</ComponentChain>
+		<AutomationMode>1</AutomationMode>
+		<FrameRate>5292000</FrameRate>
+		<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+		<ChannelType>1</ChannelType>
+	</AudioComponentChain>
+	<AudioFader ObjectID="126" ClassID="1a38c583-ed5c-11d5-abc4-c1cbf61ec590" Version="3">
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<Params Version="1">
+					<Param Index="0" ObjectRef="127"/>
+					<Param Index="1" ObjectRef="128"/>
+				</Params>
+				<DisplayName></DisplayName>
+				<Bypass>false</Bypass>
+				<ID>1</ID>
+			</Component>
+			<AudioComponentType>1</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioFader>
+	<AudioComponentParam ObjectID="127" ClassID="a714635e-a628-4b27-9d59-77eba47dbc1a" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12108633155</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString>dB</UnitsString>
+		<StartKeyframe>-91445760000000000,1.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Volume</Name>
+	</AudioComponentParam>
+	<AudioComponentParam ObjectID="128" ClassID="32657501-3aa4-445f-a49b-d09ecb9fa1ae" Version="9">
+		<Node Version="1">
+		</Node>
+		<Timestamp>12108633178</Timestamp>
+		<IsInverted>false</IsInverted>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<Name>Mute</Name>
+	</AudioComponentParam>
+	<AudioMeter ObjectID="129" ClassID="72ea4700-f615-11d5-abc4-c186585e63e0" Version="2">
+		<NumChannels>2</NumChannels>
+		<AudioComponent Version="3">
+			<Component Version="3">
+				<Node Version="1">
+				</Node>
+				<Intrinsic>false</Intrinsic>
+				<DisplayName></DisplayName>
+				<Bypass>false</Bypass>
+				<ID>2</ID>
+			</Component>
+			<AudioComponentType>2</AudioComponentType>
+			<FrameRate>5292000</FrameRate>
+			<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+			<ChannelType>1</ChannelType>
+		</AudioComponent>
+	</AudioMeter>
+	<DefaultPanProcessor ObjectID="130" ClassID="33a94282-ee2c-11d5-abc4-c1cd7f9e3c10" Version="2">
+		<DefaultPannerOutputChannelType>1</DefaultPannerOutputChannelType>
+		<DefaultPannerInputChannelType>1</DefaultPannerInputChannelType>
+		<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+		<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+		<PanProcessor Version="3">
+			<OutputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</OutputAudioChannelLayout>
+			<InputAudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</InputAudioChannelLayout>
+			<AudioComponent Version="3">
+				<Component Version="3">
+					<Node Version="1">
+					</Node>
+					<Intrinsic>false</Intrinsic>
+					<DisplayName></DisplayName>
+					<Bypass>false</Bypass>
+					<ID>4294967280</ID>
+				</Component>
+				<AudioComponentType>0</AudioComponentType>
+				<FrameRate>5292000</FrameRate>
+				<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+				<ChannelType>1</ChannelType>
+			</AudioComponent>
+		</PanProcessor>
+	</DefaultPanProcessor>
+	<SecondaryContent ObjectID="131" ClassID="f9d004b5-cb04-4e2f-af6f-64fadc2c4be9" Version="1">
+		<ChannelIndex>0</ChannelIndex>
+		<Content ObjectRef="21"/>
+	</SecondaryContent>
+	<SecondaryContent ObjectID="132" ClassID="f9d004b5-cb04-4e2f-af6f-64fadc2c4be9" Version="1">
+		<ChannelIndex>1</ChannelIndex>
+		<Content ObjectRef="21"/>
+	</SecondaryContent>
+	<VideoClip ObjectID="133" ClassID="9308dbef-2440-4acb-9ab2-953b9a4e82ec" Version="9">
+		<ScaleToFramePolicy>0</ScaleToFramePolicy>
+		<AdjustmentLayer>false</AdjustmentLayer>
+		<FrameBlend>false</FrameBlend>
+		<FieldProcessing>0</FieldProcessing>
+		<ReverseFieldDominance>false</ReverseFieldDominance>
+		<DeinterlaceOnHold>false</DeinterlaceOnHold>
+		<HoldFilters>false</HoldFilters>
+		<FrameHold>0</FrameHold>
+		<PosterFrame>0</PosterFrame>
+		<Clip Version="14">
+			<MarkerOwner Version="1">
+				<Markers ObjectRef="134"/>
+			</MarkerOwner>
+			<Node Version="1">
+			</Node>
+			<InUse>false</InUse>
+			<Source ObjectRef="135"/>
+			<FrameRate>8475667200</FrameRate>
+			<ClipID>363a0cb0-927d-41b0-9789-04e86461dc6a</ClipID>
+		</Clip>
+	</VideoClip>
+	<Markers ObjectID="134" ClassID="bee50706-b524-416c-9f03-b596ce5f6866" Version="3">
+		<LastMetadataState>00000000-0000-0000-0000-000000000000</LastMetadataState>
+		<ByGUID>byGUID</ByGUID>
+		<Node Version="1">
+		</Node>
+	</Markers>
+	<VideoSequenceSource ObjectID="135" ClassID="4752dfa9-7a7e-4a3b-a25b-cafde1a8d036" Version="3">
+		<SequenceSource Version="3">
+			<SelectedTrackIndex>0</SelectedTrackIndex>
+			<IsMulticam>false</IsMulticam>
+			<Sequence ObjectURef="cf6578c5-7dd1-4334-83eb-c60721dd8d0d"/>
+			<Content Version="6">
+				<Node Version="1">
+				</Node>
+				<ProxyEnabled>false</ProxyEnabled>
+				<EndBoundary>-101606400000000000</EndBoundary>
+				<StartBoundary>-101606400000000000</StartBoundary>
+			</Content>
+		</SequenceSource>
+		<OriginalDuration>38784653107200</OriginalDuration>
+	</VideoSequenceSource>
+	<ClipLoggingInfo ObjectID="136" ClassID="77ab7fdd-dcdf-465d-9906-7a330ca1e738" Version="4">
+		<DateShot>1980,1,1</DateShot>
+		<MediaFrameRate>9223372036854775807</MediaFrameRate>
+		<MediaOutPoint>-101606400000000000</MediaOutPoint>
+		<MediaInPoint>-101606400000000000</MediaInPoint>
+		<TimecodeFormat>999</TimecodeFormat>
+		<LogNote></LogNote>
+		<ShotTake></ShotTake>
+		<Scene></Scene>
+		<Description></Description>
+		<ClipName></ClipName>
+		<TapeName></TapeName>
+		<CaptureMode>3</CaptureMode>
+	</ClipLoggingInfo>
+	<ClipChannelGroupVectorSerializer ObjectID="137" ClassID="a3127a8c-95d4-456e-a7f5-171b3f922426" Version="1">
+		<ClipChannelVectors Version="1">
+			<ClipChannelVectorItem Index="0" ObjectRef="138"/>
+		</ClipChannelVectors>
+	</ClipChannelGroupVectorSerializer>
+	<ClipChannelVectorSerializer ObjectID="138" ClassID="333d203b-3a53-4195-8894-fc7523ff3dc7" Version="1">
+		<ClipChannels Version="1">
+			<ClipChannelItem Index="0" ObjectRef="139"/>
+			<ClipChannelItem Index="1" ObjectRef="140"/>
+		</ClipChannels>
+		<ChannelType>1</ChannelType>
+	</ClipChannelVectorSerializer>
+	<ClipChannelSerializer ObjectID="139" ClassID="5c89aa7a-89a6-4483-becd-f2b1def42316" Version="1">
+		<mSourceChannelIndex>0</mSourceChannelIndex>
+		<SourceClipIndex>0</SourceClipIndex>
+	</ClipChannelSerializer>
+	<ClipChannelSerializer ObjectID="140" ClassID="5c89aa7a-89a6-4483-becd-f2b1def42316" Version="1">
+		<mSourceChannelIndex>1</mSourceChannelIndex>
+		<SourceClipIndex>0</SourceClipIndex>
+	</ClipChannelSerializer>
+	<AudioComponentChain ObjectID="141" ClassID="3cb131d1-d3c0-47ae-a19a-bdf75ea11674" Version="3">
+		<ComponentChain Version="2">
+			<Node Version="1">
+			</Node>
+			<NextComponentID>1</NextComponentID>
+		</ComponentChain>
+		<AutomationMode>1</AutomationMode>
+		<FrameRate>5292000</FrameRate>
+		<AudioChannelLayout>{"SerializerWrappedObject": [{"channellabel": 100}, {"channellabel": 101}]}</AudioChannelLayout>
+		<ChannelType>1</ChannelType>
+	</AudioComponentChain>
+	<VideoComponentChain ObjectID="142" ClassID="0970e08a-f58f-4108-b29a-1a717b8e12e2" Version="1">
+		<ComponentChain Version="2">
+			<Node Version="1">
+			</Node>
+			<NextComponentID>1</NextComponentID>
+		</ComponentChain>
+	</VideoComponentChain>
+	<ProjectSettings ObjectID="143" ClassID="50c16708-a1a1-4d2f-98d5-4e283ae28353" Version="17">
+		<AudioProxyCompileSettings ObjectRef="152"/>
+		<VideoProxyCompileSettings ObjectRef="150"/>
+		<VideoProxyFileFormatID>73054d9b-502c-4235-83bb-197e392ccc9c</VideoProxyFileFormatID>
+		<PreviewFileFormatID>00000000-0000-0000-0000-000000000000</PreviewFileFormatID>
+		<EditingModeID>795454d9-d3c2-429d-9474-923ab13b7017</EditingModeID>
+		<ShouldScaleMedia>false</ShouldScaleMedia>
+		<TitleSafeHeight>20.</TitleSafeHeight>
+		<TitleSafeWidth>20.</TitleSafeWidth>
+		<ActionSafeHeight>10.</ActionSafeHeight>
+		<ActionSafeWidth>10.</ActionSafeWidth>
+		<AudioTimeDisplay>200</AudioTimeDisplay>
+		<VideoTimeDisplayInitial>102</VideoTimeDisplayInitial>
+		<VideoTimeDisplay>102</VideoTimeDisplay>
+		<DefaultSequenceSettings ObjectRef="155"/>
+		<VideoSettings ObjectRef="144"/>
+		<AudioCompileSettings ObjectRef="148"/>
+		<VideoCompileSettings ObjectRef="146"/>
+		<AudioSettings ObjectRef="145"/>
+		<CaptureSettings ObjectRef="154"/>
+	</ProjectSettings>
+	<VideoSettings ObjectID="144" ClassID="58474264-30c4-43a2-bba5-dc0812df8a3a" Version="9">
+		<MaximumBitDepth>false</MaximumBitDepth>
+		<PixelAspectRatio>10,11</PixelAspectRatio>
+		<FrameSize>0,0,720,480</FrameSize>
+		<FrameRate>8475667200</FrameRate>
+	</VideoSettings>
+	<AudioSettings ObjectID="145" ClassID="6baf5521-b132-4634-840e-13cec5bc86a4" Version="7">
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioSettings>
+	<VideoCompileSettings ObjectID="146" ClassID="db372db5-7de2-4d3c-98ae-f42659d77b22" Version="9">
+		<RelativeFrameSize>1</RelativeFrameSize>
+		<AddKeyframesAtEdits>false</AddKeyframesAtEdits>
+		<AddKeyframesAtMarkers>false</AddKeyframesAtMarkers>
+		<DoKeyframeEveryNFramesValue>0</DoKeyframeEveryNFramesValue>
+		<DoKeyframeEveryNFrames>false</DoKeyframeEveryNFrames>
+		<VideoFieldType>1</VideoFieldType>
+		<RealTimePreview>true</RealTimePreview>
+		<FramesAtMarkers>false</FramesAtMarkers>
+		<OptimizeStills>true</OptimizeStills>
+		<IgnoreVideoFilters>false</IgnoreVideoFilters>
+		<Deinterlace>false</Deinterlace>
+		<ForceRecompressValue>2</ForceRecompressValue>
+		<ForceRecompress>true</ForceRecompress>
+		<DataRate>3500</DataRate>
+		<UseDataRate>false</UseDataRate>
+		<Quality>100</Quality>
+		<Aspect43>false</Aspect43>
+		<RenderDepth>0</RenderDepth>
+		<Depth>0</Depth>
+		<VideoFileTypeFourCC>1299148630</VideoFileTypeFourCC>
+		<VideoCompilerClassIDFourCC>1061109567</VideoCompilerClassIDFourCC>
+		<VideoSettings ObjectRef="147"/>
+		<Compressor>1685480224</Compressor>
+	</VideoCompileSettings>
+	<VideoSettings ObjectID="147" ClassID="58474264-30c4-43a2-bba5-dc0812df8a3a" Version="9">
+		<MaximumBitDepth>false</MaximumBitDepth>
+		<PixelAspectRatio>10,11</PixelAspectRatio>
+		<FrameSize>0,0,720,480</FrameSize>
+		<FrameRate>8475667200</FrameRate>
+	</VideoSettings>
+	<AudioCompileSettings ObjectID="148" ClassID="34b10007-ab6d-49a7-bac5-7b60d919e387" Version="6">
+		<Interleave>1</Interleave>
+		<Compressor>1380013856</Compressor>
+		<AudioSettings ObjectRef="149"/>
+		<SampleType>3</SampleType>
+	</AudioCompileSettings>
+	<AudioSettings ObjectID="149" ClassID="6baf5521-b132-4634-840e-13cec5bc86a4" Version="7">
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioSettings>
+	<VideoCompileSettings ObjectID="150" ClassID="db372db5-7de2-4d3c-98ae-f42659d77b22" Version="9">
+		<RelativeFrameSize>1</RelativeFrameSize>
+		<AddKeyframesAtEdits>false</AddKeyframesAtEdits>
+		<AddKeyframesAtMarkers>false</AddKeyframesAtMarkers>
+		<DoKeyframeEveryNFramesValue>0</DoKeyframeEveryNFramesValue>
+		<DoKeyframeEveryNFrames>false</DoKeyframeEveryNFrames>
+		<VideoFieldType>1</VideoFieldType>
+		<RealTimePreview>true</RealTimePreview>
+		<FramesAtMarkers>false</FramesAtMarkers>
+		<OptimizeStills>true</OptimizeStills>
+		<IgnoreVideoFilters>false</IgnoreVideoFilters>
+		<Deinterlace>false</Deinterlace>
+		<ForceRecompressValue>2</ForceRecompressValue>
+		<ForceRecompress>true</ForceRecompress>
+		<DataRate>3500</DataRate>
+		<UseDataRate>false</UseDataRate>
+		<Quality>100</Quality>
+		<Aspect43>false</Aspect43>
+		<RenderDepth>0</RenderDepth>
+		<Depth>0</Depth>
+		<VideoFileTypeFourCC>1299148630</VideoFileTypeFourCC>
+		<VideoCompilerClassIDFourCC>1061109567</VideoCompilerClassIDFourCC>
+		<VideoSettings ObjectRef="151"/>
+		<Compressor>1685480224</Compressor>
+	</VideoCompileSettings>
+	<VideoSettings ObjectID="151" ClassID="58474264-30c4-43a2-bba5-dc0812df8a3a" Version="9">
+		<MaximumBitDepth>false</MaximumBitDepth>
+		<PixelAspectRatio>10,11</PixelAspectRatio>
+		<FrameSize>0,0,720,480</FrameSize>
+		<FrameRate>8475667200</FrameRate>
+	</VideoSettings>
+	<AudioCompileSettings ObjectID="152" ClassID="34b10007-ab6d-49a7-bac5-7b60d919e387" Version="6">
+		<Interleave>1</Interleave>
+		<Compressor>1380013856</Compressor>
+		<AudioSettings ObjectRef="153"/>
+		<SampleType>3</SampleType>
+	</AudioCompileSettings>
+	<AudioSettings ObjectID="153" ClassID="6baf5521-b132-4634-840e-13cec5bc86a4" Version="7">
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioSettings>
+	<CaptureSettings ObjectID="154" ClassID="328c2aa2-47f9-4211-805b-b6a6dbd4ca29" Version="10">
+		<RecorderID>e78a37b2-f5e0-11da-95f4-0016cb85b466</RecorderID>
+		<AbortCaptureOnDroppedFrames>false</AbortCaptureOnDroppedFrames>
+		<AudioChannelType>1</AudioChannelType>
+		<AudioSampleType>3</AudioSampleType>
+		<AudioFrameRate>5292000</AudioFrameRate>
+		<AudioCompressorDisplayName>Uncompressed</AudioCompressorDisplayName>
+		<AudioCompressorFourCC>1380013856</AudioCompressorFourCC>
+		<VideoCompressorDisplayName></VideoCompressorDisplayName>
+		<VideoCompressorFourCC>1685480224</VideoCompressorFourCC>
+		<VideoFrameSize>0,0,720,480</VideoFrameSize>
+		<VideoFrameRate>8475667200</VideoFrameRate>
+		<SupportedFileExtension>avi</SupportedFileExtension>
+		<RecordModuleDisplayName>DV</RecordModuleDisplayName>
+	</CaptureSettings>
+	<DefaultSequenceSettings ObjectID="155" ClassID="567bdf53-d6d9-4d61-b2f1-f4834bebea9b" Version="2">
+		<DefaultAudioSubmix51Tracks>0</DefaultAudioSubmix51Tracks>
+		<DefaultAudioSubmixStereoTracks>0</DefaultAudioSubmixStereoTracks>
+		<DefaultAudioSubmixMonoTracks>0</DefaultAudioSubmixMonoTracks>
+		<DefaultAudioStandard51Tracks>0</DefaultAudioStandard51Tracks>
+		<DefaultAudioStandardStereoTracks>3</DefaultAudioStandardStereoTracks>
+		<DefaultAudioStandardMonoTracks>0</DefaultAudioStandardMonoTracks>
+		<TotalVideoTracks>3</TotalVideoTracks>
+	</DefaultSequenceSettings>
+	<CompileSettings ObjectID="156" ClassID="18a35d66-597e-4157-b783-938b5bec3547" Version="4">
+		<AudioCompileSettings ObjectRef="159"/>
+		<VideoCompileSettings ObjectRef="157"/>
+		<EmbedProjectLink>false</EmbedProjectLink>
+		<ExportWorkAreaOnly>false</ExportWorkAreaOnly>
+		<BeepWhenFinished>false</BeepWhenFinished>
+		<AddToProjectWhenFinished>true</AddToProjectWhenFinished>
+		<ExportAudio>true</ExportAudio>
+		<ExportVideo>true</ExportVideo>
+		<CompilerFourCC>0</CompilerFourCC>
+		<CompilerClassIDFourCC>0</CompilerClassIDFourCC>
+	</CompileSettings>
+	<VideoCompileSettings ObjectID="157" ClassID="db372db5-7de2-4d3c-98ae-f42659d77b22" Version="9">
+		<RelativeFrameSize>1</RelativeFrameSize>
+		<AddKeyframesAtEdits>false</AddKeyframesAtEdits>
+		<AddKeyframesAtMarkers>false</AddKeyframesAtMarkers>
+		<DoKeyframeEveryNFramesValue>0</DoKeyframeEveryNFramesValue>
+		<DoKeyframeEveryNFrames>false</DoKeyframeEveryNFrames>
+		<VideoFieldType>0</VideoFieldType>
+		<RealTimePreview>true</RealTimePreview>
+		<FramesAtMarkers>false</FramesAtMarkers>
+		<OptimizeStills>false</OptimizeStills>
+		<IgnoreVideoFilters>false</IgnoreVideoFilters>
+		<Deinterlace>false</Deinterlace>
+		<ForceRecompressValue>2</ForceRecompressValue>
+		<ForceRecompress>true</ForceRecompress>
+		<DataRate>3500</DataRate>
+		<UseDataRate>false</UseDataRate>
+		<Quality>100</Quality>
+		<Aspect43>false</Aspect43>
+		<RenderDepth>0</RenderDepth>
+		<Depth>24</Depth>
+		<VideoFileTypeFourCC>1299148630</VideoFileTypeFourCC>
+		<VideoCompilerClassIDFourCC>1061109567</VideoCompilerClassIDFourCC>
+		<VideoSettings ObjectRef="158"/>
+		<Compressor>1685480224</Compressor>
+	</VideoCompileSettings>
+	<VideoSettings ObjectID="158" ClassID="58474264-30c4-43a2-bba5-dc0812df8a3a" Version="9">
+		<MaximumBitDepth>false</MaximumBitDepth>
+		<PixelAspectRatio>10,11</PixelAspectRatio>
+		<FrameSize>0,0,720,480</FrameSize>
+		<FrameRate>8475667200</FrameRate>
+	</VideoSettings>
+	<AudioCompileSettings ObjectID="159" ClassID="34b10007-ab6d-49a7-bac5-7b60d919e387" Version="6">
+		<Interleave>1</Interleave>
+		<Compressor>1380013856</Compressor>
+		<AudioSettings ObjectRef="160"/>
+		<SampleType>3</SampleType>
+	</AudioCompileSettings>
+	<AudioSettings ObjectID="160" ClassID="6baf5521-b132-4634-840e-13cec5bc86a4" Version="7">
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioSettings>
+	<CompileSettings ObjectID="161" ClassID="18a35d66-597e-4157-b783-938b5bec3547" Version="4">
+		<AudioCompileSettings ObjectRef="164"/>
+		<VideoCompileSettings ObjectRef="162"/>
+		<EmbedProjectLink>false</EmbedProjectLink>
+		<ExportWorkAreaOnly>false</ExportWorkAreaOnly>
+		<BeepWhenFinished>false</BeepWhenFinished>
+		<AddToProjectWhenFinished>true</AddToProjectWhenFinished>
+		<ExportAudio>true</ExportAudio>
+		<ExportVideo>true</ExportVideo>
+		<CompilerFourCC>0</CompilerFourCC>
+		<CompilerClassIDFourCC>0</CompilerClassIDFourCC>
+	</CompileSettings>
+	<VideoCompileSettings ObjectID="162" ClassID="db372db5-7de2-4d3c-98ae-f42659d77b22" Version="9">
+		<RelativeFrameSize>1</RelativeFrameSize>
+		<AddKeyframesAtEdits>false</AddKeyframesAtEdits>
+		<AddKeyframesAtMarkers>false</AddKeyframesAtMarkers>
+		<DoKeyframeEveryNFramesValue>0</DoKeyframeEveryNFramesValue>
+		<DoKeyframeEveryNFrames>false</DoKeyframeEveryNFrames>
+		<VideoFieldType>0</VideoFieldType>
+		<RealTimePreview>true</RealTimePreview>
+		<FramesAtMarkers>false</FramesAtMarkers>
+		<OptimizeStills>false</OptimizeStills>
+		<IgnoreVideoFilters>false</IgnoreVideoFilters>
+		<Deinterlace>false</Deinterlace>
+		<ForceRecompressValue>2</ForceRecompressValue>
+		<ForceRecompress>true</ForceRecompress>
+		<DataRate>3500</DataRate>
+		<UseDataRate>false</UseDataRate>
+		<Quality>100</Quality>
+		<Aspect43>false</Aspect43>
+		<RenderDepth>0</RenderDepth>
+		<Depth>24</Depth>
+		<VideoFileTypeFourCC>1299148630</VideoFileTypeFourCC>
+		<VideoCompilerClassIDFourCC>1061109567</VideoCompilerClassIDFourCC>
+		<VideoSettings ObjectRef="163"/>
+		<Compressor>1685480224</Compressor>
+	</VideoCompileSettings>
+	<VideoSettings ObjectID="163" ClassID="58474264-30c4-43a2-bba5-dc0812df8a3a" Version="9">
+		<MaximumBitDepth>false</MaximumBitDepth>
+		<PixelAspectRatio>10,11</PixelAspectRatio>
+		<FrameSize>0,0,720,480</FrameSize>
+		<FrameRate>8475667200</FrameRate>
+	</VideoSettings>
+	<AudioCompileSettings ObjectID="164" ClassID="34b10007-ab6d-49a7-bac5-7b60d919e387" Version="6">
+		<Interleave>1</Interleave>
+		<Compressor>1380013856</Compressor>
+		<AudioSettings ObjectRef="165"/>
+		<SampleType>3</SampleType>
+	</AudioCompileSettings>
+	<AudioSettings ObjectID="165" ClassID="6baf5521-b132-4634-840e-13cec5bc86a4" Version="7">
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioSettings>
+	<CompileSettings ObjectID="166" ClassID="18a35d66-597e-4157-b783-938b5bec3547" Version="4">
+		<AudioCompileSettings ObjectRef="169"/>
+		<VideoCompileSettings ObjectRef="167"/>
+		<EmbedProjectLink>false</EmbedProjectLink>
+		<ExportWorkAreaOnly>false</ExportWorkAreaOnly>
+		<BeepWhenFinished>false</BeepWhenFinished>
+		<AddToProjectWhenFinished>true</AddToProjectWhenFinished>
+		<ExportAudio>true</ExportAudio>
+		<ExportVideo>true</ExportVideo>
+		<CompilerFourCC>0</CompilerFourCC>
+		<CompilerClassIDFourCC>0</CompilerClassIDFourCC>
+	</CompileSettings>
+	<VideoCompileSettings ObjectID="167" ClassID="db372db5-7de2-4d3c-98ae-f42659d77b22" Version="9">
+		<RelativeFrameSize>1</RelativeFrameSize>
+		<AddKeyframesAtEdits>false</AddKeyframesAtEdits>
+		<AddKeyframesAtMarkers>false</AddKeyframesAtMarkers>
+		<DoKeyframeEveryNFramesValue>0</DoKeyframeEveryNFramesValue>
+		<DoKeyframeEveryNFrames>false</DoKeyframeEveryNFrames>
+		<VideoFieldType>0</VideoFieldType>
+		<RealTimePreview>true</RealTimePreview>
+		<FramesAtMarkers>false</FramesAtMarkers>
+		<OptimizeStills>false</OptimizeStills>
+		<IgnoreVideoFilters>false</IgnoreVideoFilters>
+		<Deinterlace>false</Deinterlace>
+		<ForceRecompressValue>2</ForceRecompressValue>
+		<ForceRecompress>true</ForceRecompress>
+		<DataRate>3500</DataRate>
+		<UseDataRate>false</UseDataRate>
+		<Quality>100</Quality>
+		<Aspect43>false</Aspect43>
+		<RenderDepth>0</RenderDepth>
+		<Depth>24</Depth>
+		<VideoFileTypeFourCC>1299148630</VideoFileTypeFourCC>
+		<VideoCompilerClassIDFourCC>1061109567</VideoCompilerClassIDFourCC>
+		<VideoSettings ObjectRef="168"/>
+		<Compressor>1685480224</Compressor>
+	</VideoCompileSettings>
+	<VideoSettings ObjectID="168" ClassID="58474264-30c4-43a2-bba5-dc0812df8a3a" Version="9">
+		<MaximumBitDepth>false</MaximumBitDepth>
+		<PixelAspectRatio>10,11</PixelAspectRatio>
+		<FrameSize>0,0,720,480</FrameSize>
+		<FrameRate>8475667200</FrameRate>
+	</VideoSettings>
+	<AudioCompileSettings ObjectID="169" ClassID="34b10007-ab6d-49a7-bac5-7b60d919e387" Version="6">
+		<Interleave>1</Interleave>
+		<Compressor>1380013856</Compressor>
+		<AudioSettings ObjectRef="170"/>
+		<SampleType>3</SampleType>
+	</AudioCompileSettings>
+	<AudioSettings ObjectID="170" ClassID="6baf5521-b132-4634-840e-13cec5bc86a4" Version="7">
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioSettings>
+	<CompileSettings ObjectID="171" ClassID="18a35d66-597e-4157-b783-938b5bec3547" Version="4">
+		<AudioCompileSettings ObjectRef="174"/>
+		<VideoCompileSettings ObjectRef="172"/>
+		<EmbedProjectLink>false</EmbedProjectLink>
+		<ExportWorkAreaOnly>false</ExportWorkAreaOnly>
+		<BeepWhenFinished>false</BeepWhenFinished>
+		<AddToProjectWhenFinished>true</AddToProjectWhenFinished>
+		<ExportAudio>true</ExportAudio>
+		<ExportVideo>true</ExportVideo>
+		<CompilerFourCC>0</CompilerFourCC>
+		<CompilerClassIDFourCC>0</CompilerClassIDFourCC>
+	</CompileSettings>
+	<VideoCompileSettings ObjectID="172" ClassID="db372db5-7de2-4d3c-98ae-f42659d77b22" Version="9">
+		<RelativeFrameSize>1</RelativeFrameSize>
+		<AddKeyframesAtEdits>false</AddKeyframesAtEdits>
+		<AddKeyframesAtMarkers>false</AddKeyframesAtMarkers>
+		<DoKeyframeEveryNFramesValue>0</DoKeyframeEveryNFramesValue>
+		<DoKeyframeEveryNFrames>false</DoKeyframeEveryNFrames>
+		<VideoFieldType>0</VideoFieldType>
+		<RealTimePreview>true</RealTimePreview>
+		<FramesAtMarkers>false</FramesAtMarkers>
+		<OptimizeStills>false</OptimizeStills>
+		<IgnoreVideoFilters>false</IgnoreVideoFilters>
+		<Deinterlace>false</Deinterlace>
+		<ForceRecompressValue>2</ForceRecompressValue>
+		<ForceRecompress>true</ForceRecompress>
+		<DataRate>3500</DataRate>
+		<UseDataRate>false</UseDataRate>
+		<Quality>100</Quality>
+		<Aspect43>false</Aspect43>
+		<RenderDepth>0</RenderDepth>
+		<Depth>24</Depth>
+		<VideoFileTypeFourCC>1299148630</VideoFileTypeFourCC>
+		<VideoCompilerClassIDFourCC>1061109567</VideoCompilerClassIDFourCC>
+		<VideoSettings ObjectRef="173"/>
+		<Compressor>1685480224</Compressor>
+	</VideoCompileSettings>
+	<VideoSettings ObjectID="173" ClassID="58474264-30c4-43a2-bba5-dc0812df8a3a" Version="9">
+		<MaximumBitDepth>false</MaximumBitDepth>
+		<PixelAspectRatio>10,11</PixelAspectRatio>
+		<FrameSize>0,0,720,480</FrameSize>
+		<FrameRate>8475667200</FrameRate>
+	</VideoSettings>
+	<AudioCompileSettings ObjectID="174" ClassID="34b10007-ab6d-49a7-bac5-7b60d919e387" Version="6">
+		<Interleave>1</Interleave>
+		<Compressor>1380013856</Compressor>
+		<AudioSettings ObjectRef="175"/>
+		<SampleType>3</SampleType>
+	</AudioCompileSettings>
+	<AudioSettings ObjectID="175" ClassID="6baf5521-b132-4634-840e-13cec5bc86a4" Version="7">
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioSettings>
+	<CompileSettings ObjectID="176" ClassID="18a35d66-597e-4157-b783-938b5bec3547" Version="4">
+		<AudioCompileSettings ObjectRef="179"/>
+		<VideoCompileSettings ObjectRef="177"/>
+		<EmbedProjectLink>false</EmbedProjectLink>
+		<ExportWorkAreaOnly>false</ExportWorkAreaOnly>
+		<BeepWhenFinished>false</BeepWhenFinished>
+		<AddToProjectWhenFinished>true</AddToProjectWhenFinished>
+		<ExportAudio>true</ExportAudio>
+		<ExportVideo>true</ExportVideo>
+		<CompilerFourCC>1299148630</CompilerFourCC>
+		<CompilerClassIDFourCC>1061109567</CompilerClassIDFourCC>
+	</CompileSettings>
+	<VideoCompileSettings ObjectID="177" ClassID="db372db5-7de2-4d3c-98ae-f42659d77b22" Version="9">
+		<RelativeFrameSize>1</RelativeFrameSize>
+		<AddKeyframesAtEdits>false</AddKeyframesAtEdits>
+		<AddKeyframesAtMarkers>false</AddKeyframesAtMarkers>
+		<DoKeyframeEveryNFramesValue>0</DoKeyframeEveryNFramesValue>
+		<DoKeyframeEveryNFrames>false</DoKeyframeEveryNFrames>
+		<VideoFieldType>1</VideoFieldType>
+		<RealTimePreview>true</RealTimePreview>
+		<FramesAtMarkers>false</FramesAtMarkers>
+		<OptimizeStills>true</OptimizeStills>
+		<IgnoreVideoFilters>false</IgnoreVideoFilters>
+		<Deinterlace>false</Deinterlace>
+		<ForceRecompressValue>2</ForceRecompressValue>
+		<ForceRecompress>true</ForceRecompress>
+		<DataRate>3500</DataRate>
+		<UseDataRate>false</UseDataRate>
+		<Quality>100</Quality>
+		<Aspect43>false</Aspect43>
+		<RenderDepth>0</RenderDepth>
+		<Depth>0</Depth>
+		<VideoFileTypeFourCC>1299148630</VideoFileTypeFourCC>
+		<VideoCompilerClassIDFourCC>1061109567</VideoCompilerClassIDFourCC>
+		<VideoSettings ObjectRef="178"/>
+		<Compressor>1685480224</Compressor>
+	</VideoCompileSettings>
+	<VideoSettings ObjectID="178" ClassID="58474264-30c4-43a2-bba5-dc0812df8a3a" Version="9">
+		<MaximumBitDepth>false</MaximumBitDepth>
+		<PixelAspectRatio>10,11</PixelAspectRatio>
+		<FrameSize>0,0,720,480</FrameSize>
+		<FrameRate>8475667200</FrameRate>
+	</VideoSettings>
+	<AudioCompileSettings ObjectID="179" ClassID="34b10007-ab6d-49a7-bac5-7b60d919e387" Version="6">
+		<Interleave>1</Interleave>
+		<Compressor>1380013856</Compressor>
+		<AudioSettings ObjectRef="180"/>
+		<SampleType>3</SampleType>
+	</AudioCompileSettings>
+	<AudioSettings ObjectID="180" ClassID="6baf5521-b132-4634-840e-13cec5bc86a4" Version="7">
+		<FrameRate>5292000</FrameRate>
+		<ChannelType>1</ChannelType>
+	</AudioSettings>
+	<ScratchDiskSettings ObjectID="181" ClassID="4c6ed82b-a81c-4df1-8bd0-750504c4b560" Version="2">
+		<TransferMediaLocation>SameAsProject</TransferMediaLocation>
+		<DVDEncodingLocation>SameAsProject</DVDEncodingLocation>
+		<AudioPreviewLocation>SameAsProject</AudioPreviewLocation>
+		<VideoPreviewLocation>SameAsProject</VideoPreviewLocation>
+		<CapturedAudioLocation>SameAsProject</CapturedAudioLocation>
+		<CapturedVideoLocation>SameAsProject</CapturedVideoLocation>
+	</ScratchDiskSettings>
+	<WorkspaceSettings ObjectID="182" ClassID="c4372273-e1aa-4683-98aa-a2ceadf3066c" Version="1">
+	</WorkspaceSettings>
+	<MasterClip ObjectUID="0cf2b75d-c0ef-4669-a990-e02f87a3ff81" ClassID="fb11c33a-b0a9-4465-aa94-b6d5db2628cf" Version="7" Index="4294967295">
+		<Node Version="1">
+			<Properties Version="1">
+				<AMW.media.properties.mediaid>2598</AMW.media.properties.mediaid>
+			</Properties>
+		</Node>
+		<IsAdjustmentLayer>false</IsAdjustmentLayer>
+		<VideoComponentChain ObjectRef="18"/>
+		<AudioComponentChain ObjectRef="17"/>
+		<LoggingInfo ObjectRef="12"/>
+		<Clips Version="1">
+			<Clip Index="0" ObjectRef="2"/>
+			<Clip Index="1" ObjectRef="7"/>
+		</Clips>
+		<AudioClipChannelGroups ObjectRef="13"/>
+		<Name>Google Ambassador Application Audio.mpg</Name>
+	</MasterClip>
+	<ClipProjectItem ObjectUID="2bc2e96a-684d-4620-80e9-28239d9df3e0" ClassID="cb4e0ed7-aca1-4171-8525-e3658dec06dd" Version="1" Index="4294967295">
+		<ProjectItem Version="1">
+			<Node Version="1">
+			</Node>
+			<Name>Sequence 02</Name>
+		</ProjectItem>
+		<MasterClip ObjectURef="b605eb02-2551-4ea0-bc97-de6396aad57f"/>
+	</ClipProjectItem>
+	<MasterClip ObjectUID="40ba0331-d6a5-4d45-978a-05dcf00ebcd5" ClassID="fb11c33a-b0a9-4465-aa94-b6d5db2628cf" Version="7" Index="4294967295">
+		<Node Version="1">
+			<Properties Version="1">
+				<AMW.media.properties.mediaid>2651</AMW.media.properties.mediaid>
+			</Properties>
+		</Node>
+		<IsAdjustmentLayer>false</IsAdjustmentLayer>
+		<VideoComponentChain ObjectRef="103"/>
+		<AudioComponentChain ObjectRef="102"/>
+		<LoggingInfo ObjectRef="97"/>
+		<ChildClipIDs Version="1">
+			<ChildClipID Index="0" ObjectRef="96"/>
+		</ChildClipIDs>
+		<Clips Version="1">
+			<Clip Index="0" ObjectRef="90"/>
+			<Clip Index="1" ObjectRef="93"/>
+		</Clips>
+		<AudioClipChannelGroups ObjectRef="98"/>
+		<Name>almost complete gsa 2014 app.mpg</Name>
+	</MasterClip>
+	<Media ObjectUID="41b6c04e-9f2f-4ade-b398-80e2c1adb011" ClassID="7a5c103e-f3ac-4391-b6b4-7cc3d2f9a7ff" Version="19" Index="4294967295">
+		<IsProxy>false</IsProxy>
+		<ActualMediaFilePath>/Users/alexcory/Downloads/Google Ambassador Application Audio.mpg</ActualMediaFilePath>
+		<RelativePath>../../../../../wnloads/Google Ambassador Application Audio.mpg</RelativePath>
+		<ModificationState Encoding="base64" Checksum="4291457994">NgAyADIAZQA4ADUANgAxAC0AYgBkAGIANQAtADQAZgBmADkALQA0ADQAYwBl
+AC0AZABhADUAMgAwADAAMAAwADAAMABkADIA</ModificationState>
+		<StreamNumber>0</StreamNumber>
+		<SingleAudioChannel>-1</SingleAudioChannel>
+		<IgnoreAudio>false</IgnoreAudio>
+		<IgnoreVideo>false</IgnoreVideo>
+		<ConformedAudioRate>5292000</ConformedAudioRate>
+		<CaptureStatus>0</CaptureStatus>
+		<OfflineReason>0</OfflineReason>
+		<Infinite>false</Infinite>
+		<LogComment></LogComment>
+		<AlternateTapeName></AlternateTapeName>
+		<AlternateStart>0</AlternateStart>
+		<FileKey>b697dcbd-49dc-494b-b79b-dc1237048e85</FileKey>
+		<Title>Google Ambassador Application Audio.mpg</Title>
+		<ImplementationID>1fa18bfa-255c-44b1-ad73-56bcd99fceaf</ImplementationID>
+		<Node Version="1">
+		</Node>
+		<VideoStream ObjectRef="6"/>
+		<AudioStream ObjectRef="5"/>
+		<TapeName></TapeName>
+		<FilePath>/Users/alexcory/Downloads/Google Ambassador Application Audio.mpg</FilePath>
+		<Start>0</Start>
+	</Media>
+	<Media ObjectUID="4616cfd9-bdca-4f1f-812e-053653ceb75f" ClassID="7a5c103e-f3ac-4391-b6b4-7cc3d2f9a7ff" Version="19" Index="4294967295">
+		<IsProxy>false</IsProxy>
+		<ActualMediaFilePath>/Users/alexcory/Downloads/almost complete gsa 2014 app.mpg</ActualMediaFilePath>
+		<RelativePath>../../../../../wnloads/almost complete gsa 2014 app.mpg</RelativePath>
+		<ModificationState Encoding="base64" Checksum="1590328522">MwAzADIAMgBjADgANQBmAC0ANgBhADcANwAtADkAZgBkADQALQAwADMAYwBm
+AC0ANwBlADAANAAwADAAMAAwADAAMABjADQA</ModificationState>
+		<StreamNumber>0</StreamNumber>
+		<SingleAudioChannel>-1</SingleAudioChannel>
+		<IgnoreAudio>false</IgnoreAudio>
+		<IgnoreVideo>false</IgnoreVideo>
+		<ConformedAudioRate>5292000</ConformedAudioRate>
+		<CaptureStatus>0</CaptureStatus>
+		<OfflineReason>0</OfflineReason>
+		<Infinite>false</Infinite>
+		<LogComment></LogComment>
+		<AlternateTapeName></AlternateTapeName>
+		<AlternateStart>0</AlternateStart>
+		<FileKey>0856b632-969a-4905-a700-be4070c06c1e</FileKey>
+		<Title>almost complete gsa 2014 app.mpg</Title>
+		<ImplementationID>1fa18bfa-255c-44b1-ad73-56bcd99fceaf</ImplementationID>
+		<Node Version="1">
+		</Node>
+		<VideoStream ObjectRef="87"/>
+		<AudioStream ObjectRef="86"/>
+		<TapeName></TapeName>
+		<FilePath>/Users/alexcory/Downloads/almost complete gsa 2014 app.mpg</FilePath>
+		<Start>0</Start>
+	</Media>
+	<ClipProjectItem ObjectUID="606a3a88-7c9b-4790-82a5-46bfa72396ce" ClassID="cb4e0ed7-aca1-4171-8525-e3658dec06dd" Version="1" Index="4294967295">
+		<ProjectItem Version="1">
+			<Node Version="1">
+				<Properties Version="1">
+					<Column.PropertyText.Label>BE.Prefs.LabelColors.5</Column.PropertyText.Label>
+					<project.icon.view.grid.position>0</project.icon.view.grid.position>
+				</Properties>
+			</Node>
+			<Name>Google Ambassador Application Audio.mpg</Name>
+		</ProjectItem>
+		<MasterClip ObjectURef="0cf2b75d-c0ef-4669-a990-e02f87a3ff81"/>
+	</ClipProjectItem>
+	<RootProjectItem ObjectUID="6560443d-ea74-4313-80b3-f057a9eed2e1" ClassID="1c307a89-9318-47d7-a583-bf2553736543" Version="1" Index="4294967295">
+		<ProjectItemContainer Version="1">
+			<Items Version="1">
+				<Item Index="0" ObjectURef="606a3a88-7c9b-4790-82a5-46bfa72396ce"/>
+				<Item Index="1" ObjectURef="2bc2e96a-684d-4620-80e9-28239d9df3e0"/>
+				<Item Index="2" ObjectURef="e3546b64-8142-45e1-acf9-b22f632302c0"/>
+			</Items>
+		</ProjectItemContainer>
+		<ProjectItem Version="1">
+			<Node Version="1">
+			</Node>
+			<Name>Root Bin</Name>
+		</ProjectItem>
+	</RootProjectItem>
+	<MasterClip ObjectUID="b605eb02-2551-4ea0-bc97-de6396aad57f" ClassID="fb11c33a-b0a9-4465-aa94-b6d5db2628cf" Version="7" Index="4294967295">
+		<Node Version="1">
+		</Node>
+		<IsAdjustmentLayer>false</IsAdjustmentLayer>
+		<VideoComponentChain ObjectRef="142"/>
+		<AudioComponentChain ObjectRef="141"/>
+		<LoggingInfo ObjectRef="136"/>
+		<Clips Version="1">
+			<Clip Index="0" ObjectRef="19"/>
+			<Clip Index="1" ObjectRef="133"/>
+		</Clips>
+		<AudioClipChannelGroups ObjectRef="137"/>
+		<Name>Sequence 02</Name>
+	</MasterClip>
+	<Sequence ObjectUID="cf6578c5-7dd1-4334-83eb-c60721dd8d0d" ClassID="6a15d903-8739-11d5-af2d-9b7855ad8974" Version="11" Index="4294967295">
+		<PreviewFormatIdentifier>00000000-0000-0000-0000-000000000000</PreviewFormatIdentifier>
+		<TrackGroups Version="1">
+			<TrackGroup Version="1" Index="0">
+				<Second ObjectRef="24"/>
+				<First>228cda18-3625-4d2d-951e-348879e4ed93</First>
+			</TrackGroup>
+			<TrackGroup Version="1" Index="1">
+				<Second ObjectRef="31"/>
+				<First>80b8e3d5-6dca-4195-aefb-cb5f407ab009</First>
+			</TrackGroup>
+		</TrackGroups>
+		<PersistentGroupContainer Version="1">
+			<LinkContainer Version="1">
+			</LinkContainer>
+		</PersistentGroupContainer>
+		<MarkerOwner Version="1">
+			<Markers ObjectRef="22"/>
+		</MarkerOwner>
+		<DVDMarkerOwner Version="1">
+			<DVDMarkers ObjectRef="23"/>
+		</DVDMarkerOwner>
+		<Node Version="1">
+			<Properties Version="1">
+				<TL.SQVideoVisibleBase>0</TL.SQVideoVisibleBase>
+				<TL.SQVisibleBaseTime>0</TL.SQVisibleBaseTime>
+				<TL.SQAVDividerPosition>0.5</TL.SQAVDividerPosition>
+				<TL.SQHeaderWidth>146</TL.SQHeaderWidth>
+				<TL.SQTimePerPixel>0.25</TL.SQTimePerPixel>
+				<MZ.EditLine>313599686400</MZ.EditLine>
+				<MZ.Sequence.AudioTimeDisplayFormat>200</MZ.Sequence.AudioTimeDisplayFormat>
+				<MZ.Sequence.VideoTimeDisplayFormat>102</MZ.Sequence.VideoTimeDisplayFormat>
+				<MZ.Sequence.PreviewRenderingPresetCodec>1685480224</MZ.Sequence.PreviewRenderingPresetCodec>
+				<MZ.Sequence.PreviewRenderingPresetPath>EncoderPresets/SequencePreview/795454d9-d3c2-429d-9474-923ab13b7017/QuickTime DV NTSC.epr</MZ.Sequence.PreviewRenderingPresetPath>
+				<MZ.Sequence.PreviewUseMaxBitDepth>false</MZ.Sequence.PreviewUseMaxBitDepth>
+				<MZ.Sequence.EditingModeGUID>795454d9-d3c2-429d-9474-923ab13b7017</MZ.Sequence.EditingModeGUID>
+				<MZ.ShowALProperties>false</MZ.ShowALProperties>
+				<MZ.AdjustmentLayerAdjusted>true</MZ.AdjustmentLayerAdjusted>
+				<MZ.WorkOutPoint>24969315571200</MZ.WorkOutPoint>
+				<MZ.WorkInPoint>0</MZ.WorkInPoint>
+			</Properties>
+		</Node>
+		<ID>2</ID>
+		<Name>Sequence 02</Name>
+	</Sequence>
+	<ClipProjectItem ObjectUID="e3546b64-8142-45e1-acf9-b22f632302c0" ClassID="cb4e0ed7-aca1-4171-8525-e3658dec06dd" Version="1" Index="4294967295">
+		<ProjectItem Version="1">
+			<Node Version="1">
+				<Properties Version="1">
+					<Column.PropertyText.Label>BE.Prefs.LabelColors.5</Column.PropertyText.Label>
+					<project.icon.view.grid.position>1</project.icon.view.grid.position>
+				</Properties>
+			</Node>
+			<Name>almost complete gsa 2014 app.mpg</Name>
+		</ProjectItem>
+		<MasterClip ObjectURef="40ba0331-d6a5-4d45-978a-05dcf00ebcd5"/>
+	</ClipProjectItem>
+</PremiereData>

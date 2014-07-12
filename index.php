@@ -1,3 +1,8 @@
+<?php # Display errors in production mode
+// ini_set('display_errors', '0');
+// error_reporting(E_ALL & E_ERROR);
+// ini_set('display_errors', 1);
+require_once './config.php'; // Config ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,18 +23,47 @@
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
     <!-- == Lightbox CSS == -->
-    <link href="styles/css/lightbox.css" rel="stylesheet" />
+<!--     <link href="styles/css/lightbox.css" rel="stylesheet" />
     <link href="styles/css/bootstrap-lightbox.css" rel="stylesheet">
     <link href="styles/css/bootstrap-lightbox.min.css" rel="stylesheet">
-
+ -->
     <!-- Custom Theme CSS -->
-    <link href="styles/css/main.css" rel="stylesheet">
+    <link href="styles/css/main1.css" rel="stylesheet">
 
-    <!-- Fancybox CSS -->
+    <script>
+        // function checkImage(src) {
+        //     var img = new Image();
+        //     img.onload = function() {
+        //           // code to set the src on success
+        //           $('.repo_image').css('background', 'url(' + src + ') no-repeat 50% 50%');
+        //     };
+            // img.onerror = function() {
+            // doesn't exist or error loading
+            // alert('no image');
+                // this = "";
+                // src = "http://lorempixel.com/400/300/sports/4/";
+                // return true;
+                // img.onerror = "";
+                // img.src = "http://lorempixel.com/400/300/sports/4/";
+            // };
+        //   img.src = src; // fires off loading of image
+        // }
+
+        // If the repository images don't load, use this function to load in a default image
+        // function loadOtherImage(img) {
+        //     img.onerror = "";
+        //     img.src = "http://lorempixel.com/400/300/sports/4/";
+        //     return true;
+        // }
+    </script>
 
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+<?php  // For Google Analytics
+include_once("analyticstracking.php");
+echo $google_analytics; ?>
 
     <!--==== Navbar ====-->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -63,16 +97,16 @@
     </nav>
 
     <!--==== Bio ====-->
-		<?php include 'views/bio/bio.php' ?>
+		<?php require './views/bio/bio.php' ?>
 
     <!--==== Work ====-->
-		<?php include 'views/work/work.php'; ?>
+		<?php require './views/work/work.php'; ?>
 
     <!--==== Blog  ====-->
-		<?php include 'views/blog/blog.php'; ?>
+		<?php require './views/blog/blog.php'; ?>
 
     <!--==== Contact ====-->
-		<?php include 'views/contact/contact.php'; ?>
+		<?php require './views/contact/contact.php'; ?>
 
     <!--==== End of Visual Body ====-->
 
@@ -88,21 +122,21 @@
     <script src="styles/js/main.js"></script>
     <!-- Fancybox JS -->
     <script>
-        $('.fancybox-thumbs').fancybox({
-            prevEffect : 'none',
-            nextEffect : 'none',
+        // $('.fancybox-thumbs').fancybox({
+        //     prevEffect : 'none',
+        //     nextEffect : 'none',
 
-            closeBtn  : false,
-            arrows    : false,
-            nextClick : true,
+        //     closeBtn  : false,
+        //     arrows    : false,
+        //     nextClick : true,
 
-            helpers : {
-                thumbs : {
-                    width  : 50,
-                    height : 50
-                }
-            }
-        });
+        //     helpers : {
+        //         thumbs : {
+        //             width  : 50,
+        //             height : 50
+        //         }
+        //     }
+        // });
     </script>
 
 
