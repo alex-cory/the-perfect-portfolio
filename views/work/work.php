@@ -34,7 +34,7 @@
 <!--         <div class="container">
             <div class="row"> -->
                 <h1>Projects</h1>
-                <p>For the time being, until I get the models working, please view my <a href="https://github.com/alex-cory" class="proj-main-clr">Github</a> or go to the <strong class="proj-main-clr">projects</strong> portion of my <a href="https://www.linkedin.com/in/alexcory" class="proj-main-clr">LinkedIn</a> located all the way at the bottom.  Although not all of my projects are on Github or LinkedIn, at least you can see some of the projects I've worked on.</p>
+                <p>Please view Alex's <a href="https://github.com/alex-cory" class="proj-main-clr">Github</a> or go to the <strong class="proj-main-clr">projects</strong> portion of his <a href="https://www.linkedin.com/in/alexcory" class="proj-main-clr">LinkedIn</a> located just after his work experience section.  Although not all of his projects are on Github or LinkedIn, at least you can see some of the projects he has worked on.</p>
         </div>
     </div>
     <div class="row">

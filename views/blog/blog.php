@@ -25,7 +25,7 @@
         <!-- <div class="container"> -->
     <div class="wrap row">
         <h2>Ideas</h2>
-        <p>These are <text class="idea-main-clr">Ideas</text> that I've had that I thought I would just go ahead and share with the world. :)</p>
+        <p>These are <text class="idea-main-clr">Ideas</text> that Alex has had that he thought he would just go ahead and share with the world. :)</p>
         <?php // Thumbnail Hover without Javascript     (resource: http://goo.gl/5Jpg09) ?>
         <div id="wrap" class="text-center">
             <div class="col-xs-6 col-sm-4 col-md-3">
