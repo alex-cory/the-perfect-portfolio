@@ -1,12 +1,32 @@
-$('.thumbnail').click(function() {
-    $('.modal-body').empty();
-    var title = $(this).parent('a').attr("title");
-    $('.modal-title').html(title);
-    $($(this).parents('div').html()).appendTo('.modal-body');
-    $('#myModal').modal({
-        show: true
-    });
-});
+/**
+ * DATA TOGGLE STUFF (ie: the tabs for each section)
+ * @return {[type]} [description]
+ */
+// $(function() {
+//     $('a[title]').tooltip();
+// });
+
+/**
+ * VIDEO:
+ * For the video portion at the bottom of the website.
+ * @return {[type]} [description]
+ */
+// $(document).ready(function() {
+//     $(".player").mb_YTPlayer();
+// });
+
+/**
+ * MODAL STUFF
+ */
+// $('.thumbnail').click(function() {
+//     $('.modal-body').empty();
+//     var title = $(this).parent('a').attr("title");
+//     $('.modal-title').html(title);
+//     $($(this).parents('div').html()).appendTo('.modal-body');
+//     $('#myModal').modal({
+//         show: true
+//     });
+// });
 
 // jQuery for page scrolling (to bottom of section) feature - requires jQuery Easing plugin
 $(function() {

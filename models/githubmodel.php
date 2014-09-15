@@ -38,4 +38,4 @@ $github = new GithubModel;
 
 $repositories = $github->getAllRepositories();
 
-d($repositories);
+// d($repositories);

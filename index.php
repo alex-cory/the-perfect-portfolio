@@ -1,4 +1,4 @@
-<?php # Display errors in production mode
+<?php # Display errors
 // ini_set('display_errors', '0');
 // error_reporting(E_ALL & E_ERROR);
 // ini_set('display_errors', 1);
@@ -22,11 +22,6 @@ require_once './config.php'; // Config ?>
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
-    <!-- == Lightbox CSS == -->
-<!--     <link href="styles/css/lightbox.css" rel="stylesheet" />
-    <link href="styles/css/bootstrap-lightbox.css" rel="stylesheet">
-    <link href="styles/css/bootstrap-lightbox.min.css" rel="stylesheet">
- -->
     <!-- Custom Theme CSS -->
     <link href="styles/css/main1.css" rel="stylesheet">
 
