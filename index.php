@@ -1,15 +1,15 @@
 <?php # Display errors
 // ini_set('display_errors', '0');
-error_reporting(E_ALL & E_ERROR);
-ini_set('display_errors', 1);
-// $commands[] = 'ls ../';
-$commands[] = 'pwd';
+// error_reporting(E_ALL & E_ERROR);
+// ini_set('display_errors', 1);
+// // $commands[] = 'ls ../';
+// $commands[] = 'pwd';
 
-foreach ($commands as $command) {
-    echo "command: " . $command . " = " . exec($command) . '<br>';
-}
+// foreach ($commands as $command) {
+//     echo "command: " . $command . " = " . exec($command) . '<br>';
+// }
 include_once './config.php'; // Config
-die('here');
+// die('here');
 ?>
 
 <!DOCTYPE html>
