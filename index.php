@@ -77,7 +77,7 @@ echo $google_analytics; ?>
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="page-scroll-b">
+                    <li class="page-scroll-b top hidden">
                         <a href="#page-top">Top</a>
                     </li>
                     <li class="page-scroll-b">

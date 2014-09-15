@@ -34,10 +34,13 @@ $(function() {
         var $anchor = $(this);
         var $section = $($anchor.attr('href'));
         var scrollPos = $section.offset().top + $section.outerHeight() - $(window).height();
+        // var $aboutAnchor = $('a[href="#about"]');
 
         $('html, body').stop().animate({
             scrollTop: scrollPos
         }, 1500, 'easeInOutExpo');
+        // $anchor.removeClass('active').addClass('hidden');
+
 
         event.preventDefault();
     });
@@ -47,8 +50,12 @@ $(function() {
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
+        $('li.top.page-scroll-b').removeClass('hidden');
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $('li.top.page-scroll-b').addClass('hidden');
+
+        // $('a[href="#page-top"]').addClass('hidden');
     }
 });
 
@@ -59,6 +66,7 @@ $(function() {
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
+        // $('a[href="#about"]').addClass('hidden');
         event.preventDefault();
     });
 });
