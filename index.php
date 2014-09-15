@@ -8,7 +8,7 @@ $commands[] = 'pwd';
 foreach ($commands as $command) {
     echo "command: " . $command . " = " . exec($command) . '<br>';
 }
-require_once './config.php'; // Config
+include_once './config.php'; // Config
 die('here');
 ?>
 
