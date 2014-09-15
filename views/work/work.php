@@ -91,9 +91,9 @@
                             <div class="repo_image" style="background-image: url('<?php echo url_exists($repository['image']) ? $repository['image'] : "http://lorempixel.com/400/300/sports/4/"; ?>'); background-size: cover; background-position: center; height: 195px; vertical-align: 0;"></div>
                         </div>
                         <div class="panel-footer text-center">
-                            <a href="<?php echo $repository['html_url']; ?>/archive/master.zip"><span class="glyphicon glyphicon-download"></span></a>
-                            <a href="<?php echo $repository['html_url']; ?>"><span class="fa fa-github"></span></a>
-                            <a href="#live_preview"><span class="fa fa-play-circle-o"></span></a>
+                            <a href="<?php echo $repository['html_url']; ?>/archive/master.zip" target="rss"><span class="glyphicon glyphicon-download"></span></a>
+                            <a href="<?php echo $repository['html_url']; ?>" target="rss"><span class="fa fa-github"></span></a>
+                            <a href="#live_preview"><span class="fa fa-play-circle-o" target="rss"></span></a>
                             <a href="mailto:?subject=Found%20our%20next%20software%20engineer&body=Check%20out%20this%20sweet%20project%20he%20did%21%20Yep...%20We%27re%20totally%20hiring%20him.%20
     <?php echo $repository['html_url']; ?>"><span class="glyphicon glyphicon-share-alt"></span></a>
                         </div>
@@ -130,7 +130,7 @@
                             <a href="<?php echo $repository['html_url']; ?>" target="rss"><span class="fa fa-github"></span> Github</a>
                             <a href="#live_preview" target="rss"><span class="fa fa-play-circle-o"></span> Live Demo</a>
                             <a href="mailto:?subject=Found%20our%20next%20software%20engineer&body=Check%20out%20this%20sweet%20project%20he%20did%21%20Yep...%20We%27re%20totally%20hiring%20him.%20
-    <?php echo $repository['html_url']; ?>" target="rss"><span class="glyphicon glyphicon-share-alt"></span> Share</a>
+    <?php echo $repository['html_url']; ?>"><span class="glyphicon glyphicon-share-alt"></span> Share</a>
                         </div>
                        <!--  <div class="modal-footer">
                             <center>
