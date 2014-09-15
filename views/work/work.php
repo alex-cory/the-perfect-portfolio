@@ -48,7 +48,7 @@
 
     <div class="row">
         <?php // Thumbnail Hover without Javascript     (resource: http://goo.gl/5Jpg09) ?>
-        <?php die('here'); require_once './controllers/workcontroller.php';
+        <?php require_once './controllers/workcontroller.php';
               // require_once './models/resize.php';
 
         // d($repositories);
