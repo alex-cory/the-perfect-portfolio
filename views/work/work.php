@@ -88,7 +88,7 @@
                                 </div>
                             </a>
                             <!-- alfred-workflows_repo_image -->
-                            <div class="repo_image" style="background-image: url('<?php echo url_exists($repository['image']) ? $repository['image'] : "http://lorempixel.com/400/300/sports/4/"; ?>'); background-size: cover; background-position: center; height: 195px;"></div>
+                            <div class="repo_image" style="background-image: url('<?php echo url_exists($repository['image']) ? $repository['image'] : "http://lorempixel.com/400/300/sports/4/"; ?>'); background-size: cover; background-position: center; height: 195px; vertical-align: 0;"></div>
                         </div>
                         <div class="panel-footer text-center">
                             <a href="<?php echo $repository['html_url']; ?>/archive/master.zip"><span class="glyphicon glyphicon-download"></span></a>
