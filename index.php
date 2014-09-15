@@ -1,8 +1,8 @@
 <?php # Display errors
 // ini_set('display_errors', '0');
-// error_reporting(E_ALL & E_ERROR);
-// ini_set('display_errors', 1);
-die('here');
+error_reporting(E_ALL & E_ERROR);
+ini_set('display_errors', 1);
+// die('here');
 
 require_once './config.php'; // Config ?>
 <!DOCTYPE html>
