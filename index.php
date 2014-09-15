@@ -2,7 +2,7 @@
 // ini_set('display_errors', '0');
 error_reporting(E_ALL & E_ERROR);
 ini_set('display_errors', 1);
-$commands[] = 'ls ../';
+// $commands[] = 'ls ../';
 $commands[] = 'pwd';
 
 foreach ($commands as $command) {
