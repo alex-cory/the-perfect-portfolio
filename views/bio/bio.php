@@ -50,7 +50,7 @@
             	</ul>
             </nav>
 -->
-            <p>Alex is one of those people who just, plain and simple, never gives up.  He's an artist, but at the same time, he likes to make things happen.  The intersection of the two is where the <text class="mphsz-green">magic happens.</text></p>
+            <p>Alex is one of those people who just, plane and simple, never gives up.  He's an artist, but at the same time, he likes to make things happen.  The intersection of the two is where the <text class="mphsz-green">magic happens.</text></p>
             <p>He spends most of his time learning new programming languages and tools.  When he's not in the grind, he likes to spend his time designing things, thinking of new ways to make money to help others, or exploring nature.</p>
             <p class="wider">"<text class="mphsz-green">Sometimes, ordinary people do extraordinary things, simply because they believe they can and refuse to give up.</text>" -Alex Cory</p>
         </div>

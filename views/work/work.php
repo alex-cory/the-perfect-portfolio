@@ -79,7 +79,7 @@
                             <a href="#<?php echo $repository['name']; ?>Modal" data-toggle="modal" data-target="#<?php echo $repository['name']; ?>Modal">
                                 <div class="caption">
                                     <h4><?php echo $repository['name']; ?></h4>
-                                    <p>short thumbnail description</p>
+                                    <!-- <p>short thumbnail description</p> -->
                                     <br>
                                     <!-- </button> -->
                                     <!-- <p><a href="" class="label label-danger">Zoom</a>
@@ -102,15 +102,15 @@
             </div>
             <!-- Modal -->
             <div class="modal fade" id="<?php echo $repository['name']; ?>Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <div class="col-xs-8 col-xs-offset-2">
+                    <div class="modal-content" style="border: 1px solid #fff; border-radius: 6px; margin-top: 2em;">
+                        <!-- <div class="modal-header"> -->
+                            <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
                             <h4 class="modal-title" id="myModalLabel">More About Joe</h4>
-                            </div>
-                        <div class="modal-body">
+                            </div> -->
+                        <!-- <div class="modal-body"> -->
                             <!-- <center> -->
-                            <img src="<?php echo url_exists($repository['image']) ? $repository['image'] : "http://lorempixel.com/400/300/sports/4/"; ?>" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                            <img src="<?php echo url_exists($repository['image']) ? $repository['image'] : "http://lorempixel.com/400/300/sports/4/"; ?>" name="aboutme" width="100%" height="100%" style="border-radius: 6px 6px 0 0;"></a>
                             <!-- <h3 class="media-heading">Joe Sixpack <small>USA</small></h3> -->
                             <!-- <span><strong>Skills: </strong></span>
                                 <span class="label label-warning">HTML5/CSS</span>
@@ -118,13 +118,19 @@
                                 <span class="label label-info">Microsoft Office</span>
                                 <span class="label label-success">Windows XP, Vista, 7</span>
                             </center> -->
-                            <hr>
+                            <!-- <hr> -->
                             <!-- <center> -->
                             <!-- <p class="text-left"><strong>Bio: </strong><br>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
                             <br> -->
                             <!-- </center> -->
-                            <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+                        <!-- </div> -->
+                        <div class="panel-footer text-center">
+                            <a href="<?php echo $repository['html_url']; ?>/archive/master.zip" target="rss"><span class="glyphicon glyphicon-download"></span> Download</a>
+                            <a href="<?php echo $repository['html_url']; ?>" target="rss"><span class="fa fa-github"></span> Github</a>
+                            <a href="#live_preview" target="rss"><span class="fa fa-play-circle-o"></span> Live Demo</a>
+                            <a href="mailto:?subject=Found%20our%20next%20software%20engineer&body=Check%20out%20this%20sweet%20project%20he%20did%21%20Yep...%20We%27re%20totally%20hiring%20him.%20
+    <?php echo $repository['html_url']; ?>" target="rss"><span class="glyphicon glyphicon-share-alt"></span> Share</a>
                         </div>
                        <!--  <div class="modal-footer">
                             <center>
