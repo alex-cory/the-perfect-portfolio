@@ -34,13 +34,10 @@ $(function() {
         var $anchor = $(this);
         var $section = $($anchor.attr('href'));
         var scrollPos = $section.offset().top + $section.outerHeight() - $(window).height();
-        // var $aboutAnchor = $('a[href="#about"]');
 
         $('html, body').stop().animate({
             scrollTop: scrollPos
         }, 1500, 'easeInOutExpo');
-        // $anchor.removeClass('active').addClass('hidden');
-
 
         event.preventDefault();
     });
@@ -48,14 +45,12 @@ $(function() {
 
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top").addClass("top-nav-collapse");
-        $('li.top.page-scroll-b').removeClass('hidden');
-    } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        $('li.top.page-scroll-b').addClass('hidden');
-
-        // $('a[href="#page-top"]').addClass('hidden');
+    if ($(".navbar").offset().top > 50) { // if scrolled below 50 pixels on the page
+        $(".navbar-fixed-top").addClass("top-nav-collapse"); // show the navbar
+        $('li.top.page-scroll-b').removeClass('hidden'); // show the top button
+    } else { // else if at the top of the page
+        $(".navbar-fixed-top").removeClass("top-nav-collapse"); // hide the navbar
+        $('li.top.page-scroll-b').addClass('hidden'); // hide the 'top' button
     }
 });
 
@@ -66,7 +61,6 @@ $(function() {
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
-        // $('a[href="#about"]').addClass('hidden');
         event.preventDefault();
     });
 });

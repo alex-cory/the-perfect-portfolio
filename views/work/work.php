@@ -58,19 +58,14 @@
         <?php $repositories = getAllRepositories(); ?>
         <?php foreach ($repositories as $repository): ?>
             <?php
-
-                // *** Include the class
-                // include("resize.php");
-
-                // *** 1) Initialize / load image
-                // $resizeObj = new resize($repository['image']);
-
-                // // *** 2) Resize image (options: exact, portrait, landscape, auto, crop)
-                // $resizeObj->resizeImage(150, 100);
-
-                // // *** 3) Save image
-                // $resizeObj->saveImage($repository['name'] . ".jpg", 100);
-                // $thumb->destroy();
+                /**
+                 * TODO:
+                 * - Get regular size images + thumbnails working so images are clear
+                 * - Change color of hover state (or make the others follow suite)
+                 * - Cache github repositories into file system like such:  alexcory.com/demo/your_repo_name
+                 * - Add languages used on hover state
+                 *
+                 */
             ?>
             <div class="col-xs-6 col-sm-4 col-md-3">
                 <!-- <div id="wrap" class="thumbnail2 wrap text-center"> -->

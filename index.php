@@ -15,6 +15,7 @@ include_once './config.php'; // Config
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -68,7 +69,18 @@ include_once './config.php'; // Config
 <?php  // For Google Analytics
 include_once("analyticstracking.php");
 echo $google_analytics; ?>
-
+    <!-- TODO:
+      -- add social links on the left
+      -- font-awesome icons:
+      -- github:         fa-git             <?php GITHUB; ?>
+      -- linkedin:       fa-linkedin        <?php LINKEDIN; ?>
+      -- twitter:        fa-twitter         <?php TWITTER; ?>
+      -- facebook:       fa-facebook        <?php FACEBOOK; ?>
+      -- pinterest:      fa-pinterest       <?php PINTEREST; ?>
+      -- stack-overflow: fa-stack-overflow  <?php STACKOVERFLOW; ?>
+      -- google+:        fa-google-plus     <?php GOOGLEPLUS; ?>
+      -- youtube:        fa-youtube-play    <?php YOUTUBE; ?>
+    -->
     <!--==== Navbar ====-->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
