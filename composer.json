@@ -1,6 +1,8 @@
 {
     "require": {
-        "knplabs/github-api": "*"
+        "knplabs/github-api": "*",
+        "sybio/image-workshop": "*",
+        "gilbitron/php-simplecache": "~1.4"
     },
     "minimum-stability": "dev"
 }

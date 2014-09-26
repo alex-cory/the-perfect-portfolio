@@ -19,6 +19,8 @@
 -
 -
 =======================================================-->
+
+<?php // require_once './libraries/evernote-sdk-php/sample/client/EDAMTest.php'; ?>
 <!--==== Blog Content ====-->
 <section class="container content-section">
     <!-- <div class="row"> -->

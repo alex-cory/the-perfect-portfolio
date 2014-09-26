@@ -9,6 +9,7 @@
 //     echo "command: " . $command . " = " . exec($command) . '<br>';
 // }
 include_once './config.php'; // Config
+require_once "./vendor/autoload.php";
 // die('here');
 ?>
 

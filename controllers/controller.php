@@ -22,45 +22,45 @@ class Controller
 	 * @param $method     each method that is passed
 	 * @param $parameters the arguments for each method
 	 */
-	function __construct($view, $method = null, $parameters = null)
-	{
-		// instantiate the View class
-		$this->view = new View();
-		// instantiate the Model class
-		new Model();
+	// function __construct($view, $method = null, $parameters = null)
+	// {
+	// 	// instantiate the View class
+	// 	$this->view = new View();
+	// 	// instantiate the Model class
+	// 	new Model();
 
-		// check user object
-		// $u = new User();
+	// 	// check user object
+	// 	// $u = new User();
 
-		// check access to the page
-		// if ($this->access == 1 && !$u->isAdmin()) {
+	// 	// check access to the page
+	// 	// if ($this->access == 1 && !$u->isAdmin()) {
 
-			// assign a session variable
-			// $_SESSION['redirect'] = $load;
+	// 		// assign a session variable
+	// 		// $_SESSION['redirect'] = $load;
 
-			// send them to the login page
-			// header('Location: ' . BASE_URL . '/index.php/login/');
+	// 		// send them to the login page
+	// 		// header('Location: ' . BASE_URL . '/index.php/login/');
 
-		// } else {
+	// 	// } else {
 
-			// run any task methods
-			if ($method) {
-				$this->runTask($method, $parameters);
-			} else {
-				$this->index();
-				$method = 'index';
-			}
+	// 		// run any task methods
+	// 		if ($method) {
+	// 			$this->runTask($method, $parameters);
+	// 		} else {
+	// 			$this->index();
+	// 			$method = 'index';
+	// 		}
 
-			// render the load
-			if (file_exists('views/' . strtolower($view) . '/' . strtolower($method) . '.php')) {
-				$this->view->load($view, $method, $this->data);
-			} else {
-				$this->view->load($view, 'index', $this->data);
-				// view: class name
-				// load($filename, $data): sees if $data is array & extracts it from the file
-			}
-		// }
-	}
+	// 		// render the load
+	// 		if (file_exists('views/' . strtolower($view) . '/' . strtolower($method) . '.php')) {
+	// 			$this->view->load($view, $method, $this->data);
+	// 		} else {
+	// 			$this->view->load($view, 'index', $this->data);
+	// 			// view: class name
+	// 			// load($filename, $data): sees if $data is array & extracts it from the file
+	// 		}
+	// 	// }
+	// }
 
 	/**
 	 * Description:
