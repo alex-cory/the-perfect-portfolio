@@ -197,7 +197,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(http://goo.gl/AN74Ei) no-repeat fixed; /* ../img/tedxpurdueu.jpg */
+    background: url(../img/green_envy.jpg) no-repeat fixed; /* ../img/tedxpurdueu.jpg || http://goo.gl/AN74Ei */
     /*
      * autumn:        http://goo.gl/5LVIum;
      * fireflies:     http://goo.gl/AN74Ei;
@@ -216,12 +216,12 @@ a:focus {
 }
 
 section.projects {
-    background: url(http://goo.gl/5LVIum) no-repeat fixed;
+    background: url(../img/autumn_orange.jpg) no-repeat fixed; /* http://goo.gl/5LVIum */
     -webkit-background-size: cover;
 }
 
 section.notes {
-    background: url(http://goo.gl/NwYozX) no-repeat fixed;
+    background: url(../img/smart_lightbulb.jpg) no-repeat fixed;
     -webkit-background-size: cover;
 }
 
@@ -233,7 +233,7 @@ p.lead {
 }
 
 section#contact {
-    background: url(http://goo.gl/PT0ejO) no-repeat fixed center;
+    background: url(../img/grand_canyon.jpg) no-repeat fixed center; /* http://goo.gl/PT0ejO */
     -webkit-background-size: cover;
     height: 100%;
 }
