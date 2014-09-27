@@ -54,7 +54,7 @@
             <p>He spends most of his time learning new programming languages and tools.  When he's not in the grind, he likes to spend his time designing things, thinking of new ways to make money to help others, or exploring nature.</p>
             <p class="wider">"<text class="mphsz-green">Sometimes, ordinary people do extraordinary things, simply because they believe they can and refuse to give up.</text>" -Alex Cory</p>
         </div>
-        <img class="profimg img-circle center-block" src="http://goo.gl/Us7uqb">
+        <img class="profimg img-circle center-block" src="./styles/img/alex_cory_img2.png">
     </div>
 </section>
 

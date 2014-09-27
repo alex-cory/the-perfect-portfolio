@@ -18,13 +18,15 @@ class RepoController //  extends Controller
             require_once "./vendor/autoload.php";
             require_once './models/repomodel.php';
             // $client = new \Github\Client();
+
+            // cache the data for faster referencing
             $client = new \Github\Client(
                 new \Github\HttpClient\CachedHttpClient(array('cache_dir' => './repos'))
             );
+
             $repositories = $client->api('user')->repositories($githubUsername);
             // d($repositories);
 
-            // $repositories = $this->addImagesFromRepos($repositories);
             foreach ($repositories as $repository) {
                 $repo = new Repo($repository);
                 $this->repos[] = $repo;

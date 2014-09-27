@@ -5,8 +5,8 @@ use PHPImageWorkshop\ImageWorkshop;
 /**
 * Repo Model
 */
-class Repo // extends Model
-{
+class Repo /* extends Model */ {
+
 	public $name;
 	public $url;
 	public $description;
@@ -103,8 +103,6 @@ class Repo // extends Model
 
 
 
-
-
 	public function getName()
 	{
 		return $this->name;
@@ -143,83 +141,5 @@ class Repo // extends Model
 	public function getDownloadLink()
 	{
 		return $this->downloadLink;
-	}
-
-	// public function cacheRepo($reposDir)
-	// {
-	// 	if (file_exists('./vendor/autoload.php') && is_dir('./repos/')) {
-	// 	    require_once "./vendor/autoload.php";
-
-	// 	    $client = new \Github\Client(
-	// 	        new \Github\HttpClient\CachedHttpClient(array($reposDir => '/tmp/github-api-cache'))
-	// 	    );
-
-	// 	    // // Or select directly which cache you want to use
-	// 	    // $client = new \Github\HttpClient\CachedHttpClient();
-	// 	    // $client->setCache(
-	// 	    //     // Built in one, or any cache implementing this interface:
-	// 	    //     // Github\HttpClient\Cache\CacheInterface
-	// 	    //     new \Github\HttpClient\Cache\FilesystemCache('/tmp/github-api-cache')
-	// 	    // );
-
-	// 	    // $client = new \Github\Client($client);
-
-	// 		// if($data = $cache->get_cache('label')){
-	// 		//     $data = json_decode($data);
-	// 		// } else {
-	// 		//     $data = $cache->do_curl('http://some.api.com/file.json');
-	// 		//     $cache->set_cache('label', $data);
-	// 		//     $data = json_decode($data);
-	// 		// }
-	// 	}
-
-	// 	// $projectImgPath = './styles/img/projectImages/';
-	// 	// $externalImageName = get_the_tail_value_of($image_url); // FIX
-	// 	// $thumbImage = $projectImgPath . rtrim($externalImageName, '.png') . '-thumb.png';
-	// 	// if (contains($projectImgPath . '*', $externalImageName)) { // FIX
-
-	// 	// 	$cachedImage = $projectImgPath . $externalImageName; // still contains '.png' file extension
-
-	// 	// 	if (getDate($image_url) is newer than getDate($cachedImage)) { // FIX
-	// 	//         $pathToNewlyCachedImage = cache($image_url); // FIX
-	// 	//         $pathToNewlyCachedImageThumb = exists($thumbImage) ? cache(createNewThumbImage($image_url) : $thumbImage ); // FIX:  cache()  &&  createNewThumbImage()
-
-	// 	// 	    $this->image = $pathToNewlyCachedImage;
-	// 	// 	    $this->imageThumb = $pathToNewlyCachedImageThumb;
-	// 	// 	}
-
-	// 	// } else {
-	// 	// 	// create new image in './styles/img/projectImages/' titled $externalImageName
-	// 	// 	createNewImage($projectImgPath . $externalImageName);
-	// 	// 	createNewThumbImage($thumbImage);
-
-	// 	// 	$this->image = $pathToNewlyCachedImage;
-	// 	// 	// create new image thumb in './styles/img/projectImages/' titled rtrim($externalImageName, '.png') . '-thumb.png'
-	// 	// 	// && cache the new image thumb
-	// 	// 	$this->imageThumb = $pathToNewlyCachedImageThumb;
-	// 	// }
-	// }
-
-	// public function createNewImage($imagePathOrUrl)
-	// {
-	// 	// make the new image in $imagePathOrUrl
-	// 	if (type($imagePathOrUrl) == 'url') { // FIX
-	// 		// make the new image from a url
-	// 	} else {
-	// 		// make the new image by pulling from
-	// 	}
-	// }
-
-	private function addThumbImage($repositories)
-	{
-	//     $count = 0;
-	//     // $images = array();
-	//     foreach ($repositories as $repository) {
-	//         $image = cacheNewerImage($repository);
-
-	//         $repositories[$count]['image thumb'] = "";
-	//         $count++;
-	//     }
-	//     return $repositories;
 	}
 }
