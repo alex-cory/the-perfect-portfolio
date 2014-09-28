@@ -86,6 +86,7 @@ class Repo /* extends Model */ {
 	private function setRepoImageUrl($repo)
 	{
 		$this->image_url = "https://raw.githubusercontent.com/" . GITHUB_USERNAME . "/". $this->name . "/" . $repo['default_branch'] . "/" . $this->name . ".png";
+		// ex: https://raw.githubusercontent.com/alex-cory/hackingedu-website/master/hackingedu-website.png
 	}
 
 	private function setImageName($imageUrl)
