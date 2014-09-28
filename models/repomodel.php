@@ -43,12 +43,14 @@ class Repo /* extends Model */ {
 		$this->setDownloadLink($repoObj);                                      // DOWNLOAD LINK
 		$this->setdemoLink($this->name);                                   // LIVE DEMO LINK
 
-		if (!file_exists($this->image)) {
+		if (file_exists($this->image)) {
 
 			// save the image from the url
 			$this->saveImageFromUrl($this->image_url);
+			// resize the main image
+			$this->setImageThumb($this->image, $this->name, 800, 500);
 			// make a copy of that image, resize it to make a thumb, and set the path to the imageThumb variable
-			$this->setImageThumb($this->image, $this->name . 'Thumb.png');   // IMAGE THUMB
+			$this->setImageThumb($this->image, $this->name . 'Thumb.png', 261, 195);   // IMAGE THUMB
 
 		//  current time -   the time the file was saved   >= the amount of seconds in 1 month
 		} elseif ((time() - filemtime($this->image) >= (60 * 60 * 24 * 30)) &&  (filesize($this->image) > 50)) {
@@ -56,20 +58,20 @@ class Repo /* extends Model */ {
 			// save the image from the url
 			$this->saveImageFromUrl($this->image_url);
 			// make a copy of that image, resize it to make a thumb, and set the path to the imageThumb variable
-			$this->setImageThumb($this->image, $this->name . 'Thumb.png');   // IMAGE THUMB
+			$this->setImageThumb($this->image, $this->name . 'Thumb.png', 261, 195);   // IMAGE THUMB
 
 		} elseif (!file_exists($this->imageThumb) && filesize($this->image) > 50) {
 
 			// make a copy of the main image, resize it to make a thumb, and set the path to the imageThumb variable
-			$this->setImageThumb($this->image , $this->name . 'Thumb.png');   // IMAGE THUMB
+			$this->setImageThumb($this->image , $this->name . 'Thumb.png', 261, 195);   // IMAGE THUMB
 		}
 	}
 
-	private function setImageThumb($imagePathToImage, $imageName)
+	private function setImageThumb($imagePathToImage, $imageName, $width, $height)
 	{
 		$imageLayer = ImageWorkshop::initFromPath($imagePathToImage);
 		// Resize to get the thumbnail
-		$imageLayer->resizeInPixel(261, 195, false, 0, 0, 'MM');
+		$imageLayer->resizeInPixel($width, $height, false, 0, 0, 'MM');
 		// Saving the result in a folder
 		$imageLayer->save($this->localImagePath, $imageName, true, null, 95);
 	}
