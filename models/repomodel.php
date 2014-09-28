@@ -43,7 +43,7 @@ class Repo /* extends Model */ {
 		$this->setDownloadLink($repoObj);                                      // DOWNLOAD LINK
 		$this->setdemoLink($this->name);                                   // LIVE DEMO LINK
 
-		if (file_exists($this->image)) {
+		if (!file_exists($this->image)) {
 
 			// save the image from the url
 			$this->saveImageFromUrl($this->image_url);
