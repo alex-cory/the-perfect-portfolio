@@ -139,6 +139,7 @@ echo $google_analytics; ?>
     <script src="styles/js/main.js"></script>
     <!-- Fancybox JS -->
     <script>
+
         // $('.fancybox-thumbs').fancybox({
         //     prevEffect : 'none',
         //     nextEffect : 'none',

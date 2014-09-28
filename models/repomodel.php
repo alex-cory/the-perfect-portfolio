@@ -19,6 +19,7 @@ class Repo /* extends Model */ {
 	public $imageThumb;
 
 	public $downloadLink;
+	public $demoLink = '#N/A';
 
 
 	function __construct($repoObj)
@@ -40,6 +41,7 @@ class Repo /* extends Model */ {
 		$this->image = $this->localImagePath . $this->imageName;               // LOCAL IMAGE        (./path/to/image.png)
 		$this->imageThumb = $this->localImagePath . $this->name . 'Thumb.png'; // LOCAL IMAGE THUMB  (./path/to/imageThumb.png)
 		$this->setDownloadLink($repoObj);                                      // DOWNLOAD LINK
+		$this->setdemoLink($this->name);                                   // LIVE DEMO LINK
 
 		if (!file_exists($this->image)) {
 
@@ -102,6 +104,25 @@ class Repo /* extends Model */ {
 		$this->downloadLink = $repo['html_url'] . '/archive/master.zip';
 	}
 
+	private function setDemoLink($repoName)
+	{
+		if ($repoName == 'mvc-website') {
+			$this->demoLink = 'http://roomatematcher.com';
+		} elseif ($repoName == 'vocaldash') {
+			$this->demoLink = 'http://alexcory.com/vocaldash';
+		} elseif ($repoName == 'geodometer') {
+			$this->demoLink = 'http://geodometer.com';
+		} elseif ($repoName == 'techtalksfsu') {
+			$this->demoLink = 'http://alexcory.com/techtalksfsu';
+		} elseif ($repoName == 'google-students') {
+			$this->demoLink = 'http://alexcory.com/techtalknu';
+		} elseif ($repoName == 'hackingedu-website') {
+			$this->demoLink = 'http://alexcory.com/hackingedu';
+		} elseif ($repoName == 'iwantfood') {
+			$this->demoLink = 'http://alexcory.com/iwantfood';
+		}
+	}
+
 
 
 	public function getName()
@@ -142,5 +163,10 @@ class Repo /* extends Model */ {
 	public function getDownloadLink()
 	{
 		return $this->downloadLink;
+	}
+
+	public function getDemoLink()
+	{
+		return $this->demoLink;
 	}
 }

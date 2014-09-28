@@ -50,6 +50,7 @@
         <?php // Thumbnail Hover without Javascript     (resource: http://goo.gl/5Jpg09) ?>
         <?php require_once './controllers/workcontroller.php'; ?>
         <?php $github = new RepoController('alex-cory'); ?>
+        <?php die('here');// var_dump($github); ?>
         <?php $repositories = $github->getAllRepositories();//   d($repositories); ?>
         <?php
             function url_exists($url)
@@ -91,7 +92,7 @@
                     <div class="panel-footer text-center">
                         <a href="<?php echo $repo->getUrl(); ?>/archive/master.zip" target="rss"><span class="glyphicon glyphicon-download"></span></a>
                         <a href="<?php echo $repo->getUrl(); ?>" target="rss"><span class="fa fa-github"></span></a>
-                        <a href="#live_preview"><span class="fa fa-play-circle-o" target="rss"></span></a>
+                        <a href="<?php echo $repo->getDemoLink(); ?>" class="demo-link" target="rss"><span class="fa fa-play-circle-o" target="rss"></span></a>
                         <a href="mailto:?subject=Found%20our%20next%20software%20engineer&body=Check%20out%20this%20sweet%20project%20he%20did%21%20Yep...%20We%27re%20totally%20hiring%20him.%20<?php echo $repo->getUrl(); ?>"><span class="glyphicon glyphicon-share-alt"></span></a>
                     </div>
                 </div>
@@ -104,7 +105,7 @@
                         <div class="panel-footer text-center">
                             <a href="<?php echo $repo->getUrl(); ?>/archive/master.zip" target="rss"><span class="glyphicon glyphicon-download"></span> Download</a>
                             <a href="<?php echo $repo->getUrl(); ?>" target="rss"><span class="fa fa-github"></span> Github</a>
-                            <a href="#live_preview" target="rss"><span class="fa fa-play-circle-o"></span> Live Demo</a>
+                            <a href="<?php echo $repo->getDemoLink(); ?>" class="demo-link" target="rss"><span class="fa fa-play-circle-o"></span> Live Demo</a>
                             <a href="mailto:?subject=Found%20our%20next%20software%20engineer&body=Check%20out%20this%20sweet%20project%20he%20did%21%20Yep...%20We%27re%20totally%20hiring%20him.%20<?php echo $repo->getUrl(); ?>"><span class="glyphicon glyphicon-share-alt"></span> Share</a>
                         </div>
                        <!--  <div class="modal-footer">
