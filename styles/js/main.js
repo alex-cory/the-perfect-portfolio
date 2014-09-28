@@ -48,9 +48,11 @@ $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) { // if scrolled below 50 pixels on the page
         $(".navbar-fixed-top").addClass("top-nav-collapse"); // show the navbar
         $('li.top.page-scroll-b').removeClass('hidden'); // show the top button
+        $('li.social-nav').removeClass('hidden');
     } else { // else if at the top of the page
         $(".navbar-fixed-top").removeClass("top-nav-collapse"); // hide the navbar
         $('li.top.page-scroll-b').addClass('hidden'); // hide the 'top' button
+        $('li.social-nav').addClass('hidden');
     }
 });
 

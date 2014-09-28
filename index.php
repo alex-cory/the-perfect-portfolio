@@ -85,10 +85,16 @@ echo $google_analytics; ?>
     <!--==== Navbar ====-->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-
             <!--==== Nav Links ====-->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
+            <div class="collapse navbar-collapse  navbar-main-collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="social-nav gh hidden"><a href="<?php echo GITHUB; ?>"><i class="fa fa-github"></i></a></li>
+                    <li class="social-nav in hidden"><a href="<?php echo LINKEDIN; ?>"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="social-nav so hidden"><a href="<?php echo STACKOVERFLOW; ?>"><i class="fa fa-stack-overflow"></i></a></li>
+                    <li class="social-nav gp hidden"><a href="<?php echo GOOGLEPLUS; ?>"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="social-nav tw hidden"><a href="<?php echo TWITTER; ?>"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="page-scroll-b top hidden">
                         <a href="#page-top">Top</a>

@@ -40,6 +40,44 @@ div.modal-box-sz-and-position {
     width: 60%;
     height: 80%;
 }
+
+/* =========================================================================
+                            Social Nav
+   =======================================================================*/
+.nav>li.social-nav>a {
+    background-color: transparent !important;
+}
+
+.social-nav:hover {
+    -webkit-transform:scale(1.3);
+    -moz-transform:scale(1.3);
+    -o-transform:scale(1.3);
+}
+.social {
+    -webkit-transform:scale(0.9);
+    /* Browser Variations: */
+    -moz-transform:scale(0.9);
+    -o-transform:scale(0.9);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+li.social-nav.gh>a:hover {
+    /*color: rgb(50, 49, 49);*/
+}
+li.social-nav.in>a:hover {
+    color: #007bb6;
+}
+li.social-nav.so>a:hover {
+    color: #FF9900;
+}
+li.social-nav.gp>a:hover {
+    color: #dd4b39;
+}
+li.social-nav.tw>a:hover {
+    color: #00aced;
+}
 /*
 div.col-lg-8.col-lg-offset-2 {
     background: rgba(0, 0, 0, 0.4);
