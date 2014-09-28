@@ -49,8 +49,8 @@
     <div class="row">
         <?php // Thumbnail Hover without Javascript     (resource: http://goo.gl/5Jpg09) ?>
         <?php require_once './controllers/workcontroller.php'; ?>
-        <?php $github = new RepoController('alex-cory'); ?>
         <?php die('here');// var_dump($github); ?>
+        <?php $github = new RepoController('alex-cory'); ?>
         <?php $repositories = $github->getAllRepositories();//   d($repositories); ?>
         <?php
             function url_exists($url)
