@@ -34,7 +34,7 @@ class RepoController //  extends Controller
             // return $repositories;
         } else {
             $this->error = 'the file path must be off';
-            return $this->error;
+            echo $this->error;
         }
     }
 
