@@ -27,18 +27,18 @@
 
                         <p>Feel free to email me to provide some feedback on my site, I'll consider any suggestions for new ideas, or to just say hello!</p>
                         <p><a href="mailto:results@alexcory.com">results@alexcory.com</a></p>
-                        <ul class="list-inline banner-social-buttons">
-                            <li><a href="https://linkedin.com/in/alexlcory" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name"><!-- LinkedIn --></span></a>
+<!--                         <ul class="list-inline banner-social-buttons">
+                            <li><a href="https://linkedin.com/in/alexlcory" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name"></span></a>
                             </li>
-                            <li><a href="http://stackoverflow.com/users/2782583/alex-cory" class="btn btn-default btn-lg"><i class="fa fa-stack-overflow fa-fw"></i> <span class="network-name"><!-- StackOverflow --></span></a>
+                            <li><a href="http://stackoverflow.com/users/2782583/alex-cory" class="btn btn-default btn-lg"><i class="fa fa-stack-overflow fa-fw"></i> <span class="network-name"></span></a>
                             </li>
-                            <li><a href="http://teamtreehouse.com/alexcory" class="btn btn-default btn-lg"><i class="fa fa-fw"></i> <span class="network-name"><!-- TreeHouse --></span></a>
+                            <li><a href="http://teamtreehouse.com/alexcory" class="btn btn-default btn-lg"><i class="fa fa-fw"></i> <span class="network-name"></span></a>
                             </li>
-                            <li><a href="https://github.com/alex-cory" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name"><!-- Github --></span></a>
+                            <li><a href="https://github.com/alex-cory" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name"></span></a>
                             </li>
-                            <li><a href="https://plus.google.com/+alexcory" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name"><!-- Google+ --></span></a>
+                            <li><a href="https://plus.google.com/+alexcory" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name"></span></a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div><!-- fade-away -->
 

@@ -82,57 +82,63 @@ echo $google_analytics; ?>
       -- google+:        fa-google-plus     <?php GOOGLEPLUS; ?>
       -- youtube:        fa-youtube-play    <?php YOUTUBE; ?>
     -->
-    <!--==== Navbar ====-->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!--==== Nav Links ====-->
-            <div class="collapse navbar-collapse  navbar-main-collapse">
-                <ul class="nav navbar-nav navbar-left">
-                    <li class="social-nav gh hidden"><a href="<?php echo GITHUB; ?>"><i class="fa fa-github"></i></a></li>
-                    <li class="social-nav in hidden"><a href="<?php echo LINKEDIN; ?>"><i class="fa fa-linkedin"></i></a></li>
-                    <li class="social-nav so hidden"><a href="<?php echo STACKOVERFLOW; ?>"><i class="fa fa-stack-overflow"></i></a></li>
-                    <li class="social-nav gp hidden"><a href="<?php echo GOOGLEPLUS; ?>"><i class="fa fa-google-plus"></i></a></li>
-                    <li class="social-nav tw hidden"><a href="<?php echo TWITTER; ?>"><i class="fa fa-twitter"></i></a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="page-scroll-b top hidden">
-                        <a href="#page-top">Top</a>
-                    </li>
-                    <li class="page-scroll-b">
-                        <a href="#about">Bio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#projects">Work</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#notes">Blog</a>
-                    </li>
-                    <li class="page-scroll-b">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
+
+    <!-- <div class="mobile-hide"> -->
+        <!--==== Navbar ====-->
+        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!--==== Nav Links ====-->
+                <div class="collapse navbar-collapse  navbar-main-collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class="social-nav gh hidden"><a target="rss" href="<?php echo GITHUB; ?>"><i class="fa fa-github"></i></a></li>
+                        <li class="social-nav in hidden"><a target="rss" href="<?php echo LINKEDIN; ?>"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="social-nav so hidden"><a target="rss" href="<?php echo STACKOVERFLOW; ?>"><i class="fa fa-stack-overflow"></i></a></li>
+                        <li class="social-nav gp hidden"><a target="rss" href="<?php echo GOOGLEPLUS; ?>"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="social-nav tw hidden"><a target="rss" href="<?php echo TWITTER; ?>"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="page-scroll-b top hidden">
+                            <a href="#page-top">Top</a>
+                        </li>
+                        <li class="page-scroll-b">
+                            <a href="#about">Bio</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#projects">Work</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#notes">Blog</a>
+                        </li>
+                        <li class="page-scroll-b">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+
             </div>
-            <!-- /.navbar-collapse -->
+            <!-- /.container -->
+        </nav>
 
-        </div>
-        <!-- /.container -->
-    </nav>
+        <!--==== Bio ====-->
+    		<?php require './views/bio/bio.php' ?>
 
-    <!--==== Bio ====-->
-		<?php require './views/bio/bio.php' ?>
+        <!--==== Work ====-->
+    		<?php require './views/work/work.php'; ?>
 
-    <!--==== Work ====-->
-		<?php require './views/work/work.php'; ?>
+        <!--==== Blog  ====-->
+    		<?php require './views/blog/blog.php'; ?>
 
-    <!--==== Blog  ====-->
-		<?php require './views/blog/blog.php'; ?>
+        <!--==== Contact ====-->
+    		<?php require './views/contact/contact.php'; ?>
 
-    <!--==== Contact ====-->
-		<?php require './views/contact/contact.php'; ?>
-
-    <!--==== End of Visual Body ====-->
-
+        <!--==== End of Visual Body ====-->
+    <!-- </div> -->
+    <div class="mobile-display marg-top-2 text-center">
+        <h1>Alex Cory</h1>
+        <h3><a href="mailto:results@alexcory.com">results@alexcory.com</a></h3>
+    </div>
     <!-- Core JavaScript Files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>

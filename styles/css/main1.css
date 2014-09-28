@@ -135,11 +135,22 @@ p.intro-text.pull-middle {
     border-radius: .6em;
 }
 */
+div.mobile-display {
+    display: none;
+}
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
+    }
+}
+@media(max-width:467px) {
+    div.mobile-hide {
+        display: none !important;
+    }
+    div.mobile-display {
+        display: block;
     }
 }
 
