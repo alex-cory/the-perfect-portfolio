@@ -139,6 +139,8 @@ echo $google_analytics; ?>
     <script src="styles/js/main.js"></script>
     <!-- Fancybox JS -->
     <script>
+        // Hide the demo links that don't have one
+        $('a.demo-link[href="#N/A"]').hide();
 
         // $('.fancybox-thumbs').fancybox({
         //     prevEffect : 'none',

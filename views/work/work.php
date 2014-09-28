@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row col-md-offset-7">
                 <div class="col-md-8">
-                    <h1 class="brand-heading">Projects (test)</h1>
+                    <h1 class="brand-heading">Projects</h1>
                     <p class="intro-text pull-left">Where Impact is Made</p>
                 </div>
             </div>
@@ -78,7 +78,7 @@
         <?php foreach ($repositories as $repo): ?>
             <div class="col-xs-6 col-sm-4 col-md-3">
                 <div class="thumbnail2">
-                    <div class="thumbnail">
+                    <div class="thumbnail" style="border-radius: 4px 4px 0 0; border-bottom: 0">
                         <a href="#<?php echo $repo->getName(); ?>Modal" data-toggle="modal" data-target="#<?php echo $repo->getName(); ?>Modal">
                             <div class="caption">
                                 <h4><?php echo $repo->getName(); ?></h4>
@@ -100,18 +100,15 @@
             <!-- Modal -->
             <div class="modal fade" id="<?php echo $repo->getName(); ?>Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="col-xs-8 col-xs-offset-2">
-                    <div class="modal-content" style="border: 1px solid #fff; border-radius: 6px; margin-top: 2em;">
-                        <img src="<?php echo $repo->getImg(); // url_exists($repo->getImg()) ? $repo->getImg() : "http://lorempixel.com/400/300/sports/4/"; ?>" name="aboutme" width="100%" height="100%" style="border-radius: 6px 6px 0 0;"></a>
+                <!-- <div class="main-modal"> -->
+                    <div class="modal-content" style="height: 75vh; border-radius: 6px; margin-top: 2em;">
+                        <img src="<?php echo $repo->getImg(); // url_exists($repo->getImg()) ? $repo->getImg() : "http://lorempixel.com/400/300/sports/4/"; ?>" name="aboutme" width="100%" height="100%" style="border-radius: 6px 6px 0 0; border: 1px solid #fff; border-bottom: 0"></a>
                         <div class="panel-footer text-center">
                             <a href="<?php echo $repo->getUrl(); ?>/archive/master.zip" target="rss"><span class="glyphicon glyphicon-download"></span> Download</a>
                             <a href="<?php echo $repo->getUrl(); ?>" target="rss"><span class="fa fa-github"></span> Github</a>
                             <a href="<?php echo $repo->getDemoLink(); ?>" class="demo-link" target="rss"><span class="fa fa-play-circle-o"></span> Live Demo</a>
                             <a href="mailto:?subject=Found%20our%20next%20software%20engineer&body=Check%20out%20this%20sweet%20project%20he%20did%21%20Yep...%20We%27re%20totally%20hiring%20him.%20<?php echo $repo->getUrl(); ?>"><span class="glyphicon glyphicon-share-alt"></span> Share</a>
                         </div>
-                       <!--  <div class="modal-footer">
-                            <center>
-                            </center>
-                        </div> -->
                     </div>
                 </div>
             </div>
