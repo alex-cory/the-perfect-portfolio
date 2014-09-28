@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row col-md-offset-7">
                 <div class="col-md-8">
-                    <h1 class="brand-heading">Projects</h1>
+                    <h1 class="brand-heading">Projects (test)</h1>
                     <p class="intro-text pull-left">Where Impact is Made</p>
                 </div>
             </div>
@@ -49,8 +49,8 @@
     <div class="row">
         <?php // Thumbnail Hover without Javascript     (resource: http://goo.gl/5Jpg09) ?>
         <?php require_once './controllers/repocontroller.php'; ?>
+        <?php // die('here');// var_dump($github); ?>
         <?php $github = new RepoController('alex-cory'); ?>
-        <?php die($github);// var_dump($github); ?>
         <?php $repositories = $github->getAllRepositories();//   d($repositories); ?>
         <?php
             function url_exists($url)
