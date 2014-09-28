@@ -41,7 +41,7 @@ class Repo /* extends Model */ {
 		$this->imageThumb = $this->localImagePath . $this->name . 'Thumb.png'; // LOCAL IMAGE THUMB  (./path/to/imageThumb.png)
 		$this->setDownloadLink($repoObj);                                      // DOWNLOAD LINK
 
-		if (!file_exists($this->image) && filesize($this->image) > 50) {
+		if (!file_exists($this->image)) {
 
 			// save the image from the url
 			$this->saveImageFromUrl($this->image_url);
