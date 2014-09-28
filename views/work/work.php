@@ -81,8 +81,9 @@
                     <div class="thumbnail" style="border-radius: 4px 4px 0 0; border-bottom: 0">
                         <a href="#<?php echo $repo->getName(); ?>Modal" data-toggle="modal" data-target="#<?php echo $repo->getName(); ?>Modal">
                             <div class="caption">
-                                <h4><?php echo $repo->getName(); ?></h4>
+                                <h4 style="text-align: left; margin-bottom: 0"><?php echo $repo->getName(); ?></h4><br>
                                 <!-- <p><?php echo $repo->getLanguage(); ?></p> -->
+                                <p style="font-size: 15px"><?php echo $repo->getDescription(); ?></p>
                                 <br>
                             </div>
                         </a>
