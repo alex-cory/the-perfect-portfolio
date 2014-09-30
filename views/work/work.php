@@ -53,17 +53,17 @@
         <?php $github = new RepoController('alex-cory'); ?>
         <?php $repositories = $github->getAllRepositories();//   d($repositories); ?>
         <?php
-            function url_exists($url)
-            {
-                $file = $url;
-                $file_headers = @get_headers($file);
-                if($file_headers[0] == 'HTTP/1.1 404 Not Found') {
-                    $exists = false;
-                } else {
-                    $exists = true;
-                }
-                return $exists;
-            }
+            // function url_exists($url)
+            // {
+            //     $file = $url;
+            //     $file_headers = @get_headers($file);
+            //     if($file_headers[0] == 'HTTP/1.1 404 Not Found') {
+            //         $exists = false;
+            //     } else {
+            //         $exists = true;
+            //     }
+            //     return $exists;
+            // }
         ?>
         <?php
             /**
