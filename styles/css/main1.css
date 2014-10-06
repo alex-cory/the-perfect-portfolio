@@ -30,6 +30,18 @@ p {
     font-size: 18px;
     line-height: 1.5;
 }
+.cool {
+    /*box-sizing: border-box;*/
+    color: rgb(136, 136, 136);
+    /*float: right;*/
+    /*height: 16px;*/
+    /*text-align: left;*/
+    /*width: 88.375px;*/
+    /*perspective-origin: 44.1875px 8px;*/
+    /*transform-origin: 44.1875px 8px;*/
+    /*border: 0px none rgb(136, 136, 136);*/
+    font: normal normal bold 12px/16.7999992370605px Helvetica, arial, freesans, clean, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
 div.modal-box-sz-and-position {
     margin: auto !important;
     position: fixed;

@@ -90,6 +90,7 @@
                         <!-- repo image -->
                         <div class="repo_image" style="background-image: url('<?php echo $repo->getImgThumb() // ? $repo->getImgThumb() : "http://lorempixel.com/400/300/sports/4/"; ?>'); background-size: cover; background-position: center; height: 195px; vertical-align: 0;"></div>
                     </div>
+                    <!-- <a class="pull-right cool" href=""><?php echo $repo->getLanguage(); ?></a> -->
                     <div class="panel-footer text-center">
                         <a href="<?php echo $repo->getUrl(); ?>/archive/master.zip" target="rss"><span class="glyphicon glyphicon-download"></span></a>
                         <a href="<?php echo $repo->getUrl(); ?>" target="rss"><span class="fa fa-github"></span></a>
