@@ -27,7 +27,8 @@
         <!-- <div class="container"> -->
     <div class="wrap row">
         <h2>Ideas</h2>
-        <p>These are <text class="idea-main-clr">Ideas</text> that Alex has had that he thought he would just go ahead and share with the world. :)</p>
+        <p>These are <text class="idea-main-clr">Ideas</text> that Alex has had that he thought he would just go ahead and share with the world. :)</p><br>
+        <p>I am continuously under construction. If you like exceptional ideas, you might want to return again and again.  You'll see compelling examples here soon.</p>
         <?php // Thumbnail Hover without Javascript     (resource: http://goo.gl/5Jpg09) ?>
 
             <?php // Portfolio using Panels No JavaScrip   (resource: http://goo.gl/KeB24A) ?>

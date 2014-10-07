@@ -1,5 +1,5 @@
 <!--==== Bio Header Image ====-->
-<section class="wrap intro">
+<section class="wrap intro bio">
     <div class="intro-body">
         <div class="container">
             <div class="row">

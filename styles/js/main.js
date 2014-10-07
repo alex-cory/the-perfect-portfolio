@@ -39,6 +39,8 @@ $(function() {
             scrollTop: scrollPos
         }, 1500, 'easeInOutExpo');
 
+        $("li.top.page-scroll-b").removeClass('active');
+        $("nav.navbar-nav.navbar-right:nth-child(2)").addClass('active');
         event.preventDefault();
     });
 });
