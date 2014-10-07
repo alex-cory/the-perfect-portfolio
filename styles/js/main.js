@@ -39,8 +39,8 @@ $(function() {
             scrollTop: scrollPos
         }, 1500, 'easeInOutExpo');
 
-        $("li.top.page-scroll-b").removeClass('active');
-        $("nav.navbar-nav.navbar-right:nth-child(2)").addClass('active');
+        // $("li.top.page-scroll-b").removeClass('active');
+        // $("ul.navbar-nav.navbar-right li:nth-child(2)").addClass("active");
         event.preventDefault();
     });
 });
@@ -49,12 +49,17 @@ $(function() {
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) { // if scrolled below 50 pixels on the page
         $(".navbar-fixed-top").addClass("top-nav-collapse"); // show the navbar
-        $('li.top.page-scroll-b').removeClass('hidden'); // show the top button
+        $('li.top.page-scroll-b').removeClass('hidden active'); // show the top button
+        $("ul.navbar-nav.navbar-right li:nth-child(2)").addClass("active");
         $('li.social-nav').removeClass('hidden');
     } else { // else if at the top of the page
         $(".navbar-fixed-top").removeClass("top-nav-collapse"); // hide the navbar
         $('li.top.page-scroll-b').addClass('hidden'); // hide the 'top' button
+        $("ul.navbar-nav.navbar-right li:nth-child(2)").removeClass("active");
         $('li.social-nav').addClass('hidden');
+    }
+    if ($('ul.navbar-nav li.page-scroll-b:nth-child(2)').siblings().hasClass("active")) {
+        $("ul.navbar-nav.navbar-right li.page-scroll-b:nth-child(2)").removeClass("active");
     }
 });
 
