@@ -92,7 +92,7 @@
                     </div>
                     <!-- <a class="pull-right cool" href=""><?php echo $repo->getLanguage(); ?></a> -->
                     <div class="panel-footer text-center">
-                        <a href="<?php echo $repo->getUrl(); ?>/archive/master.zip" target="rss"><span class="glyphicon glyphicon-download"></span></a>
+                        <a href="<?php echo $repo->getUrl(); ?>/archive/master.zip"><span class="glyphicon glyphicon-download"></span></a>
                         <a href="<?php echo $repo->getUrl(); ?>" target="rss"><span class="fa fa-github"></span></a>
                         <a href="<?php echo $repo->getDemoLink(); ?>" class="demo-link" target="rss"><span class="fa fa-play-circle-o" target="rss"></span></a>
                         <a href="mailto:?subject=Found%20our%20next%20software%20engineer&body=Check%20out%20this%20sweet%20project%20he%20did%21%20Yep...%20We%27re%20totally%20hiring%20him.%20<?php echo $repo->getUrl(); ?>"><span class="glyphicon glyphicon-share-alt"></span></a>
@@ -106,7 +106,7 @@
                     <div class="modal-content" style="height: 75vh; border-radius: 6px; margin-top: 2em;">
                         <img src="<?php echo $repo->getImg(); // url_exists($repo->getImg()) ? $repo->getImg() : "http://lorempixel.com/400/300/sports/4/"; ?>" name="aboutme" width="100%" height="100%" style="border-radius: 6px 6px 0 0; border: 1px solid #fff; border-bottom: 0"></a>
                         <div class="panel-footer text-center">
-                            <a href="<?php echo $repo->getUrl(); ?>/archive/master.zip" target="rss"><span class="glyphicon glyphicon-download"></span> Download</a>
+                            <a href="<?php echo $repo->getUrl(); ?>/archive/master.zip"><span class="glyphicon glyphicon-download"></span> Download</a>
                             <a href="<?php echo $repo->getUrl(); ?>" target="rss"><span class="fa fa-github"></span> Github</a>
                             <a href="<?php echo $repo->getDemoLink(); ?>" class="demo-link" target="rss"><span class="fa fa-play-circle-o"></span> Live Demo</a>
                             <a href="mailto:?subject=Found%20our%20next%20software%20engineer&body=Check%20out%20this%20sweet%20project%20he%20did%21%20Yep...%20We%27re%20totally%20hiring%20him.%20<?php echo $repo->getUrl(); ?>"><span class="glyphicon glyphicon-share-alt"></span> Share</a>
