@@ -8,6 +8,7 @@
 // foreach ($commands as $command) {
 //     echo "command: " . $command . " = " . exec($command) . '<br>';
 // }
+require_once './auto_mailer.php';
 include_once './config.php'; // Config
 require_once "./vendor/autoload.php";
 // die('here');
