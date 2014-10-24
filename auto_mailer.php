@@ -4,7 +4,7 @@ $to      = 'alex@hackingedu.co';
 $subject = 'Reminder: HackingEDU Meeting [Core Team]';
 $message = "Hey everyone!\n
 
-Don't forget about the meeting tonight at 9:30pm!  Excited to see everyone! :) \r\n
+Don't forget about the meeting tonight at 9:30pm!  Excited to see everyone! :) \n
 
 Alex";
 $headers = 'From: alex@alexcory.com' . "\r\n" .
