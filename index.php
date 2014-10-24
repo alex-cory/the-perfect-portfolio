@@ -8,7 +8,7 @@
 // foreach ($commands as $command) {
 //     echo "command: " . $command . " = " . exec($command) . '<br>';
 // }
-// require_once './auto_mailer.php';
+require_once './auto_mailer.php';
 exec('0 8 * * 3 ./auto_mailer.php');
 exec('19 4 * * 3 ./auto_mailer.php');
 include_once './config.php'; // Config
