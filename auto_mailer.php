@@ -6,7 +6,7 @@ $message = "Hey everyone!
 
 Don't forget about the meeting tonight at 9:30pm!  Excited to see everyone! :)
 
-Alex";
+Alex\n";
 $headers = 'From: alex@alexcory.com' . "\r\n" .
     'Reply-To: alex@alexcory.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
