@@ -2,7 +2,7 @@
 // from: (http://php.net/manual/en/function.mail.php)
 $to = 'Blake <blake589t@gmail.com>,
 Blake <blake@hackingedu.co>,
-Catherine <catherine.mullings@gmail.com>,
+Catherine <cmullings@stanford.edu>,
 Catherine <catherine@hackingedu.co,
 Jessica <ballet.jessica@gmail.com>,
 Jessica <jessicaallen@hackingedu.co>,
