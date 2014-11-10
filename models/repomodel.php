@@ -162,7 +162,7 @@ class Repo /* extends Model */ {
 		} elseif ($repoName == 'google-students') {
 			$this->demoLink = 'http://alexcory.com/techtalknu';
 		} elseif ($repoName == 'hackingedu-website') {
-			$this->demoLink = 'http://alexcory.com/hackingedu';
+			$this->demoLink = 'http://hackingedu.co';
 		} elseif ($repoName == 'iwantfood') {
 			$this->demoLink = 'http://alexcory.com/iwantfood';
 		}
