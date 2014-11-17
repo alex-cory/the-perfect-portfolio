@@ -1,5 +1,5 @@
-RewriteEngine On
+# RewriteEngine On
 
 # RewriteRule ^(alexcory/resume/$ /resume/ [R=301]
-RewriteRule ^resume/index.php$ /alexcory/resume/ [R=301]
+# RewriteRule ^resume/index.php$ /alexcory/resume/ [R=301]
 # RewriteRule ^(alexcory/resume\s[a-z]+)$ /resume/ [R=301]
