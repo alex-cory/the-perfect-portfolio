@@ -1,3 +1,4 @@
 RewriteEngine On
 
-RewriteRule ^(alexcory/[a-z]+)$ /$1/ [R=301]
+RewriteRule ^(alexcory/resume\s[a-z]+)$ /resume/ [R=301]
+RewriteRule ^(alexcory/resume\s[a-z]+)$ /$1/ [R=301]
