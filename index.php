@@ -26,7 +26,7 @@ require_once "./vendor/autoload.php";
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Alex Cory</title>
+    <title><?php echo NAME; ?></title>
 
     <!-- Bootstrap Core CSS -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -139,8 +139,8 @@ echo $google_analytics; ?>
         <!--==== End of Visual Body ====-->
     <!-- </div> -->
     <div class="mobile-display marg-top-2 text-center">
-        <h1>Alex Cory</h1>
-        <h3><a href="mailto:results@alexcory.com">results@alexcory.com</a></h3>
+        <h1><?php echo NAME; ?></h1>
+        <h3><a href="mailto:<?php echo EMAIL; ?>"><?php echo EMAIL; ?></a></h3>
     </div>
     <!-- Core JavaScript Files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

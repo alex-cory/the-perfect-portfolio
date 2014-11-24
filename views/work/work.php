@@ -50,7 +50,7 @@
         <?php // Thumbnail Hover without Javascript     (resource: http://goo.gl/5Jpg09) ?>
         <?php require_once './controllers/repocontroller.php'; ?>
         <?php // die('here');// var_dump($github); ?>
-        <?php $github = new RepoController('alex-cory'); ?>
+        <?php $github = new RepoController(GITHUB_USERNAME); // <= your github username ?>
         <?php $repositories = $github->getAllRepositories();//   d($repositories); ?>
         <?php
             // function url_exists($url)

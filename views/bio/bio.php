@@ -4,8 +4,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h1 class="brand-heading">Alex Cory</h1>
-                    <p class="intro-text pull-middle">Break The Record</p>
+                    <h1 class="brand-heading"><?php echo NAME; ?></h1>
+                    <p class="intro-text pull-middle"><?php echo QUOTE; ?></p>
                 </div>
             </div>
         </div>
