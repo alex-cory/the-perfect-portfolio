@@ -8,9 +8,18 @@
 // foreach ($commands as $command) {
 //     echo "command: " . $command . " = " . exec($command) . '<br>';
 // }
-// require_once './auto_mailer.php';
-// exec('0 8 * * 3 ./auto_mailer.php');
-// exec('19 4 * * 3 ./auto_mailer.php');
+// Run once a week at 8:00am Monday
+ exec('00 08 * * 01 ./auto_mailer_morning.php');
+ // Run once a week at 7:00pm Monday
+ exec('00 20 * * 01 ./auto_mailer_just_before.php');
+      # ┬ ┬  ┬ ┬  ┬
+      # │ │  │ │  │
+      # │ │  │ │  │
+      # │ │  │ │  └───── day of week (0 - 7) (0 to 6 are Sunday to Saturday, or use names; 7 is Sunday, the same as 0)
+      # │ │  │ └────────── month (1 - 12)
+      # │ │  └─────────────── day of month (1 - 31)
+      # │ └──────────────────── hour (0 - 23)
+      # └───────────────────────── min (0 - 59)
 include_once './config.php'; // Config
 require_once "./vendor/autoload.php";
 // die('here');
@@ -21,7 +30,7 @@ require_once "./vendor/autoload.php";
 
 
 <head>
-    <meta charset="utf-8">
+   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">

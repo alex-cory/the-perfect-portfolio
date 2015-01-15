@@ -18,9 +18,9 @@ Esther <estherdu@gmail.com>,
 Ellie <myungjikim91@gmail.com>,
 Calvin <calvin@hackingedu.co>';
 $subject = 'Reminder: HackingEDU Meeting [Core Team]';
-$message = "Hey everyone!\r\n\r\nDon't forget about the meeting tonight at 9:30pm! Excited to see everyone! :)\r\n\r\nAlex";
-$headers = 'From: alex@alexcory.com' . "\r\n" .
-    'Reply-To: alex@alexcory.com' . "\r\n" .
+$message = "Hey everyone!\r\n\r\nDon't forget about the meeting tonight at 9:00pm! Excited to see everyone! :)\r\n\r\n-Alex";
+$headers = 'From: alex@hackingedu.co' . "\r\n" .
+    'Reply-To: alex@hackingedu.co' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
 mail($to, $subject, $message, $headers);
